@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\UnitTest5_2_9_1.2dp
+             Engine version : 0501117A
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : Just Sequential dispatching(0 to ncar)
+                   Run date : Mon Nov 21 23:28:22 2005
+
+       Number of passengers : 2
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 1
+                       cars : 2
+
+             Time simulated : 66.375
+                Normal runs : 4
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 4
+ Closest margin (time, hwy) : 5.086 (51.636, 0)
+
+  Destination registrations : 2
+    Hall call registrations : 2
+           Re-registrations : 0
+ Avg registration time (AP) : 8.955
+ Max registration time (AP) : 8.955
+      Avg waiting time (AP) : 8.955
+      Max waiting time (AP) : 8.955
+           Avg service time : 40.608
+           Max service time : 46.661
+
+ Avg registration time (CP) : 9.822
+ Max registration time (CP) : 9.822
+      Avg waiting time (CP) : 9.822
+      Max waiting time (CP) : 9.822
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        0          1        0.000         0         0.000
+    7        0          0        0.000         0         0.000
+    6        1          1        0.276         1         0.447
+    5        0          0        0.000         0         0.000
+    4        0          0        0.000         0         0.000
+    3        0          0        0.000         0         0.000
+    2        1          0        0.338         1         0.473
+    1        0          0        0.000         0         0.000
+    0        0          0        0.000         0         0.000
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)

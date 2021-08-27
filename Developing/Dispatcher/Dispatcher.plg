@@ -1,0 +1,158 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Dispatcher - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP2E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DISPATCHER_EXPORTS" /FR"Debug/" /Fp"Debug/Dispatcher.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\31166\Developing\Dispatcher\2DGroupDispatcher.cpp"
+"D:\31166\Developing\Dispatcher\assign.cpp"
+"D:\31166\Developing\Dispatcher\Asslib.cpp"
+"D:\31166\Developing\Dispatcher\crisppwt.cpp"
+"D:\31166\Developing\Dispatcher\Crisprrt.cpp"
+"D:\31166\Developing\Dispatcher\E2p.cpp"
+"D:\31166\Developing\Dispatcher\Gcbinfad.cpp"
+"D:\31166\Developing\Dispatcher\Infbld.cpp"
+"D:\31166\Developing\Dispatcher\infdes.cpp"
+"D:\31166\Developing\Dispatcher\Infocs.cpp"
+"D:\31166\Developing\Dispatcher\NPI.cpp"
+"D:\31166\Developing\Dispatcher\Pwt.cpp"
+"D:\31166\Developing\Dispatcher\rrt.cpp"
+"D:\31166\Developing\Dispatcher\trafdat.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP2E.tmp" 
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DISPATCHER_EXPORTS" /FR"Debug/" /Fp"Debug/Dispatcher.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\31166\Developing\Dispatcher\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP2F.tmp" 
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/Dispatcher.pdb" /debug /machine:I386 /out:"../Debug/Dispatcher.dll" /implib:"Debug/Dispatcher.lib" /pdbtype:sept 
+.\Debug\2DGroupDispatcher.obj
+.\Debug\assign.obj
+.\Debug\Asslib.obj
+.\Debug\crisppwt.obj
+.\Debug\Crisprrt.obj
+.\Debug\E2p.obj
+.\Debug\Gcbinfad.obj
+.\Debug\Infbld.obj
+.\Debug\infdes.obj
+.\Debug\Infocs.obj
+.\Debug\NPI.obj
+.\Debug\Pwt.obj
+.\Debug\rrt.obj
+.\Debug\StdAfx.obj
+.\Debug\trafdat.obj
+]
+Creating command line "link.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP30.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+2DGroupDispatcher.cpp
+assign.cpp
+D:\31166\Developing\Dispatcher\assign.cpp(1428) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\31166\Developing\Dispatcher\assign.cpp(160) : warning C4101: 'dpcTmp1' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(141) : warning C4101: 'CrowdFlag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(161) : warning C4101: 'passIdLow' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(157) : warning C4101: 'tmp_lowest_pos' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(160) : warning C4101: 'dpcTmp2' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(160) : warning C4101: 'dpcAssignCar' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(160) : warning C4101: 'dpcCallFlag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(126) : warning C4101: 'number_affected_calls' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(134) : warning C4101: 'TaskID' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(128) : warning C4101: 'queue_count' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(159) : warning C4101: 'waitLevel' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(146) : warning C4101: 'nn_rrts' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(127) : warning C4101: 'flag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(161) : warning C4101: 'passTmp' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(157) : warning C4101: 'tmp_highest_pos' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(137) : warning C4101: 'ignore_coinc_flag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(158) : warning C4101: 'carBit' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(138) : warning C4101: 'parkIdleFlag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(159) : warning C4101: 'callDir' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(151) : warning C4101: 'p_rrts' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(155) : warning C4101: 'best_car2' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(156) : warning C4101: 'affectPassFlag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(118) : warning C4101: 'best_rrt' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(128) : warning C4101: 'dbdQueueCount' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(163) : warning C4101: 'passId' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(161) : warning C4101: 'passIdHigh' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(151) : warning C4101: 'p_rrt' : unreferenced local variable
+D:\31166\Developing\Dispatcher\assign.cpp(114) : warning C4101: 'msg_temp' : unreferenced local variable
+Asslib.cpp
+D:\31166\Developing\Dispatcher\Asslib.cpp(491) : warning C4101: 'msg_temp' : unreferenced local variable
+crisppwt.cpp
+D:\31166\Developing\Dispatcher\crisppwt.cpp(676) : warning C4101: 'distance' : unreferenced local variable
+D:\31166\Developing\Dispatcher\crisppwt.cpp(673) : warning C4101: 'upper' : unreferenced local variable
+D:\31166\Developing\Dispatcher\crisppwt.cpp(675) : warning C4101: 'direction' : unreferenced local variable
+D:\31166\Developing\Dispatcher\crisppwt.cpp(674) : warning C4101: 'ignore_coinc_flag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\crisppwt.cpp(673) : warning C4101: 'start_distance' : unreferenced local variable
+D:\31166\Developing\Dispatcher\crisppwt.cpp(673) : warning C4101: 'lower' : unreferenced local variable
+Crisprrt.cpp
+D:\31166\Developing\Dispatcher\Crisprrt.cpp(36) : warning C4101: 'temp_bottom_cc_flag' : unreferenced local variable
+D:\31166\Developing\Dispatcher\Crisprrt.cpp(36) : warning C4101: 'temp_top_cc_flag' : unreferenced local variable
+E2p.cpp
+D:\31166\Developing\Dispatcher\E2p.cpp(23) : warning C4101: 'e2pBackTmp1' : unreferenced local variable
+D:\31166\Developing\Dispatcher\E2p.cpp(23) : warning C4101: 'e2pBackTmp2' : unreferenced local variable
+D:\31166\Developing\Dispatcher\E2p.cpp(655) : warning C4101: 'x_upper_limit' : unreferenced local variable
+Gcbinfad.cpp
+Infbld.cpp
+D:\31166\Developing\Dispatcher\Infbld.cpp(272) : warning C4101: 'j' : unreferenced local variable
+infdes.cpp
+D:\31166\Developing\Dispatcher\infdes.cpp(60) : warning C4101: 'segment' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(60) : warning C4101: 'carIdx' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(61) : warning C4101: 'deviceId' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(60) : warning C4101: 'floorId' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(60) : warning C4101: 'i' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(60) : warning C4101: 'stateIdx' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(77) : warning C4101: 'distance' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(76) : warning C4101: 'rateHc' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(76) : warning C4101: 'rateStd' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(77) : warning C4101: 'remain' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(76) : warning C4101: 'walkTime' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(77) : warning C4101: 'decRecordIdx' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(104) : warning C4101: 'sequenceNumber' : unreferenced local variable
+D:\31166\Developing\Dispatcher\infdes.cpp(104) : warning C4101: 'deviceAddress' : unreferenced local variable
+Infocs.cpp
+NPI.cpp
+D:\31166\Developing\Dispatcher\NPI.cpp(27) : warning C4129: 'd' : unrecognized character escape sequence
+D:\31166\Developing\Dispatcher\NPI.cpp(146) : warning C4129: 'd' : unrecognized character escape sequence
+D:\31166\Developing\Dispatcher\NPI.cpp(174) : warning C4129: 'h' : unrecognized character escape sequence
+D:\31166\Developing\Dispatcher\NPI.cpp(182) : warning C4101: 'str' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'dest_mask' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'dstPos' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'carPos' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'finish2' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'start2' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'callDir' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'finish' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(192) : warning C4101: 'start' : unreferenced local variable
+D:\31166\Developing\Dispatcher\NPI.cpp(449) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\31166\Developing\Dispatcher\NPI.cpp(450) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+Pwt.cpp
+rrt.cpp
+D:\31166\Developing\Dispatcher\rrt.cpp(171) : warning C4101: 'crisp_rrt' : unreferenced local variable
+D:\31166\Developing\Dispatcher\rrt.cpp(172) : warning C4101: 'min_rrt' : unreferenced local variable
+D:\31166\Developing\Dispatcher\rrt.cpp(175) : warning C4101: 'i' : unreferenced local variable
+D:\31166\Developing\Dispatcher\rrt.cpp(169) : warning C4101: 'nn_rrt' : unreferenced local variable
+D:\31166\Developing\Dispatcher\rrt.cpp(175) : warning C4101: 'j' : unreferenced local variable
+trafdat.cpp
+Generating Code...
+D:\31166\Developing\Dispatcher\assign.cpp(1285) : warning C4700: local variable 'invChnBestCar' used without having been initialized
+Linking...
+   Creating library Debug/Dispatcher.lib and object Debug/Dispatcher.exp
+
+
+
+<h3>Results</h3>
+Dispatcher.dll - 0 error(s), 76 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,149 @@
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Fri Nov 04 05:49:39 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Fri Nov 04 05:50:48 2005
+
+IsValidTargetCommand: target(0) ncf(0) oper(0) dir(11) at t=14.227667
+RecordData 2: simulation ends with 1 left on floor 4
+RecordData 2: simulation ends with 1 left on floor 4
+RecordData 2: simulation ends with 1 left on floor 4
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Fri Nov 04 05:52:22 2005
+
+RecordData 2: simulation ends with 1 left on floor 4
+RecordData 2: simulation ends with 1 left on floor 4
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Mon Nov 07 22:52:17 2005
+
+GetDisplayedPosition 1: car 0, time into run 17.014000 vs 16.419667 at t=23.014000
+GetDisplayedPosition 1: car 0, time into run 17.014000 vs 16.419667 at t=23.014000
+GetDisplayedPosition 1: car 0, time into run 17.362000 vs 16.419667 at t=23.362000
+GetDisplayedPosition 1: car 0, time into run 17.362000 vs 16.419667 at t=23.362000
+GetDisplayedPosition 1: car 0, time into run 17.614000 vs 16.419667 at t=23.614000
+GetDisplayedPosition 1: car 0, time into run 17.614000 vs 16.419667 at t=23.614000
+GetDisplayedPosition 1: car 0, time into run 18.428667 vs 16.419667 at t=24.428667
+GetDisplayedPosition 1: car 0, time into run 18.428667 vs 16.419667 at t=24.428667
+GetDisplayedPosition 1: car 0, time into run 18.680667 vs 16.419667 at t=24.680667
+GetDisplayedPosition 1: car 0, time into run 18.680667 vs 16.419667 at t=24.680667
+GetDisplayedPosition 1: car 0, time into run 19.028667 vs 16.419667 at t=25.028667
+GetDisplayedPosition 1: car 0, time into run 19.028667 vs 16.419667 at t=25.028667
+GetDisplayedPosition 1: car 0, time into run 19.167667 vs 16.419667 at t=25.167667
+GetDisplayedPosition 1: car 0, time into run 19.167667 vs 16.419667 at t=25.167667
+GetDisplayedPosition 1: car 0, time into run 19.280667 vs 16.419667 at t=25.280667
+GetDisplayedPosition 1: car 0, time into run 19.280667 vs 16.419667 at t=25.280667
+IsValidTargetCommand: target(0) ncf(0) oper(0) dir(11) at t=65.267000
+IsValidTargetCommand: target(2) ncf(2) oper(0) dir(4) at t=65.365333
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Tue Nov 08 04:18:21 2005
+
+UpdateTarget 7: idle car 1 dir -1 now with 1 calls at t=1.790000
+IsValidTargetCommand: target(0) ncf(0) oper(0) dir(11) at t=7.171129
+GetDisplayedPosition 1: car 1, time into run 5.457805 vs 5.381129 at t=8.197805
+GetDisplayedPosition 1: car 1, time into run 5.457805 vs 5.381129 at t=8.197805
+GetDisplayedPosition 1: car 1, time into run 5.957805 vs 5.381129 at t=8.697805
+GetDisplayedPosition 1: car 1, time into run 5.957805 vs 5.381129 at t=8.697805
+GetDisplayedPosition 1: car 1, time into run 6.296129 vs 5.381129 at t=9.036129
+GetDisplayedPosition 1: car 1, time into run 6.296129 vs 5.381129 at t=9.036129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+GetDisplayedPosition 1: car 1, time into run 6.796129 vs 5.381129 at t=9.536129
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Thu Nov 10 07:54:19 2005
+
+UpdateTarget 7: idle car 0 dir 1 now with 1 calls at t=0.650000
+IsValidTargetCommand: target(11) ncf(11) oper(0) dir(4) at t=35.283351
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(4) at t=39.884129
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Mon Nov 14 17:48:40 2005
+
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Mon Nov 14 18:06:47 2005
+
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Mon Nov 14 18:13:23 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Mon Nov 14 18:57:00 2005
+
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Mon Nov 14 19:33:06 2005
+
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+GetDisplayedPosition 1: car 0, time into run 24.588000 vs 24.227667 at t=30.388000
+GetDisplayedPosition 1: car 0, time into run 25.627667 vs 24.227667 at t=31.427667
+GetDisplayedPosition 1: car 0, time into run 25.654667 vs 24.227667 at t=31.454667
+GetDisplayedPosition 1: car 0, time into run 25.654667 vs 24.227667 at t=31.454667
+GetDisplayedPosition 1: car 0, time into run 26.254667 vs 24.227667 at t=32.054667
+GetDisplayedPosition 1: car 0, time into run 26.254667 vs 24.227667 at t=32.054667
+IsValidTargetCommand: target(1) ncf(1) oper(0) dir(11) at t=75.849000
+IsValidTargetCommand: target(2) ncf(2) oper(0) dir(4) at t=78.215333
+GetDisplayedPosition 1: car 0, time into run 24.588000 vs 24.227667 at t=30.388000
+GetDisplayedPosition 1: car 0, time into run 24.588000 vs 24.227667 at t=30.388000
+GetDisplayedPosition 1: car 0, time into run 25.627667 vs 24.227667 at t=31.427667
+GetDisplayedPosition 1: car 0, time into run 25.627667 vs 24.227667 at t=31.427667
+GetDisplayedPosition 1: car 0, time into run 25.654667 vs 24.227667 at t=31.454667
+GetDisplayedPosition 1: car 0, time into run 25.654667 vs 24.227667 at t=31.454667
+GetDisplayedPosition 1: car 0, time into run 26.254667 vs 24.227667 at t=32.054667
+GetDisplayedPosition 1: car 0, time into run 26.254667 vs 24.227667 at t=32.054667
+IsValidTargetCommand: target(1) ncf(1) oper(0) dir(11) at t=75.849000
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Tue Nov 15 12:32:30 2005
+
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=28.243986
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Tue Nov 15 20:00:16 2005
+
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=28.243986
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=28.243986
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=56.861333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=59.775333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=28.243986

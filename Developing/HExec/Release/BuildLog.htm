@@ -1,0 +1,78 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=ks_c_5601-1987">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=굴림 size=+3>
+빌드 로그
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- 빌드 시작: 프로젝트: HExec, 구성: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=굴림 size=+2>
+명령줄
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>다음 내용이 포함된 "d:\31166\Developing\HExec\Release\RSP00001D.rsp" 임시 파일을 만들고 있습니다.
+[
+/O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "HEXEC_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/HExec.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+\31166\Developing\HoistwayPlanner\hoistway_plan.cpp
+.\CMotion.cpp
+.\Car.cpp
+]
+"cl.exe @d:\31166\Developing\HExec\Release\RSP00001D.rsp /nologo" 명령줄을 만들고 있습니다.
+다음 내용이 포함된 "d:\31166\Developing\HExec\Release\RSP00001E.rsp" 임시 파일을 만들고 있습니다.
+[
+/O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HEXEC_EXPORTS" /FD /EHsc /MT /Yc"stdafx.h" /Fp".\Release/HExec.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+.\StdAfx.cpp
+]
+"cl.exe @d:\31166\Developing\HExec\Release\RSP00001E.rsp /nologo" 명령줄을 만들고 있습니다.
+다음 내용이 포함된 "d:\31166\Developing\HExec\Release\RSP00001F.rsp" 임시 파일을 만들고 있습니다.
+[
+/O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HEXEC_EXPORTS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/HExec.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+.\HExec.cpp
+]
+"cl.exe @d:\31166\Developing\HExec\Release\RSP00001F.rsp /nologo" 명령줄을 만들고 있습니다.
+다음 내용이 포함된 "d:\31166\Developing\HExec\Release\RSP000020.rsp" 임시 파일을 만들고 있습니다.
+[
+/OUT:"..\Release/HExec.dll" /INCREMENTAL:NO /NOLOGO /DLL /PDB:".\Release/HExec.pdb" /IMPLIB:".\Release/HExec.lib" /MACHINE:X86  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+.\release\Car.obj
+.\release\CMotion.obj
+.\release\HExec.obj
+.\release\hoistway_plan.obj
+.\release\StdAfx.obj
+]
+"link.exe @d:\31166\Developing\HExec\Release\RSP000020.rsp" 명령줄을 만들고 있습니다.
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=굴림 size=+2>
+출력 창
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>컴파일하고 있습니다.
+StdAfx.cpp
+컴파일하고 있습니다.
+hoistway_plan.cpp
+CMotion.cpp
+CMotion.cpp(1655) : warning C4244: 'return' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+CMotion.cpp(1659) : warning C4244: 'return' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+CMotion.cpp(1663) : warning C4244: 'return' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+CMotion.cpp(1626) : warning C4101: 'p' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1625) : warning C4101: 'minCommitDist' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1626) : warning C4101: 'v' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1626) : warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1633) : warning C4101: 'ib' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1633) : warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1632) : warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1630) : warning C4101: 'tStep1' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1627) : warning C4101: 'vb' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1622) : warning C4101: 'committableFloor' :참조되지 않은 지역 변수입니다.
+CMotion.cpp(1626) : warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+Car.cpp
+Car.cpp(192) : warning C4101: 'tgtTrail' :참조되지 않은 지역 변수입니다.
+Car.cpp(192) : warning C4101: 'orgTrail' :참조되지 않은 지역 변수입니다.
+코드 생성 중...
+컴파일하고 있습니다.
+HExec.cpp
+링크하고 있습니다.
+   .\Release/HExec.lib 라이브러리 및 .\Release/HExec.exp 개체를 생성하고 있습니다.
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=굴림 size=+2>
+결과
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+빌드 로그가 "file://d:\31166\Developing\HExec\Release\BuildLog.htm"에 저장되었습니다.
+HExec - 0 오류, 16 경고</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=굴림 size=+2>
+</font></table></body></html>

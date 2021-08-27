@@ -1,0 +1,54 @@
+SUMMARY REPORT
+                    Profile : E:\CoGS\041209-ADLL-fix\ADLL\TestP\TC3_142.2dp
+             Engine version : 041209
+             Dispatcher DLL : ADLL.dll
+                  Algorithm : Divide zone and conquer(041209)
+                   Run date : Wed Dec 15 15:45:01 2004
+
+       Number of passengers : 142
+                     floors : 12 (10 + 1 pit + 1 overhead)
+                  hoistways : 4
+                       cars : 8
+
+             Time simulated : 979.647
+                Normal runs : 211
+    Subset with extra dwell : 0
+  Number of specified moves : 32
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 28 (1)
+      Total runs and cycles : 281
+ Closest margin (time, hwy) : 4.000 (610.791, 0)
+
+  Destination registrations : 121
+    Hall call registrations : 104
+           Re-registrations : 0
+ Avg registration time (AP) : 28.064
+ Max registration time (AP) : 164.609
+      Avg waiting time (AP) : 27.104
+      Max waiting time (AP) : 164.609
+           Avg service time : 58.239
+           Max service time : 208.365
+
+ Avg registration time (CP) : 27.104
+ Max registration time (CP) : 164.109
+      Avg waiting time (CP) : 26.203
+      Max waiting time (CP) : 164.109
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    9       12         11        0.451         2         0.603
+    8       10         25        0.341         2         0.506
+    7       17         16        0.527         3         0.619
+    6       17          8        0.709         3         0.727
+    5       13         11        0.550         3         0.741
+    4       11         13        0.292         2         0.577
+    3       14         10        0.701         4         0.998
+    2       17         15        0.567         3         0.782
+    1        8         10        0.294         2         0.533
+    0       23         23        0.725         4         0.937
+
+Overall Rejection Occurrence:
+  Null_Rej(1), H_Rej(0), C_Rej(1), D_Rej(1), HC_Rej(1), HD_Rej(0), CD_Rej(1)
+
+Overall Rejection Count:
+  NULL_Rej(21), H_Rej(0), C_Rej(22), D_Rej(34), HC_Rej(13), HD_Rej(0), CD_Rej(15)

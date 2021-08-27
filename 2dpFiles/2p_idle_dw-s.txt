@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\2p_idle_dw.2dp
+             Engine version : 050812
+             Dispatcher DLL : NONE
+                  Algorithm : NONE
+                   Run date : Tue Aug 23 09:22:40 2005
+
+       Number of passengers : 2
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 2
+                       cars : 2
+
+             Time simulated : 70.643
+                Normal runs : 2
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 3
+ Closest margin (time, hwy) : 100000.000 (0.000, 0)
+
+  Destination registrations : 1
+    Hall call registrations : 1
+           Re-registrations : 0
+ Avg registration time (AP) : 10.575
+ Max registration time (AP) : 10.575
+      Avg waiting time (AP) : 5.288
+      Max waiting time (AP) : 10.575
+           Avg service time : 28.693
+           Max service time : 36.843
+
+ Avg registration time (CP) : 10.966
+ Max registration time (CP) : 10.966
+      Avg waiting time (CP) : 5.483
+      Max waiting time (CP) : 10.966
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        0          0        0.000         0         0.000
+    7        0          0        0.000         0         0.000
+    6        0          0        0.000         0         0.000
+    5        0          0        0.000         0         0.000
+    4        0          0        0.000         0         0.000
+    3        2          0        0.321         2         0.555
+    2        0          0        0.000         0         0.000
+    1        0          0        0.000         0         0.000
+    0        0          2        0.000         0         0.000
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsReport" targetNamespace="http://tempuri.org/dsReport.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsReport.xsd" xmlns:mstns="http://tempuri.org/dsReport.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsReport" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="_x0032_d_c">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Car" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+							<xs:element name="T_begin_run" type="xs:string" minOccurs="0" />
+							<xs:element name="T_decel" type="xs:string" minOccurs="0" />
+							<xs:element name="T_reach_AP" type="xs:string" minOccurs="0" />
+							<xs:element name="T_end_run" type="xs:string" minOccurs="0" />
+							<xs:element name="Origin" type="xs:string" minOccurs="0" />
+							<xs:element name="Dest" type="xs:string" minOccurs="0" />
+							<xs:element name="Pax_in_run" type="xs:string" minOccurs="0" />
+							<xs:element name="Changed_target" type="xs:string" minOccurs="0" />
+							<xs:element name="T_opened" type="xs:string" minOccurs="0" />
+							<xs:element name="Deboard" type="xs:string" minOccurs="0" />
+							<xs:element name="Board" type="xs:string" minOccurs="0" />
+							<xs:element name="T_dwelled" type="xs:string" minOccurs="0" />
+							<xs:element name="Extra_dwell" type="xs:string" minOccurs="0" />
+							<xs:element name="T_closed" type="xs:string" minOccurs="0" />
+							<xs:element name="T_x0020_released" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="_x0032_d_p">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Index" type="xs:string" minOccurs="0" />
+							<xs:element name="T_arrival" type="xs:string" minOccurs="0" />
+							<xs:element name="Origin" type="xs:string" minOccurs="0" />
+							<xs:element name="Dest" type="xs:string" minOccurs="0" />
+							<xs:element name="Assignment" type="xs:string" minOccurs="0" />
+							<xs:element name="T_end_wait_AP" type="xs:string" minOccurs="0" />
+							<xs:element name="T_end_wait_CP" type="xs:string" minOccurs="0" />
+							<xs:element name="T_door_opening" type="xs:string" minOccurs="0" />
+							<xs:element name="T_door_opened" type="xs:string" minOccurs="0" />
+							<xs:element name="T_door_close" type="xs:string" minOccurs="0" />
+							<xs:element name="T_depart" type="xs:string" minOccurs="0" />
+							<xs:element name="Reg_dir" type="xs:string" minOccurs="0" />
+							<xs:element name="Reg_car-dir" type="xs:string" minOccurs="0" />
+							<xs:element name="Re-Reg" type="xs:string" minOccurs="0" />
+							<xs:element name="T_Re-Reg" type="xs:string" minOccurs="0" />
+							<xs:element name="Reg_AP_T" type="xs:string" minOccurs="0" />
+							<xs:element name="Reg_CP_T" type="xs:string" minOccurs="0" />
+							<xs:element name="Wait_AP_T" type="xs:string" minOccurs="0" />
+							<xs:element name="Wait_CP_T" type="xs:string" minOccurs="0" />
+							<xs:element name="Srvc_T" type="xs:string" minOccurs="0" />
+							<xs:element name="Rejection" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="report_item1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" type="xs:string" minOccurs="0" />
+							<xs:element name="value" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="report_item2">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" type="xs:string" minOccurs="0" />
+							<xs:element name="value" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="svcwait">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" type="xs:string" minOccurs="0" />
+							<xs:element name="value" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="wait">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" type="xs:string" minOccurs="0" />
+							<xs:element name="value" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="svc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" type="xs:string" minOccurs="0" />
+							<xs:element name="value" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

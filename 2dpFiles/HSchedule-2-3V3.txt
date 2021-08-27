@@ -1,0 +1,202 @@
+Candidate 0
+Upper Car Sequence:
+Current NCF = 6, Initial Passengers = 0
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Departure Precedessor :0
+
+stop 1: floor = 4
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :2
+
+stop 3: floor = 3
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 4: floor = 5
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 10
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+Lower Car Sequence:
+Current NCF = 5, Initial Passengers = 1
+stop 0: floor = 5
+boarding = 0, deboarding = 0, on board = 1.0
+None-empty move to the stop
+Stop Type: Served
+Departure Successor :0
+
+stop 1: floor = 3
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :2
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 3	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	      	Served      	 425.341	   0.000	 425.341		0	0
+[  1]	   3	      	      	Demand     	 432.370	   6.600	 438.970		0	1
+[  2]	   0	      	      	Yield      	 447.266	   0.000	 447.266		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 6	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Conditional	 426.766	   0.000	 429.931		0	0
+[  1]	   4	A<-  1	D<-  1	Conditional	 428.223	   0.000	 432.846		0	0
+[  2]	   1	A<-  2	      	Demand     	 435.900	   8.600	 444.500		1	0
+[  3]	   3	      	      	Demand     	 451.529	   6.600	 458.129		0	1
+[  4]	   5	      	      	Demand     	 465.158	   8.600	 473.758		1	0
+[  5]	  10	      	      	Demand     	 484.108	   6.600	 490.708		0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 3	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	      	Served      	 425.341	   0.000	 425.341		0	0
+[  1]	   3	      	      	Demand     	 432.370	   6.600	 438.970		0	1
+[  2]	   0	      	      	Yield      	 447.266	   0.000	 447.266		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 6	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Conditional	 426.766	  11.366	 441.297		0	0
+[  1]	   4	A<-  1	D<-  1	Conditional	 439.589	   0.000	 444.212		0	0
+[  2]	   1	A<-  2	      	Demand     	 447.266	   8.600	 455.866		1	0
+[  3]	   3	      	      	Demand     	 462.895	   6.600	 469.495		0	1
+[  4]	   5	      	      	Demand     	 476.524	   8.600	 485.124		1	0
+[  5]	  10	      	      	Demand     	 495.474	   6.600	 502.074		0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=296.228973
+
+* Best Plan :  candidate 0
+Candidate 0
+Upper Car Sequence:
+Current NCF = 6, Initial Passengers = 0
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Departure Precedessor :0
+
+stop 1: floor = 4
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :2
+
+stop 3: floor = 3
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 4: floor = 5
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 10
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+Lower Car Sequence:
+Current NCF = 5, Initial Passengers = 1
+stop 0: floor = 5
+boarding = 0, deboarding = 0, on board = 1.0
+None-empty move to the stop
+Stop Type: Served
+Departure Successor :0
+
+stop 1: floor = 3
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :2
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 3	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	      	Served      	 425.341	   0.000	 425.341		0	0
+[  1]	   3	      	      	Demand     	 432.370	   6.600	 438.970		0	1
+[  2]	   0	      	      	Yield      	 447.266	   0.000	 447.266		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 6	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Conditional	 426.766	   0.000	 429.931		0	0
+[  1]	   4	A<-  1	D<-  1	Conditional	 428.223	   0.000	 432.846		0	0
+[  2]	   1	A<-  2	      	Demand     	 435.900	   8.600	 444.500		1	0
+[  3]	   3	      	      	Demand     	 451.529	   6.600	 458.129		0	1
+[  4]	   5	      	      	Demand     	 465.158	   8.600	 473.758		1	0
+[  5]	  10	      	      	Demand     	 484.108	   6.600	 490.708		0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 3	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	      	Served      	 425.341	   0.000	 425.341		0	0
+[  1]	   3	      	      	Demand     	 432.370	   6.600	 438.970		0	1
+[  2]	   0	      	      	Yield      	 447.266	   0.000	 447.266		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 6	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Conditional	 426.766	  11.366	 441.297		0	0
+[  1]	   4	A<-  1	D<-  1	Conditional	 439.589	   0.000	 444.212		0	0
+[  2]	   1	A<-  2	      	Demand     	 447.266	   8.600	 455.866		1	0
+[  3]	   3	      	      	Demand     	 462.895	   6.600	 469.495		0	1
+[  4]	   5	      	      	Demand     	 476.524	   8.600	 485.124		1	0
+[  5]	  10	      	      	Demand     	 495.474	   6.600	 502.074		0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=296.228973
+
+Score : 296.228973

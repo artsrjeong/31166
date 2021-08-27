@@ -1,0 +1,162 @@
+Candidate 0
+Upper Car Sequence:
+Current NCF = 2, Initial Passengers = 0
+stop 0: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Pivot
+
+stop 1: floor = 3
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Departure Precedessor :0
+
+stop 2: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+
+stop 3: floor = 8
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 4: floor = 9
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+Lower Car Sequence:
+Current NCF = 1, Initial Passengers = 0
+stop 0: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Departure Successor :1
+
+stop 1: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 2
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   1	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+[  1]	   0	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   2	      	      	Pivot      	   0.000	   0.000	   0.000	0	0
+[  1]	   3	      	D<-  0	Yield      	   8.296	   0.000	   8.296	0	0
+[  2]	   2	      	      	Yield      	  13.677	   0.000	  13.677	0	0
+[  3]	   8	      	      	Demand     	  25.027	   8.600	  33.627	1	0
+[  4]	   9	      	      	Demand     	  39.008	   6.600	  45.608	0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 2
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   1	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+[  1]	   0	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   2	      	      	Pivot      	   0.000	   0.000	   0.000	0	0
+[  1]	   3	      	D<-  0	Yield      	   8.296	   0.000	   8.296	0	0
+[  2]	   2	      	      	Yield      	  13.677	   0.000	  13.677	0	0
+[  3]	   8	      	      	Demand     	  25.027	   8.600	  33.627	1	0
+[  4]	   9	      	      	Demand     	  39.008	   6.600	  45.608	0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=75.254166
+
+* Best Plan :  candidate 0
+Candidate 0
+Upper Car Sequence:
+Current NCF = 2, Initial Passengers = 0
+stop 0: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Pivot
+
+stop 1: floor = 3
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Departure Precedessor :0
+
+stop 2: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+
+stop 3: floor = 8
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 4: floor = 9
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+Lower Car Sequence:
+Current NCF = 1, Initial Passengers = 0
+stop 0: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Departure Successor :1
+
+stop 1: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 2
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   1	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+[  1]	   0	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   2	      	      	Pivot      	   0.000	   0.000	   0.000	0	0
+[  1]	   3	      	D<-  0	Yield      	   8.296	   0.000	   8.296	0	0
+[  2]	   2	      	      	Yield      	  13.677	   0.000	  13.677	0	0
+[  3]	   8	      	      	Demand     	  25.027	   8.600	  33.627	1	0
+[  4]	   9	      	      	Demand     	  39.008	   6.600	  45.608	0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 2
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   1	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+[  1]	   0	      	      	Yield      	   0.000	   0.000	   0.000	0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   2	      	      	Pivot      	   0.000	   0.000	   0.000	0	0
+[  1]	   3	      	D<-  0	Yield      	   8.296	   0.000	   8.296	0	0
+[  2]	   2	      	      	Yield      	  13.677	   0.000	  13.677	0	0
+[  3]	   8	      	      	Demand     	  25.027	   8.600	  33.627	1	0
+[  4]	   9	      	      	Demand     	  39.008	   6.600	  45.608	0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=75.254166
+
+Score : 75.254166

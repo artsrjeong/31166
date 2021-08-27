@@ -1,0 +1,6 @@
+
+GDInitialize called; using algorithm 3
+DispatchNewCall: origin=3 dest=7 manualAssignment=0
+  [3 -> 7] MANUAL=0  (  0:59  1:97 )
+DispatchNewCall: origin=7 dest=9 manualAssignment=1
+  [7 -> 9] MANUAL=1  (  0:111  1:129 )

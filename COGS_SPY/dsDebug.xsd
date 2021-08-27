@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsDebug" targetNamespace="http://tempuri.org/dsDebug.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsDebug.xsd" xmlns:mstns="http://tempuri.org/dsDebug.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsDebug" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="values">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="VALUE" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR0" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR1" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR2" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR3" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR4" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR5" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR6" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR7" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="floor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="VALUE" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR0" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR1" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR2" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR3" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR4" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR5" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR6" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR7" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="pos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="time" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR0" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR1" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR2" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR3" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR4" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR5" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR6" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR7" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Calc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TimeA" type="xs:double" minOccurs="0" />
+							<xs:element name="AccA" type="xs:double" minOccurs="0" />
+							<xs:element name="VelocityA" type="xs:double" minOccurs="0" />
+							<xs:element name="DistanceA" type="xs:double" minOccurs="0" />
+							<xs:element name="UCarPos" type="xs:double" minOccurs="0" />
+							<xs:element name="UCarFloor" type="xs:int" minOccurs="0" />
+							<xs:element name="UCarNCF" type="xs:int" minOccurs="0" />
+							<xs:element name="UCarNSP" type="xs:double" minOccurs="0" />
+							<xs:element name="UCarNSF" type="xs:int" minOccurs="0" />
+							<xs:element name="TimeB" type="xs:double" minOccurs="0" />
+							<xs:element name="AccB" type="xs:double" minOccurs="0" />
+							<xs:element name="VelocityB" type="xs:double" minOccurs="0" />
+							<xs:element name="DistanceB" type="xs:double" minOccurs="0" />
+							<xs:element name="LCarPos" type="xs:double" minOccurs="0" />
+							<xs:element name="LCarFloor" type="xs:int" minOccurs="0" />
+							<xs:element name="LCarNCF" type="xs:int" minOccurs="0" />
+							<xs:element name="LCarNSP" type="xs:double" minOccurs="0" />
+							<xs:element name="LCarNSF" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HexecALL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="car" type="xs:string" minOccurs="0" />
+							<xs:element name="time" type="xs:string" minOccurs="0" />
+							<xs:element name="state" type="xs:string" minOccurs="0" />
+							<xs:element name="actual_pos" type="xs:string" minOccurs="0" />
+							<xs:element name="target_pos" type="xs:string" minOccurs="0" />
+							<xs:element name="NCF" type="xs:string" minOccurs="0" />
+							<xs:element name="DoorState" type="xs:string" minOccurs="0" />
+							<xs:element name="MotionState" type="xs:string" minOccurs="0" />
+							<xs:element name="mov_dir" type="xs:string" minOccurs="0" />
+							<xs:element name="decel" type="xs:string" minOccurs="0" />
+							<xs:element name="cmd_target" type="xs:string" minOccurs="0" />
+							<xs:element name="cmd_door" type="xs:string" minOccurs="0" />
+							<xs:element name="cmd_dwell" type="xs:string" minOccurs="0" />
+							<xs:element name="otherCarControl" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HExec">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="time" type="xs:string" minOccurs="0" />
+							<xs:element name="state" type="xs:string" minOccurs="0" />
+							<xs:element name="actual_pos" type="xs:string" minOccurs="0" />
+							<xs:element name="target_pos" type="xs:string" minOccurs="0" />
+							<xs:element name="NCF" type="xs:string" minOccurs="0" />
+							<xs:element name="DoorState" type="xs:string" minOccurs="0" />
+							<xs:element name="MotionState" type="xs:string" minOccurs="0" />
+							<xs:element name="mov_dir" type="xs:string" minOccurs="0" />
+							<xs:element name="decel" type="xs:string" minOccurs="0" />
+							<xs:element name="cmd_target" type="xs:string" minOccurs="0" />
+							<xs:element name="cmd_door" type="xs:string" minOccurs="0" />
+							<xs:element name="cmd_dwell" type="xs:string" minOccurs="0" />
+							<xs:element name="otherCarControl" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="UpperPlan">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="inx" type="xs:string" minOccurs="0" />
+							<xs:element name="planInx" type="xs:string" minOccurs="0" />
+							<xs:element name="floor" type="xs:string" minOccurs="0" />
+							<xs:element name="type" type="xs:string" minOccurs="0" />
+							<xs:element name="preInx" type="xs:string" minOccurs="0" />
+							<xs:element name="planPreInx" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ncf">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="time" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR0" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR1" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR2" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR3" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR4" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR5" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR6" type="xs:string" minOccurs="0" />
+							<xs:element name="CAR7" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

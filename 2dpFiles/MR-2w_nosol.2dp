@@ -1,0 +1,314 @@
+T   0.0
+T   0.0
+B   24    2    0
+G    3    1
+I    0    2   22   24   11   12   13   14
+T   0.0
+T   0.0
+P      0.85    1   20    2    65.00   -1
+P     19.14    1    2    9    65.00   -1
+P     20.52    1   24    2    65.00   -1
+P     20.87   16    4   18    65.00   -1
+P     24.94    1    6    2    65.00   -1
+P     25.10    1   22    0    65.00   -1
+P     59.22   16   14   11    65.00   -1
+P     85.81   16   12    5    65.00   -1
+P     96.22    1   19    2    65.00   -1
+P     96.41    1   16    2    65.00   -1
+P    163.67    1    5    2    65.00   -1
+P    185.45    1    7    2    65.00   -1
+P    211.80    1    9    2    65.00   -1
+P    216.63    1   23    2    65.00   -1
+P    280.27    1   24    0    65.00   -1
+P    295.49    1    8    2    65.00   -1
+P    337.92    1   13    2    65.00   -1
+P    354.29    1    3    2    65.00   -1
+P    357.73   16   17   15    65.00   -1
+P    402.88    1    9    2    65.00   -1
+P    406.26    1    2    3    65.00   -1
+P    458.64    1    7    1    65.00   -1
+P    461.28    1   14    2    65.00   -1
+P    470.37    1   16    2    65.00   -1
+P    478.77    1   19    2    65.00   -1
+P    489.15    1    9    2    65.00   -1
+P    503.44    1   18    2    65.00   -1
+P    523.43    1   24    2    65.00   -1
+P    536.04    1    6    2    65.00   -1
+P    546.89    1   12    2    65.00   -1
+P    623.08    1   14    2    65.00   -1
+P    625.75    1    3    2    65.00   -1
+P    655.55    1    2   24    65.00   -1
+P    681.67    1   21    2    65.00   -1
+P    688.97    1   13    2    65.00   -1
+P    756.10    1   20    2    65.00   -1
+P    762.39    1   16    2    65.00   -1
+P    776.40    1    2   15    65.00   -1
+P    802.63    1   23    2    65.00   -1
+P    848.01    1   14    2    65.00   -1
+P    855.26    1   13    1    65.00   -1
+P    863.03    1   20    2    65.00   -1
+P    865.34    1    3    2    65.00   -1
+P    894.31    1   21    2    65.00   -1
+P    914.34    1   10    2    65.00   -1
+P    922.33    1   12    2    65.00   -1
+P    996.41    1    2   22    65.00   -1
+P    998.03    1    4    2    65.00   -1
+P   1010.36    1   15    2    65.00   -1
+P   1115.64    1    2    6    65.00   -1
+P   1171.54    1    7    2    65.00   -1
+P   1173.49    1   10    2    65.00   -1
+P   1187.25    1   17    2    65.00   -1
+P   1250.14    1    6    1    65.00   -1
+P   1252.56    1   13    2    65.00   -1
+P   1265.11    1    5    2    65.00   -1
+P   1265.97    1   11    2    65.00   -1
+P   1280.22    1   24    2    65.00   -1
+P   1298.35    1    2   18    65.00   -1
+P   1367.78    1   10    2    65.00   -1
+P   1404.67    1    2   12    65.00   -1
+P   1428.16   16   19   20    65.00   -1
+P   1536.07    1    2    6    65.00   -1
+P   1536.27    1    2   21    65.00   -1
+P   1547.69    1    7    2    65.00   -1
+P   1554.61    1   12    2    65.00   -1
+P   1658.35    1   13    0    65.00   -1
+P   1739.77    1    2   20    65.00   -1
+P   1741.28    1    2    8    65.00   -1
+P   1752.29    1   23    2    65.00   -1
+P   1764.46    1    4    2    65.00   -1
+P   1831.92    1    2   20    65.00   -1
+P   1835.10    1   18    2    65.00   -1
+P   1835.79    1    2   19    65.00   -1
+P   1954.99    1    0   10    65.00   -1
+P   2009.60    1    5    2    65.00   -1
+P   2068.21    1    2    8    65.00   -1
+P   2086.89    1    2   22    65.00   -1
+P   2099.83    1    2   13    65.00   -1
+P   2132.95    1    4    2    65.00   -1
+P   2133.72    1    1   21    65.00   -1
+P   2155.78    1    2   10    65.00   -1
+P   2185.55    1   15    2    65.00   -1
+P   2191.02    1    2   16    65.00   -1
+P   2201.12    1    2    8    65.00   -1
+P   2206.45    1   11    2    65.00   -1
+P   2209.78    1    2   15    65.00   -1
+P   2257.13    1    2   11    65.00   -1
+P   2280.91    1   21    2    65.00   -1
+P   2385.64   16   21    6    65.00   -1
+P   2404.21   16   24   16    65.00   -1
+P   2418.80    1   15    2    65.00   -1
+P   2435.83    1    2   10    65.00   -1
+P   2454.20   16   16    7    65.00   -1
+P   2504.71    1    2    6    65.00   -1
+P   2524.38    1   22    2    65.00   -1
+P   2538.03   16   20    4    65.00   -1
+P   2551.41    1    2   16    65.00   -1
+P   2637.62    1    2   11    65.00   -1
+P   2676.21    1    2   24    65.00   -1
+P   2695.22    1    2    5    65.00   -1
+P   2705.96    1    2   14    65.00   -1
+P   2766.06    1    2   16    65.00   -1
+P   2773.14   16   13   17    65.00   -1
+P   2778.77    1    2   24    65.00   -1
+P   2799.43    1    2    3    65.00   -1
+P   2819.53    1    2   23    65.00   -1
+P   2833.87    1    2   17    65.00   -1
+P   2870.40    1    2    4    65.00   -1
+P   2884.08    1    2    3    65.00   -1
+P   2886.80    1    2   19    65.00   -1
+P   2919.07    1    2   13    65.00   -1
+P   2978.84    1    0   21    65.00   -1
+P   3019.99    1    2   12    65.00   -1
+P   3029.60    1    2   13    65.00   -1
+P   3078.22    1    2   12    65.00   -1
+P   3102.33    1    2    9    65.00   -1
+P   3107.80    1    2   19    65.00   -1
+P   3131.42    1    0   14    65.00   -1
+P   3178.44    1    2    4    65.00   -1
+P   3194.10    1    2   21    65.00   -1
+P   3211.37    1    2   15    65.00   -1
+P   3220.93    1    2    7    65.00   -1
+P   3239.01    1    2   14    65.00   -1
+P   3254.50    1    2   20    65.00   -1
+P   3265.04    1    2   14    65.00   -1
+P   3278.72    1    2   23    65.00   -1
+P   3290.59    1    8    2    65.00   -1
+P   3290.67    1    2   23    65.00   -1
+P   3310.20    1    2    7    65.00   -1
+P   3311.82    1    2    5    65.00   -1
+P   3316.54    1    2   18    65.00   -1
+P   3325.88    1   22    2    65.00   -1
+P   3344.83    1    6    2    65.00   -1
+P   3379.96    1    2   11    65.00   -1
+P   3392.30    1    2    7    65.00   -1
+P   3431.27    1    8    2    65.00   -1
+P   3433.28    1    2    4    65.00   -1
+P   3439.24    1    1   10    65.00   -1
+P   3487.08    1    2    5    65.00   -1
+P   3494.61    1    1    4    65.00   -1
+P   3590.50    1    2   18    65.00   -1
+Z
+2D
+
+// ELEVATOR PARAMETERS
+Hong Yu Building@	// Building Name
+2                   // Number of Hoistways
+// for each hoistway
+4                   // Number of Cars
+1                   // pit existence
+1                   // overhead existence
+0                   // Minimum Adj Floor for all hoistways
+//	for each car
+1                   // Duty 0:900KG,1:1000KG,2:1150,..15:custom
+1.75                // Velocities for all cars[m/s]
+0.80                // Accels for all cars[m/ss]
+1.20                // Jerks for all cars[m/sss]
+1         // Cars with Single Door(1) or Double Door(2)
+13   1100      // DoorType ID & Opening width[mm]
+2.50                // Door Opening Time [s]
+3.50                // Door Closing Time [s]
+2.00                // Door Dwell MIN_CAR_NT [s]
+4.60                // Door Dwell MIN_HALL_NT [s]
+6.60                // Door Dwell MAX_HALL_NT [s]
+4.60                // Door Dwell LOBBY_NT [s]
+0.864               // START LOSS BASE [s]
+0.686               // STOP LOSS BASE [s]
+0                   // Re-Open for each car 0: disable, 1: enable
+0.00                // Additional Time at Each Stop
+80.00               // % Boarding Ratio
+1.00                // Board + Deboard time per person
+0                   // 0: No MG set, 1:MG[MotorGenerator]
+
+// BUILDING PARAMETERS
+25                  // Number of floors
+2                   // Lobby Floor (Floor Index starts from 0)
+255                 // 2nd Lobby Floor [255:none]
+255                 // Restaurant Floor [255:none]
+255                 // 2nd Restaurant Floor [255:none]
+255                 // Top of Exp. zone for each car
+255                 // Bottom of Exp. zone for each car
+12                  // Arrive Delay Time [sec] for each car
+60                  // Arrive Delay Time for Stairs [sec] for each car
+
+// FLOOR HEIGHT [m]
+4.500               // floor height of Pit
+3.750               // floor height of B2F
+3.750               // floor height of B1F
+6.100               // floor height of Main_Lobby
+3.167               // floor height of 2F
+3.167               // floor height of 3F
+3.167               // floor height of 4F
+3.167               // floor height of 5F
+3.167               // floor height of 6F
+3.167               // floor height of 7F
+3.167               // floor height of 8F
+3.167               // floor height of 9F
+3.167               // floor height of 10F
+3.167               // floor height of 11F
+3.167               // floor height of 12F
+3.167               // floor height of 13F
+3.167               // floor height of 14F
+3.167               // floor height of 15F
+3.167               // floor height of 16F
+3.167               // floor height of 17F
+3.167               // floor height of 18F
+3.167               // floor height of 19F
+3.167               // floor height of 20F
+3.167               // floor height of 21F
+3.167               // floor height of 22F
+4.500               // floor height of 23F
+4.500               // floor height of Overhead
+
+// POPULATION OF EACH FLOOR
+0                   // floor population of B2F
+0                   // floor population of B1F
+0                   // floor population of Main_Lobby
+24                  // floor population of 2F
+24                  // floor population of 3F
+24                  // floor population of 4F
+24                  // floor population of 5F
+24                  // floor population of 6F
+24                  // floor population of 7F
+24                  // floor population of 8F
+24                  // floor population of 9F
+24                  // floor population of 10F
+24                  // floor population of 11F
+24                  // floor population of 12F
+24                  // floor population of 13F
+24                  // floor population of 14F
+24                  // floor population of 15F
+24                  // floor population of 16F
+24                  // floor population of 17F
+24                  // floor population of 18F
+24                  // floor population of 19F
+24                  // floor population of 20F
+24                  // floor population of 21F
+24                  // floor population of 22F
+24                  // floor population of 23F
+
+// Allowed_Mask for each car per floor (Hexa)
+0      02  02  02  02
+1      02  02  02  02
+2      02  02  02  02
+3      02  02  02  02
+4      02  02  02  02
+5      02  02  02  02
+6      02  02  02  02
+7      02  02  02  02
+8      02  02  02  02
+9      02  02  02  02
+10     02  02  02  02
+11     02  02  02  02
+12     02  02  02  02
+13     02  02  02  02
+14     02  02  02  02
+15     02  02  02  02
+16     02  02  02  02
+17     02  02  02  02
+18     02  02  02  02
+19     02  02  02  02
+20     02  02  02  02
+21     02  02  02  02
+22     02  02  02  02
+23     02  02  02  02
+24     02  02  02  02
+
+// Destination Entry Device Installation
+1         // B2F
+1         // B1F
+1         // Main_Lobby
+1         // 2F
+1         // 3F
+1         // 4F
+1         // 5F
+1         // 6F
+1         // 7F
+1         // 8F
+1         // 9F
+1         // 10F
+1         // 11F
+1         // 12F
+1         // 13F
+1         // 14F
+1         // 15F
+1         // 16F
+1         // 17F
+1         // 18F
+1         // 19F
+1         // 20F
+1         // 21F
+1         // 22F
+1         // 23F
+
+// Simulation Configuration
+0                   // Simulation Hour 0: None 1:Up 2:Dn 3:Lunch 4:Business
+720                 // Building Population
+
+// Simulation Algorithm Selection
+1                   // Manual:0, Automatic:1
+Dispatcher.dll@ // ..\Debug@
+0                    // HPscoring@
+
+// Violation Display
+18                  
+Z                   

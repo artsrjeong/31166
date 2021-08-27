@@ -1,0 +1,254 @@
+T   0.0
+T   0.0
+B    9    1    0
+G    5    4
+I    0    1    3    5    7    8
+T   0.0
+T   0.0
+P      3.19   16    7    8    65.00   -1
+P      8.05    1    4    0    65.00   -1
+P     10.63   16    8    2    65.00   -1
+P     36.48   16    3    1    65.00   -1
+P     51.43    1    4    0    65.00   -1
+P     52.97    1    0    8    65.00   -1
+P     55.02   16    7    6    65.00   -1
+P     64.50    1    0    5    65.00   -1
+P     64.62    1    0    9    65.00   -1
+P     80.82    1    0    6    65.00   -1
+P     89.03    1    5    0    65.00   -1
+P     89.29   16    6    1    65.00   -1
+P     90.01   16    7    5    65.00   -1
+P     93.36   16    5    9    65.00   -1
+P     93.88   16    2    1    65.00   -1
+P    102.81   16    5    1    65.00   -1
+P    105.03   16    8    2    65.00   -1
+P    111.10   16    3    4    65.00   -1
+P    118.08   16    1    7    65.00   -1
+P    126.07    1    0    4    65.00   -1
+P    140.41   16    6    7    65.00   -1
+P    150.11   16    7    8    65.00   -1
+P    165.06    1    1    0    65.00   -1
+P    172.44   16    6    8    65.00   -1
+P    180.59    1    2    0    65.00   -1
+P    187.90   16    9    8    65.00   -1
+P    194.27   16    6    1    65.00   -1
+P    194.54    1    3    0    65.00   -1
+P    194.68    1    3    0    65.00   -1
+P    194.77   16    2    6    65.00   -1
+P    206.71    1    0    7    65.00   -1
+P    213.33   16    4    5    65.00   -1
+P    224.54   16    8    5    65.00   -1
+P    225.36   16    4    8    65.00   -1
+P    240.58   16    5    4    65.00   -1
+P    243.35   16    8    4    65.00   -1
+P    244.26   16    9    3    65.00   -1
+P    247.04   16    7    1    65.00   -1
+P    248.11   16    3    7    65.00   -1
+P    266.34   16    7    8    65.00   -1
+P    271.04   16    9    8    65.00   -1
+P    271.40   16    3    4    65.00   -1
+P    273.90   16    2    4    65.00   -1
+P    277.61   16    7    8    65.00   -1
+P    285.99    1    4    0    65.00   -1
+P    292.94    1    6    0    65.00   -1
+P    303.60    1    0    2    65.00   -1
+P    304.17   16    3    8    65.00   -1
+P    308.27    1    0    6    65.00   -1
+P    317.93   16    1    8    65.00   -1
+P    326.28   16    7    4    65.00   -1
+P    335.95    1    0    3    65.00   -1
+P    336.88   16    3    5    65.00   -1
+P    342.62    1    0    3    65.00   -1
+P    350.31   16    4    2    65.00   -1
+P    352.92   16    2    3    65.00   -1
+P    354.91    1    9    0    65.00   -1
+P    359.04   16    6    2    65.00   -1
+P    364.04   16    5    7    65.00   -1
+P    366.95   16    2    7    65.00   -1
+P    374.40   16    8    9    65.00   -1
+P    380.30   16    9    7    65.00   -1
+P    383.13   16    4    2    65.00   -1
+P    385.91   16    7    8    65.00   -1
+P    396.78    1    8    0    65.00   -1
+P    404.50   16    7    9    65.00   -1
+P    410.81    1    1    0    65.00   -1
+P    418.78   16    3    8    65.00   -1
+P    421.28   16    9    3    65.00   -1
+P    432.51    1    0    3    65.00   -1
+P    439.14   16    6    7    65.00   -1
+P    445.73   16    8    9    65.00   -1
+P    448.75   16    9    3    65.00   -1
+P    455.53   16    3    1    65.00   -1
+P    460.64   16    1    9    65.00   -1
+P    470.16    1    8    0    65.00   -1
+P    490.86   16    2    6    65.00   -1
+P    502.72   16    4    7    65.00   -1
+P    507.67    1    6    0    65.00   -1
+P    508.96   16    9    5    65.00   -1
+P    510.08    1    2    0    65.00   -1
+P    514.51   16    5    8    65.00   -1
+P    519.67   16    4    8    65.00   -1
+P    522.55   16    6    5    65.00   -1
+P    526.32   16    8    3    65.00   -1
+P    531.63    1    1    0    65.00   -1
+P    533.22    1    0    2    65.00   -1
+P    534.01   16    2    7    65.00   -1
+P    538.27    1    0    4    65.00   -1
+P    543.87   16    9    5    65.00   -1
+P    552.13   16    7    2    65.00   -1
+P    584.24    1    3    0    65.00   -1
+P    585.40   16    6    1    65.00   -1
+P    592.84    1    0    4    65.00   -1
+P    602.23   16    9    2    65.00   -1
+P    614.43   16    3    4    65.00   -1
+P    614.73   16    5    8    65.00   -1
+P    615.29    1    2    0    65.00   -1
+P    616.79   16    5    8    65.00   -1
+P    617.89    1    0    2    65.00   -1
+P    621.52   16    6    3    65.00   -1
+P    622.75   16    8    3    65.00   -1
+P    633.57   16    2    4    65.00   -1
+P    648.54   16    7    8    65.00   -1
+P    650.85   16    5    2    65.00   -1
+P    664.28   16    9    8    65.00   -1
+P    667.08   16    3    6    65.00   -1
+P    678.37   16    6    9    65.00   -1
+P    682.90   16    4    7    65.00   -1
+P    690.81   16    7    2    65.00   -1
+P    693.10    1    0    1    65.00   -1
+P    698.64   16    4    8    65.00   -1
+P    700.97    1    0    9    65.00   -1
+P    705.90    1    0    6    65.00   -1
+P    711.72   16    1    8    65.00   -1
+P    715.75   16    2    6    65.00   -1
+P    716.63   16    2    1    65.00   -1
+P    717.90   16    2    7    65.00   -1
+P    722.04    1    6    0    65.00   -1
+P    723.03   16    1    5    65.00   -1
+P    735.83   16    7    9    65.00   -1
+P    739.13   16    5    8    65.00   -1
+P    751.57   16    5    2    65.00   -1
+P    752.92   16    6    2    65.00   -1
+P    758.23    1    0    8    65.00   -1
+P    776.73    1    7    0    65.00   -1
+P    788.32   16    9    7    65.00   -1
+P    796.43    1    0    7    65.00   -1
+P    803.47    1    7    0    65.00   -1
+P    810.07   16    6    8    65.00   -1
+P    824.30    1    0    7    65.00   -1
+P    825.24   16    2    4    65.00   -1
+P    834.92    1    0    8    65.00   -1
+P    840.02    1    5    0    65.00   -1
+P    843.50   16    6    5    65.00   -1
+P    849.49   16    2    9    65.00   -1
+P    852.95   16    6    5    65.00   -1
+P    876.46   16    7    2    65.00   -1
+P    876.96   16    2    4    65.00   -1
+P    893.28    1    0    9    65.00   -1
+P    894.09   16    3    7    65.00   -1
+P    894.27    1    5    0    65.00   -1
+Z
+2D
+
+// ELEVATOR PARAMETERS
+2D Building@	// Building Name
+6                   // Number of Hoistways
+// for each hoistway
+6                   // Number of Cars
+1                   // pit existence
+1                   // overhead existence
+0                   // Minimum Adj Floor for all hoistways
+//	for each car
+4                   // Duty 0:900KG,1:1000KG,2:1150,..15:custom
+4.00                // Velocities for all cars[m/s]
+1.00                // Accels for all cars[m/ss]
+2.00                // Jerks for all cars[m/sss]
+1         // Cars with Single Door(1) or Double Door(2)
+0    700       // DoorType ID & Opening width[mm]
+1.50                // Door Opening Time [s]
+2.50                // Door Closing Time [s]
+2.00                // Door Dwell MIN_CAR_NT [s]
+4.60                // Door Dwell MIN_HALL_NT [s]
+6.60                // Door Dwell MAX_HALL_NT [s]
+4.60                // Door Dwell LOBBY_NT [s]
+0.450               // START LOSS BASE [s]
+0.400               // STOP LOSS BASE [s]
+1                   // Re-Open for each car 0: disable, 1: enable
+0.00                // Additional Time at Each Stop
+80.00               // % Boarding Ratio
+1.00                // Board + Deboard time per person
+0                   // 0: No MG set, 1:MG[MotorGenerator]
+
+// BUILDING PARAMETERS
+10                  // Number of floors
+1                   // Lobby Floor (Floor Index starts from 0)
+255                 // 2nd Lobby Floor [255:none]
+255                 // Restaurant Floor [255:none]
+255                 // 2nd Restaurant Floor [255:none]
+255                 // Top of Exp. zone for each car
+255                 // Bottom of Exp. zone for each car
+12                  // Arrive Delay Time [sec] for each car
+60                  // Arrive Delay Time for Stairs [sec] for each car
+
+// FLOOR HEIGHT [m]
+4.000               // floor height of Pit
+4.000               // floor height of 1F
+4.000               // floor height of 2F
+4.000               // floor height of 3F
+4.000               // floor height of 4F
+4.000               // floor height of 5F
+4.000               // floor height of 6F
+4.000               // floor height of 7F
+4.000               // floor height of 8F
+4.000               // floor height of 9F
+4.000               // floor height of 10F
+4.000               // floor height of OverHead
+
+// POPULATION OF EACH FLOOR
+80                  // floor population of 1F
+80                  // floor population of 2F
+80                  // floor population of 3F
+80                  // floor population of 4F
+80                  // floor population of 5F
+80                  // floor population of 6F
+80                  // floor population of 7F
+80                  // floor population of 8F
+80                  // floor population of 9F
+80                  // floor population of 10F
+
+// Allowed_Mask for each car per floor (Hexa)
+0      07  07  07  07  07  07
+1      07  07  07  07  07  07
+2      07  07  07  07  07  07
+3      07  07  07  07  07  07
+4      07  07  07  07  07  07
+5      07  07  07  07  07  07
+6      07  07  07  07  07  07
+7      07  07  07  07  07  07
+8      07  07  07  07  07  07
+9      07  07  07  07  07  07
+
+// Destination Entry Device Installation
+1         // 1F
+1         // 2F
+1         // 3F
+1         // 4F
+1         // 5F
+1         // 6F
+1         // 7F
+1         // 8F
+1         // 9F
+1         // 10F
+
+// Simulation Configuration
+0                   // Simulation Hour 0: None 1:Up 2:Dn 3:Lunch 4:Business
+720                 // Building Population
+
+// Simulation Algorithm Selection
+1                   // Manual:0, Automatic:1
+Dispatcher.dll@ // D:\31166\Developing\Debug@
+2                    // NPI-1D@
+
+// Violation Display
+18                  
+Z                   

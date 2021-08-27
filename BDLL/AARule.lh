@@ -1,0 +1,129 @@
+/* U10 Project: @(#)aarule.l	2.7	3/23/95	14:22:28 */
+/**************************************************************************
+;  File Name: AARULE.L - Local Definitions for AARULE.C
+; 
+;  File Description:
+;  This file describes the AARULE.C local definitions.
+; 
+; 
+;  This work and the information it contains are the confidential
+;  property of Otis Elevator Company ("Otis").  It is delivered on
+;  the express condition that it will be used only for, or on
+;  behalf of, Otis; that neither it nor the information it contains
+;  will be reproduced, distributed or disclosed, in whole or in part,
+;  without the written consent of Otis; and that on demand it and any
+;  copies will be promptly returned.
+;
+;  Unpublished work - Copyright 1992 - 1995  Otis Elevator Company
+;  All rights reserved.
+;
+; 
+;  Revision History:
+; 
+;  SCN                   Author	                       Date
+;  ------------------------------------------------------------------------
+;  AAA30xxxAAA           Mark Ross		     05-Nov-1993
+;  - Created.
+;
+;  A1230203BAA           Mark Ross		     18-Feb-1994
+;  - Modified to support downpeak clustering.
+;
+;  A1330203BAA           Mark Ross		     18-Mar-1994
+;  - STR 040.  Add LNS cars to applicable downpeak rules.
+;
+;  A1330203BAA		 Mark Ross		     14-Apr-94
+;  - Removed AARULE_Map_Demand prototype. (STR#86)
+;
+;  A1730203BAA           Mark Ross       	     18 November 1994
+;  - SCR 30203-122.
+;    Modified to allow all AARULES to use traffic density info
+;
+;*************************************************************************/
+
+/**************************************************************************
+;  Constants
+;*************************************************************************/
+#define EXTERN extern
+#undef EXTERN
+
+#define HIGHEST_PRIORITY		1 	 
+#define LOWEST_PRIORITY  		5 
+#define AARULE_DISABLED			0
+#define DHC_AHEAD			1
+#define DHC_BEHIND 			2
+#define UHC_AHEAD_BEHIND 		3
+#define DHC_LUCKY 			4
+#define UHC_LUCKY 			5
+#define DHC_COINCIDENT_CC 		6
+#define UHC_COINCIDENT_CC 		7
+#define AHEAD 				1
+#define BEHIND 				2
+#define GRP_INTERFLOOR 			0
+#define GRP_MIT				1
+#define GRP_MOT				2
+
+/**************************************************************************
+;  Data Types
+;*************************************************************************/
+/* None */
+
+/**************************************************************************
+;  Variables
+;*************************************************************************/
+/* None */
+
+/*************************************************************************
+;  Function Prototypes
+;*************************************************************************/
+BYTE_T AARULE_Get_Priority(BYTE_T); 
+void   AARULE_Exceptions(FLAG_T *, FLAG_T *, FLAG_T *, INT_T *);
+BYTE_T AARULE_Apply_Rule(BYTE_T, BYTE_T,BYTE_T, BYTE_T, INT_T *, INT_T * ,INT_T * );
+BYTE_T AARULE_Mask_Cnt(BYTE_T); 
+void   AARULE_Init_Weights(BYTE_T *, BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T); 
+BYTE_T AARULE_Sum_Demand(BYTE_T *, BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T, 
+			 BYTE_T,   BYTE_T);
+BYTE_T AARULE_Entry(BYTE_T *, BYTE_T *, INT_T *, INT_T *, INT_T, INT_T); 	
+BYTE_T AARULE_Parked_Driver  (BYTE_T, BYTE_T, INT_T *, INT_T *, INT_T *); 
+BYTE_T AARULE_Contig_Driver  (BYTE_T, BYTE_T, INT_T *, INT_T *, INT_T *);
+BYTE_T AARULE_Demand_Driver  (BYTE_T, BYTE_T, INT_T *, INT_T *, INT_T *); 
+BYTE_T AARULE_Load_Driver    (BYTE_T, BYTE_T, INT_T *, INT_T *, INT_T *);   
+BYTE_T AARULE_Parked_Result  (BYTE_T , INT_T *);     		      
+BYTE_T AARULE_Contig_Result  (BYTE_T , INT_T *, INT_T *);   
+BYTE_T AARULE_Load_Result    (BYTE_T , INT_T *);
+BYTE_T AARULE_Demand_Result  (BYTE_T , INT_T *, INT_T *);   
+BYTE_T AARULE_DnpkDriver(BYTE_T, BYTE_T, INT_T *, INT_T *, INT_T *);       
+void   AARULE_DnpkEntry(BYTE_T *, BYTE_T *, INT_T *);  	
+BYTE_T AARULE_DnpkResult();  
+FLAG_T AARULE_DnpkGoodEnough(BYTE_T, INT_T *, INT_T *);  
+BYTE_T AARULE_DnpkClusterCar(BYTE_T);  
+BYTE_T AARULE_DnpkFindOpmode(BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T);  
+FLAG_T AARULE_DnpkModeSwap(BYTE_T, BYTE_T);  
+FLAG_T AARULE_DnpkClusterSwap(BYTE_T, BYTE_T);  
+BYTE_T AARULE_DnpkRelativePosition(BYTE_T, BYTE_T);  
+BYTE_T AARULE_DnpkBestRRTPWT(INT_T *, BYTE_T);  
+BYTE_T AARULE_DnpkBestHCAI(INT_T *, INT_T *, BYTE_T);  
+void   AARULE_DnpkLog1(BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T);  
+void   AARULE_DnpkLog2(BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T, BYTE_T);  
+BYTE_T AARULE_DnpkDHCAhead(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);	
+BYTE_T AARULE_DnpkRule11(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule12(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkDHCBehind(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);			       
+BYTE_T AARULE_DnpkRule21(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule22(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule23(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule24(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule25(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkUHC(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);			       
+BYTE_T AARULE_DnpkRule31(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule32(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule33(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkDHCLucky(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);			       
+BYTE_T AARULE_DnpkRule41(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkRule42(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkUHCLucky(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);			       
+BYTE_T AARULE_DnpkRule51(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkDHCCoincidentCC(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);			       
+BYTE_T AARULE_DnpkRule61(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkUHCCoincidentCC(BYTE_T, INT_T *, INT_T *, INT_T *, BYTE_T *);			       
+BYTE_T AARULE_DnpkRule71(BYTE_T, INT_T *, INT_T *, INT_T *);			       
+BYTE_T AARULE_DnpkFullyLoaded(BYTE_T, BYTE_T);  

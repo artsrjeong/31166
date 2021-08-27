@@ -1,0 +1,328 @@
+
+=== Passenger 0 ===
+Candidate 0
+Upper Car Sequence:
+Current NCF = 7, Initial Passengers = 0
+stop 0: floor = 7
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Departure Precedessor :2
+
+stop 1: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 7
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 3: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Precedessor :3
+
+Lower Car Sequence:
+Current NCF = 3, Initial Passengers = 3
+stop 0: floor = 3
+boarding = 0, deboarding = 0, on board = 3.0
+None-empty move to the stop
+Stop Type: Served
+
+stop 1: floor = 5
+boarding = 0, deboarding = 1, on board = 2.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 6
+boarding = 0, deboarding = 2, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Departure Successor :0
+
+stop 3: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Successor :3
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	   0.000	 121.120		0	0
+[  1]	   1	      	      	Demand     	 132.470	   8.600	 141.070		1	0
+[  2]	   7	      	      	Demand     	 152.420	   6.600	 159.020		0	1
+[  3]	   1	A<-  3	      	Parking    	 170.370	   0.000	 170.370		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	  30.175	 151.295		0	0
+[  1]	   1	      	      	Demand     	 162.645	   8.600	 171.245		1	0
+[  2]	   7	      	      	Demand     	 182.595	   6.600	 189.195		0	1
+[  3]	   1	A<-  3	      	Parking    	 200.545	   0.000	 200.545		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TSA considered Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	  34.675	 155.795		0	0
+[  1]	   1	      	      	Demand     	 167.145	   8.600	 175.745		1	0
+[  2]	   7	      	      	Demand     	 187.095	   6.600	 193.695		0	1
+[  3]	   1	A<-  3	      	Parking    	 205.045	   0.000	 205.045		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=937.816528
+
+Candidate 1
+Upper Car Sequence:
+Current NCF = 7, Initial Passengers = 0
+stop 0: floor = 7
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Departure Precedessor :2
+
+stop 1: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 7
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 3: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Precedessor :3
+
+Lower Car Sequence:
+Current NCF = 3, Initial Passengers = 3
+stop 0: floor = 3
+boarding = 0, deboarding = 0, on board = 3.0
+None-empty move to the stop
+Stop Type: Served
+
+stop 1: floor = 5
+boarding = 0, deboarding = 1, on board = 2.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 6
+boarding = 0, deboarding = 2, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Departure Successor :0
+
+stop 3: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Successor :3
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	   0.000	 121.120		0	0
+[  1]	   1	      	      	Demand     	 132.470	   8.600	 141.070		1	0
+[  2]	   7	      	      	Demand     	 152.420	   6.600	 159.020		0	1
+[  3]	   1	A<-  3	      	Parking    	 170.370	   0.000	 170.370		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	  30.175	 151.295		0	0
+[  1]	   1	      	      	Demand     	 162.645	   8.600	 171.245		1	0
+[  2]	   7	      	      	Demand     	 182.595	   6.600	 189.195		0	1
+[  3]	   1	A<-  3	      	Parking    	 200.545	   0.000	 200.545		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TSA considered Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	  34.675	 155.795		0	0
+[  1]	   1	      	      	Demand     	 167.145	   8.600	 175.745		1	0
+[  2]	   7	      	      	Demand     	 187.095	   6.600	 193.695		0	1
+[  3]	   1	A<-  3	      	Parking    	 205.045	   0.000	 205.045		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=937.816528
+
+* Best Plan :  candidate 0
+Candidate 0
+Upper Car Sequence:
+Current NCF = 7, Initial Passengers = 0
+stop 0: floor = 7
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Departure Precedessor :2
+
+stop 1: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 7
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 3: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Precedessor :3
+
+Lower Car Sequence:
+Current NCF = 3, Initial Passengers = 3
+stop 0: floor = 3
+boarding = 0, deboarding = 0, on board = 3.0
+None-empty move to the stop
+Stop Type: Served
+
+stop 1: floor = 5
+boarding = 0, deboarding = 1, on board = 2.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 6
+boarding = 0, deboarding = 2, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Departure Successor :0
+
+stop 3: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Successor :3
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	   0.000	 121.120		0	0
+[  1]	   1	      	      	Demand     	 132.470	   8.600	 141.070		1	0
+[  2]	   7	      	      	Demand     	 152.420	   6.600	 159.020		0	1
+[  3]	   1	A<-  3	      	Parking    	 170.370	   0.000	 170.370		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	  30.175	 151.295		0	0
+[  1]	   1	      	      	Demand     	 162.645	   8.600	 171.245		1	0
+[  2]	   7	      	      	Demand     	 182.595	   6.600	 189.195		0	1
+[  3]	   1	A<-  3	      	Parking    	 200.545	   0.000	 200.545		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TSA considered Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   3	      	      	Served      	 117.085	   8.100	 125.185		0+0	0+4
+[  1]	   5	      	      	Demand     	 132.214	   6.600	 138.814		0	1
+[  2]	   6	      	      	Demand     	 144.195	   7.100	 151.295		0	2
+[  3]	   0	      	      	Parking    	 162.645	   0.000	 162.645		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 4	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   7	      	D<-  2	Parking    	 121.120	  34.675	 155.795		0	0
+[  1]	   1	      	      	Demand     	 167.145	   8.600	 175.745		1	0
+[  2]	   7	      	      	Demand     	 187.095	   6.600	 193.695		0	1
+[  3]	   1	A<-  3	      	Parking    	 205.045	   0.000	 205.045		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=937.816528
+
+Score : 937.816528

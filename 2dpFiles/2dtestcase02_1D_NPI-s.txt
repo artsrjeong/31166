@@ -1,0 +1,54 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\2dtestcase02_1D_NPI.2dp
+             Engine version : 050826
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : NPI-1D
+                   Run date : Mon Aug 29 15:13:31 2005
+
+       Number of passengers : 396
+                     floors : 12 (10 + 1 pit + 1 overhead)
+                  hoistways : 6
+                       cars : 6
+
+             Time simulated : 1003.470
+                Normal runs : 244
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 245
+ Closest margin (time, hwy) : 100000.000 (0.000, 0)
+
+  Destination registrations : 37
+    Hall call registrations : 30
+           Re-registrations : 0
+ Avg registration time (AP) : 11.953
+ Max registration time (AP) : 22.602
+      Avg waiting time (AP) : 4.435
+      Max waiting time (AP) : 22.602
+           Avg service time : 56.324
+           Max service time : 122.088
+
+ Avg registration time (CP) : 9.814
+ Max registration time (CP) : 20.346
+      Avg waiting time (CP) : 3.207
+      Max waiting time (CP) : 20.346
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    9        0         17        0.000         0         0.000
+    8        0         22        0.000         0         0.000
+    7        0         50        0.000         0         0.000
+    6        0         65        0.000         0         0.000
+    5        0         66        0.000         0         0.000
+    4        0         22        0.000         0         0.000
+    3        0         66        0.000         0         0.000
+    2        0         66        0.000         0         0.000
+    1        0         22        0.000         0         0.000
+    0      396          0        5.730        23         4.986
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)

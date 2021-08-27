@@ -1,0 +1,96 @@
+/* U10 Project: @(#)infrng.l	1.1	3/23/95	14:22:53 */
+/*********************************************************************
+;  File Name: INFRNG.L - Local Ring Communication Data
+;
+;  File Description:
+;  This file contains functions which support ring communications.
+;  These files are reentrant.
+; 
+; 
+;  This work and the information it contains are the confidential
+;  property of Otis Elevator Company ("Otis").  It is delivered on
+;  the express condition that it will be used only for, or on
+;  behalf of, Otis; that neither it nor the information it contains
+;  will be reproduced, distributed or disclosed, in whole or in part,
+;  without the written consent of Otis; and that on demand it and any
+;  copies will be promptly returned.
+;
+;  Unpublished work - Copyright 1995 Otis Elevator Company
+;  All rights reserved.
+;
+;
+;  Revision History:
+;
+;  SCN                   Author	                       Date
+;  ------------------------------------------------------------------------
+;  A1730203BAA           Geoff Mochau                  02 February 1995
+;  - SCR 30203-38: Created (renamed) module from "infrng_l.h".
+;
+;  J1830203AAA           Hideyuki Honma                08 June 1995
+;  - SCR 30203-5002: Support Dual Up Peak 
+;********************************************************************/
+
+/*********************************************************************
+; Public Constants
+**********************************************************************/
+/* NONE */
+
+/*** Public Data Definitions ****************************************/
+/* NONE */
+
+/*** Local Data Types ***********************************************/
+/* NONE */
+
+/*** Local Data Definitions *****************************************/
+FLAG_T	infrng_toggleFlag;		/* toggle bit for hall crowd	*/
+BYTE_T  old_number_of_cars;		/* old car count		*/
+BYTE_T  number_of_cars;			/* present car count		*/
+FLAG_T  infrng_carWasAvailableFlags[MAX_OCSS];
+
+/**************************************************************************
+;  Function Prototypes
+;*************************************************************************/
+void  test_call_reassignment(BYTE_T car, BYTE_T landing, INT_T callmask);
+//DBD void  test_new_hall_call(BYTE_T landing, BYTE_T callmask, BYTE_T riser);
+
+#ifndef PC_SIMUL
+void  test_new_hall_call(BYTE_T landing, BYTE_T callmask, BYTE_T riser, BYTE_T destPos);
+#endif
+
+//SGO
+void  receive_cancel_hall_call(BYTE_T landing, INT_T callmask, BYTE_T car, BYTE_T riser);
+
+void  test_new_dup_call(BYTE_T landing, BYTE_T callmask, BYTE_T call_origin);
+void  receive_cancel_dup_call(BYTE_T landing, INT_T callmask, BYTE_T car);
+
+void  init_stopping_info(BYTE_T landing, INT_T callmask, BYTE_T car);
+void  update_stopping_info(BYTE_T car);
+void  test_epbhc_trigger(BYTE_T car);
+void  test_lobby_departure(BYTE_T car);
+void  test_lobby_arrival(BYTE_T car);
+void  process_grp_request (BYTE_T origin, BYTE_T state, BYTE_T type);
+void  process_grp_status (BYTE_T origin, BYTE_T state, BYTE_T type);
+void  ring_tout(BYTE_T *ptr, BYTE_T ring);
+void  tll_update (BYTE_T *msg_ptr, BYTE_T msg_type);
+void  tll_transmit (BYTE_T *ptr, BYTE_T ring);
+BYTE_T ocss_car_cnt();
+void  ocss_trans_car_cnt(BYTE_T loc_cig_mask);
+void  status_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  dispatch_answer_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  enter_cancel_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  ic_request_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  fpd_security_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  ic_update_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  adv_dispatcher_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  local_contract_msg(BYTE_T *msg_ptr, BYTE_T ring_num);
+void  process_msg (BYTE_T *msg_ptr, BYTE_T ring_num);
+void  process_origin (BYTE_T *msg_ptr, BYTE_T ring_num);
+void  ring_com(BYTE_T ring_num, BYTE_T port_num, BYTE_T error_num,
+ 	       QUEUE_T *ring_q_ptr);
+void  ring_proc(BYTE_T *ring_msg, BYTE_T ring_num, QUEUE_T *ring_q_ptr);
+BYTE_T count_assigned_to_call (BYTE_T landing, INT_T callmask, BYTE_T riser);
+void test_approaching_stop(BYTE_T car);
+
+void sro1_reassign_tsk();
+void sgo1_reassign_tsk();
+

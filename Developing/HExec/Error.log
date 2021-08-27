@@ -1,0 +1,610 @@
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 11:06:13 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 11:15:50 2005
+
+MakeBreakPointTableB: car 0, dir -2 at t=19.365610
+GetTraversalTime 4: car 0 oper 4 (5->8) 19.365610 27.261832 / 20.000000 20.000000 [30.000000]
+GetNextCommittableFloor 3: car 0, time into run 0.000000 dir=-2 at t=19.365610
+GetNextCommittableFloor 3: car 0, time into run 0.000000 dir=-2 at t=19.365610
+GetNextCommittableFloor 3: car 0, time into run 0.000000 dir=-2 at t=19.365610
+GetNextCommittableFloor 3: car 0, time into run 0.500000 dir=-2 at t=20.315610
+GetNextCommittableFloor 3: car 0, time into run 0.500000 dir=-2 at t=20.315610
+GetNextCommittableFloor 3: car 0, time into run 0.500000 dir=-2 at t=20.315610
+GetNextCommittableFloor 3: car 0, time into run 3.223111 dir=-2 at t=23.038721
+GetNextCommittableFloor 3: car 0, time into run 3.223111 dir=-2 at t=23.038721
+GetNextCommittableFloor 3: car 0, time into run 3.223111 dir=-2 at t=23.038721
+GetNextCommittableFloor 3: car 0, time into run 3.723111 dir=-2 at t=23.538721
+GetNextCommittableFloor 3: car 0, time into run 3.723111 dir=-2 at t=23.538721
+GetNextCommittableFloor 3: car 0, time into run 3.723111 dir=-2 at t=23.538721
+GetNextCommittableFloor 3: car 0, time into run 4.223111 dir=-2 at t=24.038721
+GetNextCommittableFloor 3: car 0, time into run 4.223111 dir=-2 at t=24.038721
+GetNextCommittableFloor 3: car 0, time into run 4.223111 dir=-2 at t=24.038721
+GetNextCommittableFloor 3: car 0, time into run 6.946222 dir=-2 at t=26.761832
+GetNextCommittableFloor 3: car 0, time into run 6.946222 dir=-2 at t=26.761832
+GetNextCommittableFloor 3: car 0, time into run 6.946222 dir=-2 at t=26.761832
+GetNextCommittableFloor 3: car 0, time into run 7.446222 dir=-2 at t=27.261832
+GetNextCommittableFloor 3: car 0, time into run 7.446222 dir=-2 at t=27.261832
+GetNextCommittableFloor 3: car 0, time into run 7.446222 dir=-2 at t=27.261832
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 11:20:50 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 11:38:20 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 11:39:22 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 14:46:00 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 14:48:49 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 14:57:23 2005
+
+RecordData 2: simulation ends with 2 left on floor 0
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+GetDisplayedPosition 1: car 4, time into run 12.350000 vs 0.000000 at t=15.840000
+GetNextCommittableFloor 2: car 4 at 0 at t=15.840000
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 14:58:55 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 14:59:05 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Fri Jul 15 15:44:22 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:05:36 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:17:24 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:19:45 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:29:18 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:38:21 2005
+
+GetTraversalTime 4: car 4 oper 4 (6->1) 34.790000 44.740000 / 24.000000 44.000000 [6.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:39:47 2005
+
+GetTraversalTime 4: car 0 oper 11 (8->0) 65.850000 78.800000 / 32.000000 64.000000 [2.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:40:10 2005
+
+GetTraversalTime 4: car 0 oper 11 (8->0) 65.850000 78.800000 / 32.000000 64.000000 [2.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:46:31 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 10:51:49 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 11:01:03 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 11:03:12 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 11:14:26 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 11:19:42 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 11:50:07 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 13:51:32 2005
+
+GetTraversalTime 4: car 0 oper 11 (8->0) 65.850000 78.800000 / 32.000000 64.000000 [2.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 14:18:37 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 14:29:25 2005
+
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=23.680000
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=27.170000
+UpdateTarget 7: idle car 1 dir 0 now with 3 calls at t=27.170000
+UpdateTarget 7: idle car 1 dir 0 now with 3 calls at t=28.120000
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 14:30:09 2005
+
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=23.680000
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 14:52:06 2005
+
+GetTraversalTime 4: car 1 oper 11 (8->0) 62.720074 75.670074 / 32.000000 64.000000 [2.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 14:53:18 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 15:16:49 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 15:22:40 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 15:31:53 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 15:39:07 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 15:46:35 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 15:47:15 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 16:37:39 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 16:37:45 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 16:59:04 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:05:50 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:07:19 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:11:35 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:13:45 2005
+
+GetTraversalTime 4: car 0 oper 11 (8->6) 43.578908 50.207817 / 32.000000 40.000000 [26.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:14:17 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:19:59 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:23:06 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:27:09 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:31:14 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Mon Jul 18 17:32:33 2005
+
+GetTraversalTime 4: car 0 oper 4 (4->7) 44.696739 52.592961 / 16.000000 4.000000 [26.000000]
+GetTraversalTime 4: car 0 oper 11 (8->1) 22.350000 34.300000 / 32.000000 60.000000 [6.000000]
+RecordData 2: simulation ends with 1 left on floor 7
+GetTraversalTime 4: car 0 oper 4 (4->7) 44.696739 52.592961 / 16.000000 4.000000 [26.000000]
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Thu Jul 28 19:41:47 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Thu Jul 28 19:42:52 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Thu Jul 28 19:43:19 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Thu Jul 28 19:46:49 2005
+
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Thu Jul 28 19:48:35 2005
+
+ScanCalls 3: 10 10 11 c=1 0 -1 10 t=57.088167
+UpdateTarget 7: idle car 2 dir 0 now with 2 calls at t=87.231417
+UpdateTarget 7: idle car 2 dir 0 now with 4 calls at t=118.647584
+ScanCalls 3: 19 19 20 c=3 0 -1 19 t=124.040917
+UpdateTarget 7: idle car 2 dir 0 now with 4 calls at t=125.571584
+ScanCalls 3: 6 5 6 c=0 0 -1 6 t=159.239946
+UpdateTarget 5: 2 17 17 commitment 182.899345 (182.035345 185.753512) at t=185.450000
+GetNextCommittableFloor 2: car 2 at 16 at t=185.450000
+GetNextCommittableFloor 2: car 2 at 16 at t=185.450000
+GetNextCommittableFloor 2: car 2 at 16 at t=185.450000
+GetDisplayedPosition 1: car 2, time into run 3.414655 vs 0.000000 at t=185.450000
+GetDisplayedPosition 1: car 2, time into run 3.414655 vs 0.000000 at t=185.450000
+GetNextCommittableFloor 2: car 2 at 16 at t=185.450000
+GetNextCommittableFloor 2: car 2 at 16 at t=185.753512
+GetNextCommittableFloor 2: car 2 at 16 at t=185.753512
+GetDisplayedPosition 1: car 2, time into run 3.718167 vs 0.000000 at t=185.753512
+GetNextCommittableFloor 2: car 2 at 16 at t=185.779310
+GetDisplayedPosition 1: car 2, time into run 3.743964 vs 0.000000 at t=185.779310
+GetNextCommittableFloor 2: car 2 at 16 at t=188.279310
+GetNextCommittableFloor 2: car 2 at 16 at t=188.279310
+GetDisplayedPosition 1: car 2, time into run 6.243964 vs 0.000000 at t=188.279310
+GetNextCommittableFloor 2: car 2 at 16 at t=188.328488
+GetDisplayedPosition 1: car 2, time into run 6.293143 vs 0.000000 at t=188.328488
+GetNextCommittableFloor 2: car 2 at 16 at t=188.995155
+GetDisplayedPosition 1: car 2, time into run 6.959810 vs 0.000000 at t=188.995155
+GetNextCommittableFloor 2: car 2 at 16 at t=190.515988
+GetDisplayedPosition 1: car 2, time into run 8.480643 vs 0.000000 at t=190.515988
+GetNextCommittableFloor 2: car 2 at 16 at t=191.182655
+GetDisplayedPosition 1: car 2, time into run 9.147310 vs 0.000000 at t=191.182655
+ScanCalls 3: 3 2 3 c=0 0 -1 3 t=196.379310
+UpdateTarget 7: idle car 0 dir 0 now with 2 calls at t=239.596738
+GetTraversalTime 4: car 0 oper 4 (14->16) 404.145571 411.483167 / 49.770000 43.436000 [54.520500]
+GetTraversalTime 4: car 2 oper 4 (1->17) 476.437417 511.453298 / 4.500000 -50.271000 [57.687500]
+GetTraversalTime 4: car 2 oper 4 (1->20) 478.770000 516.882441 / 3.969668 -59.772000 [67.188500]
+UpdateTarget 7: idle car 0 dir 0 now with 2 calls at t=499.673833
+UpdateTarget 7: idle car 0 dir 0 now with 2 calls at t=503.440000
+UpdateTarget 7: idle car 0 dir 0 now with 3 calls at t=503.440000
+UpdateTarget 7: idle car 0 dir 0 now with 3 calls at t=514.344881
+ScanCalls 1: c=2 t=516.882441 -1 -1 -1 0 -1 0
+UpdateTarget 7: idle car 0 dir 0 now with 3 calls at t=520.942694
+UpdateTarget 7: idle car 0 dir 0 now with 3 calls at t=523.430000
+UpdateTarget 7: idle car 0 dir 0 now with 4 calls at t=523.430000
+ScanCalls 3: 4 4 5 c=1 0 -1 4 t=529.304095
+UpdateTarget 7: idle car 0 dir 0 now with 4 calls at t=530.834762
+HandleNewPassenger: pax 32 was rejected.
+
+
+////////////////////////////////////////////////////
+Engine version: 050616, time: Thu Jul 28 22:04:41 2005
+
+GetTraversalTime 3: car 1 oper 4 (5->3) 100.940000 99.751667
+UpdateTarget 3: 1:5->3 end of run 103.581000 at t=100.940000 index(-3)
+UpdateTarget 4: 1 5 3 end of run 91.989000 at t=100.940000
+UpdateTarget 5: 1 5 3 commitment 97.485000 (89.567000 91.989000) at t=100.940000
+GetDisplayedPosition 1: car 1, time into run 11.373000 vs 10.323667 at t=100.940000
+GetDisplayedPosition 1: car 1, time into run 11.373000 vs 10.323667 at t=100.940000
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=375.214333
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=377.191333
+GetNextCommittableFloor 2: car 1 at 10 at t=93.360000
+GetNextCommittableFloor 2: car 1 at 10 at t=93.360000
+GetDisplayedPosition 1: car 1, time into run 0.093261 vs 0.000000 at t=93.360000
+GetDisplayedPosition 1: car 1, time into run 0.093261 vs 0.000000 at t=93.360000
+GetNextCommittableFloor 2: car 1 at 10 at t=93.360000
+GetNextCommittableFloor 2: car 1 at 10 at t=93.716739
+GetDisplayedPosition 1: car 1, time into run 0.450000 vs 0.000000 at t=93.716739
+GetDisplayedPosition 1: car 1, time into run 0.450000 vs 0.000000 at t=93.716739
+GetNextCommittableFloor 2: car 1 at 10 at t=93.716739
+GetNextCommittableFloor 2: car 1 at 10 at t=93.811220
+GetDisplayedPosition 1: car 1, time into run 0.544481 vs 0.000000 at t=93.811220
+GetDisplayedPosition 1: car 1, time into run 0.544481 vs 0.000000 at t=93.811220
+GetNextCommittableFloor 2: car 1 at 10 at t=93.811220
+GetNextCommittableFloor 2: car 1 at 10 at t=93.880000
+GetNextCommittableFloor 2: car 1 at 10 at t=93.880000
+GetNextCommittableFloor 2: car 1 at 10 at t=93.880000
+GetDisplayedPosition 1: car 1, time into run 0.613261 vs 0.000000 at t=93.880000
+GetNextCommittableFloor 2: car 1 at 10 at t=94.216739
+GetDisplayedPosition 1: car 1, time into run 0.950000 vs 0.000000 at t=94.216739
+GetDisplayedPosition 1: car 1, time into run 0.950000 vs 0.000000 at t=94.216739
+GetNextCommittableFloor 2: car 1 at 10 at t=94.216739
+GetNextCommittableFloor 2: car 1 at 10 at t=94.257805
+GetDisplayedPosition 1: car 1, time into run 0.991066 vs 0.000000 at t=94.257805
+GetDisplayedPosition 1: car 1, time into run 0.991066 vs 0.000000 at t=94.257805
+GetNextCommittableFloor 2: car 1 at 10 at t=94.257805
+GetNextCommittableFloor 2: car 1 at 10 at t=94.311220
+GetDisplayedPosition 1: car 1, time into run 1.044481 vs 0.000000 at t=94.311220
+GetDisplayedPosition 1: car 1, time into run 1.044481 vs 0.000000 at t=94.311220
+GetNextCommittableFloor 2: car 1 at 10 at t=94.311220
+GetNextCommittableFloor 2: car 1 at 10 at t=94.757805
+GetDisplayedPosition 1: car 1, time into run 1.491066 vs 0.000000 at t=94.757805
+GetDisplayedPosition 1: car 1, time into run 1.491066 vs 0.000000 at t=94.757805
+GetNextCommittableFloor 2: car 1 at 10 at t=94.757805
+GetNextCommittableFloor 2: car 1 at 10 at t=95.158908
+GetDisplayedPosition 1: car 1, time into run 1.892170 vs 0.000000 at t=95.158908
+GetDisplayedPosition 1: car 1, time into run 1.892170 vs 0.000000 at t=95.158908
+GetNextCommittableFloor 2: car 1 at 10 at t=95.158908
+GetNextCommittableFloor 2: car 1 at 10 at t=95.257805
+GetDisplayedPosition 1: car 1, time into run 1.991066 vs 0.000000 at t=95.257805
+GetDisplayedPosition 1: car 1, time into run 1.991066 vs 0.000000 at t=95.257805
+GetNextCommittableFloor 2: car 1 at 10 at t=95.257805
+GetNextCommittableFloor 2: car 1 at 10 at t=95.658908
+GetDisplayedPosition 1: car 1, time into run 2.392170 vs 0.000000 at t=95.658908
+GetDisplayedPosition 1: car 1, time into run 2.392170 vs 0.000000 at t=95.658908
+GetNextCommittableFloor 2: car 1 at 10 at t=95.658908
+GetNextCommittableFloor 2: car 1 at 10 at t=96.058908
+GetDisplayedPosition 1: car 1, time into run 2.792170 vs 0.000000 at t=96.058908
+GetNextCommittableFloor 2: car 1 at 10 at t=96.058908
+GetDisplayedPosition 1: car 1, time into run 2.792170 vs 0.000000 at t=96.058908
+GetNextCommittableFloor 2: car 1 at 10 at t=96.058908
+GetNextCommittableFloor 2: car 1 at 10 at t=96.306193
+GetDisplayedPosition 1: car 1, time into run 3.039454 vs 0.000000 at t=96.306193
+GetNextCommittableFloor 2: car 1 at 10 at t=96.306193
+GetDisplayedPosition 1: car 1, time into run 3.039454 vs 0.000000 at t=96.306193
+GetNextCommittableFloor 2: car 1 at 10 at t=96.306193
+GetNextCommittableFloor 2: car 1 at 10 at t=96.806193
+GetDisplayedPosition 1: car 1, time into run 3.539454 vs 0.000000 at t=96.806193
+GetNextCommittableFloor 2: car 1 at 10 at t=96.806193
+GetDisplayedPosition 1: car 1, time into run 3.539454 vs 0.000000 at t=96.806193
+GetNextCommittableFloor 2: car 1 at 10 at t=96.806193
+GetNextCommittableFloor 2: car 1 at 10 at t=97.306193
+GetDisplayedPosition 1: car 1, time into run 4.039454 vs 0.000000 at t=97.306193
+GetNextCommittableFloor 2: car 1 at 10 at t=97.306193
+GetDisplayedPosition 1: car 1, time into run 4.039454 vs 0.000000 at t=97.306193
+GetNextCommittableFloor 2: car 1 at 10 at t=97.306193
+GetNextCommittableFloor 2: car 1 at 10 at t=97.558908
+GetNextCommittableFloor 2: car 1 at 10 at t=97.558908
+GetDisplayedPosition 1: car 1, time into run 4.292170 vs 0.000000 at t=97.558908
+GetNextCommittableFloor 2: car 1 at 10 at t=97.558908
+GetDisplayedPosition 1: car 1, time into run 4.292170 vs 0.000000 at t=97.558908
+GetNextCommittableFloor 2: car 1 at 10 at t=97.558908
+GetNextCommittableFloor 2: car 1 at 10 at t=97.811220
+GetDisplayedPosition 1: car 1, time into run 4.544481 vs 0.000000 at t=97.811220
+GetNextCommittableFloor 2: car 1 at 10 at t=97.811220
+GetDisplayedPosition 1: car 1, time into run 4.544481 vs 0.000000 at t=97.811220
+GetNextCommittableFloor 2: car 1 at 10 at t=97.811220
+GetNextCommittableFloor 2: car 1 at 10 at t=98.311220
+GetDisplayedPosition 1: car 1, time into run 5.044481 vs 0.000000 at t=98.311220
+GetNextCommittableFloor 2: car 1 at 10 at t=98.311220
+GetDisplayedPosition 1: car 1, time into run 5.044481 vs 0.000000 at t=98.311220
+GetNextCommittableFloor 2: car 1 at 10 at t=98.311220
+GetNextCommittableFloor 2: car 1 at 10 at t=98.515610
+GetDisplayedPosition 1: car 1, time into run 5.248871 vs 0.000000 at t=98.515610
+GetNextCommittableFloor 2: car 1 at 10 at t=98.515610
+GetDisplayedPosition 1: car 1, time into run 5.248871 vs 0.000000 at t=98.515610
+GetNextCommittableFloor 2: car 1 at 10 at t=98.515610
+GetNextCommittableFloor 2: car 1 at 10 at t=98.711220
+GetDisplayedPosition 1: car 1, time into run 5.444481 vs 0.000000 at t=98.711220
+GetNextCommittableFloor 2: car 1 at 10 at t=98.711220
+GetDisplayedPosition 1: car 1, time into run 5.444481 vs 0.000000 at t=98.711220
+GetNextCommittableFloor 2: car 1 at 10 at t=98.711220
+GetNextCommittableFloor 2: car 1 at 10 at t=99.015610
+GetDisplayedPosition 1: car 1, time into run 5.748871 vs 0.000000 at t=99.015610
+GetNextCommittableFloor 2: car 1 at 10 at t=99.015610
+GetDisplayedPosition 1: car 1, time into run 5.748871 vs 0.000000 at t=99.015610
+GetNextCommittableFloor 2: car 1 at 10 at t=99.015610
+GetNextCommittableFloor 2: car 1 at 10 at t=99.395647
+GetDisplayedPosition 1: car 1, time into run 6.128908 vs 0.000000 at t=99.395647
+GetNextCommittableFloor 2: car 1 at 10 at t=99.395647
+GetDisplayedPosition 1: car 1, time into run 6.128908 vs 0.000000 at t=99.395647
+GetNextCommittableFloor 2: car 1 at 10 at t=99.395647
+GetNextCommittableFloor 2: car 1 at 10 at t=99.415610
+GetDisplayedPosition 1: car 1, time into run 6.148871 vs 0.000000 at t=99.415610
+GetNextCommittableFloor 2: car 1 at 10 at t=99.415610
+GetDisplayedPosition 1: car 1, time into run 6.148871 vs 0.000000 at t=99.415610
+GetNextCommittableFloor 2: car 1 at 10 at t=99.415610
+GetNextCommittableFloor 2: car 1 at 10 at t=99.895647
+GetDisplayedPosition 1: car 1, time into run 6.628908 vs 0.000000 at t=99.895647
+GetNextCommittableFloor 2: car 1 at 10 at t=99.895647
+GetDisplayedPosition 1: car 1, time into run 6.628908 vs 0.000000 at t=99.895647
+GetNextCommittableFloor 2: car 1 at 10 at t=99.895647
+GetNextCommittableFloor 2: car 1 at 10 at t=100.211220
+GetNextCommittableFloor 2: car 1 at 10 at t=100.211220
+GetDisplayedPosition 1: car 1, time into run 6.944481 vs 0.000000 at t=100.211220
+GetDisplayedPosition 1: car 1, time into run 6.944481 vs 0.000000 at t=100.211220
+GetNextCommittableFloor 2: car 1 at 10 at t=100.211220
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=100.295647
+GetTraversalTime 4: car 1 oper 11 (9->11) 107.324555 113.953464 / 36.000000 28.000000 [42.000000]
+UpdateTarget 7: idle car 1 dir 0 now with 3 calls at t=114.353464
+GetTraversalTime 4: car 4 oper 4 (1->0) 116.161220 121.142348 / 4.000000 8.000000 [2.000000]
+UpdateTarget 7: idle car 1 dir 0 now with 3 calls at t=165.060000
+MakeBreakPointTableB: car 4, dir 0 at t=197.391129
+GetTraversalTime 4: car 4 oper 11 (1->0) 197.391129 202.372258 / 4.000000 4.000000 [2.000000]
+GetNextCommittableFloor 3: car 4, time into run 0.000000 dir=0 at t=197.391129
+GetNextCommittableFloor 3: car 4, time into run 0.000000 dir=0 at t=197.391129
+GetNextCommittableFloor 3: car 4, time into run 0.030703 dir=0 at t=197.421832
+GetNextCommittableFloor 3: car 4, time into run 0.030703 dir=0 at t=197.421832
+GetNextCommittableFloor 3: car 4, time into run 0.038608 dir=0 at t=197.429737
+GetNextCommittableFloor 3: car 4, time into run 0.038608 dir=0 at t=197.429737
+GetNextCommittableFloor 3: car 4, time into run 0.327779 dir=0 at t=197.718908
+GetNextCommittableFloor 3: car 4, time into run 0.327779 dir=0 at t=197.718908
+GetNextCommittableFloor 3: car 4, time into run 0.500000 dir=0 at t=198.341129
+GetNextCommittableFloor 3: car 4, time into run 0.500000 dir=0 at t=198.341129
+GetNextCommittableFloor 3: car 4, time into run 1.765564 dir=0 at t=199.606693
+GetNextCommittableFloor 3: car 4, time into run 1.765564 dir=0 at t=199.606693
+GetNextCommittableFloor 3: car 4, time into run 2.080703 dir=0 at t=199.921832
+GetNextCommittableFloor 3: car 4, time into run 2.080703 dir=0 at t=199.921832
+GetNextCommittableFloor 3: car 4, time into run 2.265564 dir=0 at t=200.106693
+GetNextCommittableFloor 3: car 4, time into run 2.265564 dir=0 at t=200.106693
+GetNextCommittableFloor 3: car 4, time into run 2.765564 dir=0 at t=200.606693
+GetNextCommittableFloor 3: car 4, time into run 2.765564 dir=0 at t=200.606693
+GetNextCommittableFloor 3: car 4, time into run 3.030703 dir=0 at t=200.871832
+GetNextCommittableFloor 3: car 4, time into run 3.030703 dir=0 at t=200.871832
+GetNextCommittableFloor 3: car 4, time into run 4.031129 dir=0 at t=201.872258
+GetNextCommittableFloor 3: car 4, time into run 4.031129 dir=0 at t=201.872258
+GetNextCommittableFloor 3: car 4, time into run 4.188608 dir=0 at t=202.029737
+GetNextCommittableFloor 3: car 4, time into run 4.188608 dir=0 at t=202.029737
+GetNextCommittableFloor 3: car 4, time into run 4.296267 dir=0 at t=202.137396
+GetNextCommittableFloor 3: car 4, time into run 4.296267 dir=0 at t=202.137396
+GetNextCommittableFloor 3: car 4, time into run 4.477779 dir=0 at t=202.318908
+GetNextCommittableFloor 3: car 4, time into run 4.477779 dir=0 at t=202.318908
+GetNextCommittableFloor 3: car 4, time into run 4.531129 dir=0 at t=202.372258
+GetNextCommittableFloor 3: car 4, time into run 4.531129 dir=0 at t=202.372258
+RecordData 2: simulation ends with 1 left on floor 0
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=48.850000
+UpdateTarget 7: idle car 1 dir 0 now with 2 calls at t=56.770000
+UpdateTarget 7: idle car 1 dir 0 now with 3 calls at t=56.770000
+UpdateTarget 7: idle car 1 dir 0 now with 3 calls at t=60.950000
+UpdateTarget 7: idle car 1 dir 0 now with 4 calls at t=60.950000
+UpdateTarget 7: idle car 1 dir 0 now with 4 calls at t=63.450000
+UpdateTarget 7: idle car 1 dir 0 now with 5 calls at t=63.450000
+UpdateTarget 7: idle car 1 dir 0 now with 5 calls at t=65.300000
+UpdateTarget 7: idle car 1 dir 0 now with 6 calls at t=65.300000
+UpdateTarget 7: idle car 1 dir 0 now with 6 calls at t=68.720000
+UpdateTarget 7: idle car 1 dir 0 now with 7 calls at t=68.720000
+UpdateTarget 7: idle car 1 dir 0 now with 7 calls at t=68.870000
+UpdateTarget 7: idle car 1 dir 0 now with 8 calls at t=68.870000
+UpdateTarget 7: idle car 1 dir 0 now with 8 calls at t=73.010000
+UpdateTarget 7: idle car 1 dir 0 now with 9 calls at t=73.010000
+UpdateTarget 7: idle car 1 dir 0 now with 9 calls at t=73.480000
+UpdateTarget 7: 
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Fri Nov 04 06:51:00 2005
+
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=55.865333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=55.916333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=55.865333
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=60.043333
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=41.527667
+IsValidTargetCommand: target(2) ncf(2) oper(0) dir(4) at t=89.810667
+IsValidTargetCommand: target(2) ncf(2) oper(0) dir(4) at t=122.412667
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=32.927667
+IsValidTargetCommand: target(3) ncf(3) oper(0) dir(4) at t=87.063000
+IsValidTargetCommand: target(0) ncf(0) oper(0) dir(11) at t=87.063000
+IsValidTargetCommand: target(2) ncf(2) oper(0) dir(4) at t=89.108000
+IsValidTargetCommand: target(0) ncf(0) oper(0) dir(11) at t=79.098667
+IsValidTargetCommand: target(2) ncf(2) oper(0) dir(4) at t=79.571333
+IsValidTargetCommand: target(8) ncf(8) oper(0) dir(4) at t=74.567333
+IsValidTargetCommand: target(8) ncf(8) oper(0) dir(4) at t=74.567333
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=13.927667
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=73.741000
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=74.693000
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=13.927667
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=73.741000
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=74.693000
+IsValidTargetCommand: target(9) ncf(9) oper(0) dir(4) at t=90.702000
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=19.927667
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=74.693000
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=74.792333
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=19.927667
+IsValidTargetCommand: target(10) ncf(10) oper(0) dir(11) at t=75.193000
+IsValidTargetCommand: target(7) ncf(7) oper(0) dir(4) at t=75.292333
+
+
+////////////////////////////////////////////////////
+Engine version: 0501025A, time: Thu Nov 10 23:46:03 2005
+

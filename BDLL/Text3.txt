@@ -1,0 +1,1242 @@
+#ifdef CAGS
+unsigned char beforehallcalls[8];
+#endif
+/* U10 Project: @(#)crisprrt.c	1.3	3/23/95	14:22:35 */
+/**************************************************************************
+;  File Name: CRISPRRT.C - Tasks and procedures for crisp rrt
+;                          estimator.
+;
+;  File Description:
+;
+;  Contains tasks and procedures for handling crisp RRT estimation.
+;
+;
+;  This work and the information it contains are the confidential
+;  property of Otis Elevator Company ("Otis").  It is delivered on
+;  the express condition that it will be used only for, or on
+;  behalf of, Otis; that neither it nor the information it contains
+;  will be reproduced, distributed or disclosed, in whole or in part,
+;  without the written consent of Otis; and that on demand it and any
+;  copies will be promptly returned.
+;
+;  Unpublished work - Copyright 1994 - 1995 Otis Elevator Company
+;  All rights reserved.
+;
+;
+;  Revision History:
+;
+;  SCN                   Author                        Date
+;  ------------------------------------------------------------------------
+;  A1730203BAA           Mark Ross                     19 December 1994
+;  - SCR 30203-139
+;    Created module. Functions in this module were originally contained
+;    in the "ica.c" module.
+;
+;  A1730203BAA           Geoff Mochau                  02 February 1995
+;  - SCR 30203-38: Reference renamed modules.
+;
+;  Transamerica          Geoff Mochau                  20 February 1995
+;  - Removed Advanced-Predirection Metrics to limit RAM requirements.
+;
+;  J1830203AAA
+;  - SCR 30203-5008       H.Honma                           26 May 1995 
+;    Update parameter list to _caluculate_rrt()  
+;
+;  J1830203AAA
+;  - SCR 30203-5011       H.Honma                           26 May 1995 
+;    Correct Condition for RSR_IMMEDIATE Logic
+;
+;  J1830203AAA
+;  - SCR 30203-5037       H.Honma                           26 May 1995 
+;    Correct Condition of STOPPING_HALL_CALL_FLAG
+;
+;  - SCR 30203-5017       H.Honma                           29 May  1995 
+;    Support Wheelchair Mode as Extended Car Calls/Hall Calls 
+;    Change call mask type BYTE_T to INTEGER  
+;
+;  - SCR 30203-5015       H.Honma                           29 May  1995 
+;    Update advanced next commitable floor logic 
+;   
+;  - SCR 30203-5004       H.Honma (Suzuki)                  30 May 1995 
+;    Use LCADS information
+;                                                           11 June 1995
+;  - SCR 30203-5035:  Support Door Re-Open Dispatching
+;  - SCR 30203-5036:  Support Nudging stat of door     
+;
+;  - SCR 30203-5057      H.Honma                           25 Sep 1995
+;    WCS Mode Operation Service                          
+;
+;  - AAB302032AA        Mark Ross                        20 Oct 1995
+;    SCR 30203-244: OTI SCR 5057. WCS Mode Operation Service                          
+;    Modified for readability.
+;
+;  J2130203AAA           H.Honma                            30 Nov 1995
+;  - SCR 30203-5068: Consider operational mode with
+;     Neural Network    
+;
+;  - AAB302032AA        Mark Ross                       19 Dec 1995
+;    SCR 30203-253: OTI SCR 5068.  Consider DHB, DOS,
+;    DCP, and WCS for neural network by moving code from
+;    individual rrt modules (crisprrt.c, minrrt.c, ect...) to rrt.c 
+;    which is common to all forms of the rrt calculation.
+;
+;  JAB-30203-AAB         Hideyuki Honma                   01  Apr 1996
+;  - SCR 5075:  Correct RSR_IMMEDIATE logic
+;
+;  JAB-30203-AAB         Hideyuki Honma                   08  Apr 1996
+;  - SCR 5078:  Correct RRT calculation logic of "crisprrt.c"
+;
+;*************************************************************************/
+#include "common.h"
+#ifdef CAGS
+#include "global.lit"
+#include "global.h"
+#endif
+
+/**************************************************************************
+;  Public Declarations
+;*************************************************************************/
+#define EXTERN extern   /* declare public variables */
+#ifndef CAGS
+#include "infocs.h"
+#include "inferr.h"
+#include "sio.h"
+#include "exec.h"
+#include "infrng.h"
+#endif
+
+#include "e2p.h"
+#include "infmsg.h"
+#include "infbld.h"
+//#include "density.h"
+#include "aarule.h"
+#include "predir.h"
+#include "autoadj.h"
+#include "rrt.h"
+#include "asslib.h"
+#include "assign.h"
+#include "infads.h"
+#include "park.h"
+#undef EXTERN
+
+
+/**************************************************************************
+;  Public Definitions
+;*************************************************************************/
+#define EXTERN          /* define public variables */
+#include "crisprrt.h"
+#undef EXTERN
+
+
+/**************************************************************************
+;  Local Definitions
+;*************************************************************************/
+/* none */
+
+/**************************************************************************
+;---------------------------------------------------------------------------
+;  P U B L I C   C R I S P   R R T   F U N C T I O N S
+;---------------------------------------------------------------------------
+;***************************************************************************
+;
+;
+;********************************************************************/
+
+/*********************************************************************
+; Function Name: crisprrt_calculate_rrt
+;
+; Calculates the RRT value for a particular hall call, for each car. 
+;
+;
+; Parameters: car           - car ID
+;             pos           - landing where call has been entered
+;             mask          - type of call (hall call only)
+;             pre_dir       - predirection of car
+;             coinc_type    - set to coincident call type
+;	      distance      - distance
+;
+;********************************************************************/
+INT_T crisprrt_calculate_rrt(BYTE_T car, BYTE_T pos, BYTE_T dstPos, INT_T mask, BYTE_T pre_dir, 
+                      FLAG_T *coinc_cc_flag, BYTE_T *coinc_type, BYTE_T *distance,BYTE_T *distance2,BYTE_T *spareCap)
+{
+ INT_T  rrt;
+ FLAG_T stopping_flag, stopping_hall_call_flag;
+ FLAG_T temp_bottom_cc_flag, temp_top_cc_flag;
+ INT_T  highest_call_pos, lowest_call_pos;
+ FLAG_T highest_call_rev_flag, lowest_call_rev_flag;
+ INT_T  calls_dir;
+ FLAG_T ez_running_flag;
+ BYTE_T local_NCF,i;
+ FLAG_T tempflag1, tempflag2;
+ INT_T  e_mask;
+
+    /* I N I T I A L I Z E   F L A G S */
+    /* ------------------------------- */
+
+     *distance = 0;
+     *distance2 = 0;
+
+     //DBD
+     *coinc_cc_flag = FALSE;
+     *coinc_type = 0;
+
+
+    /* D E F I N E   L O C A L _ N E X T _ C O M M */
+    /* ------------------------------------------- */
+    local_NCF = ocss_info[car].NCF;
+	/*jsr 
+	아마도 ocss 와의 통신 Delay를 고려하여 NCF에 조금더 여유를 줌
+	*/
+    /* If car is moving downwards, determine if next commitable position */
+    /* should be decremented to ensure that car can stop at landing.     */
+    /* ----------------------------------------------------------------- */
+    if (ocss_info[car].mov_dir == DOWN_DIR)
+    {
+       /* for eliminate passing dispatch H.honma */   
+        if (((ocss_info[car].actual_pos - ocss_info[car].NCF) >= 2) &&
+             (ocss_info[car].target_pos < ocss_info[car].NCF) ) 
+             local_NCF--;
+
+    } /* mov_dir == DOWN_DIR */
+    /* If car is moving upwards, determine if next commitable position */
+    /* should be incremented to ensure that car can stop at landing.   */
+    /* --------------------------------------------------------------- */
+    else if (ocss_info[car].mov_dir == UP_DIR)
+    {
+        /* for eliminate passing dispatch H.honma  */
+        if (((ocss_info[car].NCF - ocss_info[car].actual_pos) >= 2) &&
+             (ocss_info[car].target_pos > ocss_info[car].NCF) )
+             local_NCF++;
+
+    } /* mov_dir == UP_DIR */
+       
+
+       
+    /*  I N I T I A L I Z E   S T O P P I N G   F L A G  */
+    /*  -----------------------------------------------  */
+    /* Set stopping flag.  The stopping flag is true IF  */
+    /* Front and rear doors are closed, AND              */
+    /* the stopping position is the next commitable, AND */
+    /* the stopping call mask is not zero or there are   */
+    /* calls pending at the stopping position)           */ 
+    /*  -----------------------------------------------  */
+    stopping_flag = FALSE;
+/* jsr
+	문이 닫혀 있고 local_NCF 가 현재 위치와 다르면
+	
+*/
+	//jsr stopping flag 세팅
+    if ( (ocss_info[car].f_door_state == DOORS_CLOSED) || 
+         ((ocss_info[car].f_door_state == DOORS_CLOSING) &&
+         (local_NCF != ocss_info[car].actual_pos)) ) 
+       { 
+         /* if calls are or were pending, set flag */
+		   /*jsr
+			현재 멈춰 있고 call이 있으면
+		   */
+         if ( ( (ocss_info[car].stop_pos == local_NCF) &&
+              (ocss_info[car].stop_type != 0) )||
+            ( (ocss_info[car].target_pos == local_NCF) &&
+              (ocss_info[car].assigned_calls[local_NCF] != 0) ) )
+            {
+                stopping_flag = TRUE;
+            } /* calls are or were pending */
+       } /* car doors closed */
+    
+    /* I N I T I A L I Z E   R R T */
+    /* --------------------------- */
+    rrt = RSR_MIN;  //relative system response
+
+    /* I N I T I A L I Z E   C A L L   D I R E C T I O N */
+    /* ------------------------------------------------- */
+    /* Based on direction of call, define call direction */
+    /* ------------------------------------------------- */
+    if ( (mask & S_UHC) != 0)
+    {
+       calls_dir = UP_DIR;
+    }
+    else
+    {
+       calls_dir = DOWN_DIR;
+    }
+    
+    /* U P D A T E   S T O P P I N G _ H A L L _ C A L L _ F L A G */ 
+    /*---------------------------------------------------------------------*/
+    stopping_hall_call_flag = FALSE;
+
+
+    //DBD-honma spcap  22Mar04
+    //If the cas has the hall call already.
+    /*
+    if ((ocss_info[car].assigned_calls[pos] & mask) != 0)
+    {
+       *spareCap += asslib_DbdAssignCallDirCnts[car][calls_dir][pos];
+    }
+   */
+
+    /* Calls/Hall Calls added extend call h.honma */                                               
+    /*--------------------------------------------------------------------------*/
+    if ((mask & S_FUHC) != 0)      e_mask = E_FUHC + E_FCC;
+    else if ((mask & S_FDHC) != 0) e_mask = E_FDHC + E_FCC;
+
+    if (((ocss_info[car].f_door_state == DOORS_CLOSED) || 
+         (ocss_info[car].f_door_state == DOORS_CLOSING)) &&
+         (ocss_info[car].target_pos == local_NCF) &&
+       (((ocss_info[car].assigned_calls[local_NCF] & (e_mask + mask + S_CC)) != 0) ||
+        ((ocss_info[car].stop_type & (e_mask + mask + S_CC)) != 0)))
+        {
+			/*jsr
+			닫혀 있고 target_pos이 local_NCF 이면서 call 이 있으면
+
+			*/
+           stopping_hall_call_flag = TRUE;
+        }
+    
+       /* B E G I N   R R T   P R O C E S S I N G */
+       /* --------------------------------------- */
+
+       
+       /* If the car is in a valid EZ with dummy floors, */
+       /* set the EZ flag true.                          */
+       /* ---------------------------------------------- */
+       ez_running_flag = FALSE;
+
+       if( (ocss_info[car].ez_type != 0) &&
+           (ocss_info[car].ez_bottom_pos >= ocss_info[car].bottom_pos) &&
+           (ocss_info[car].ez_bottom_pos < ocss_info[car].top_pos) &&
+           (ocss_info[car].ez_top_pos <= ocss_info[car].top_pos) &&
+           (ocss_info[car].ez_top_pos > ocss_info[car].bottom_pos) &&
+           (ocss_info[car].ez_bottom_pos <= ocss_info[car].ez_top_pos) )
+          {
+			  /*jsr
+				express Zone안에 있으면
+
+			  */
+             if ( (local_NCF <= ocss_info[car].ez_top_pos) &&
+                  (local_NCF >= ocss_info[car].ez_bottom_pos) )
+                     ez_running_flag = TRUE;
+          }
+       
+       
+       /* Calculate RRT for a car traveling DOWN, REVERSING   */
+       /* direction, and traveling UP to the hall call floor. */
+       /* --------------------------------------------------- */
+       if ( (calls_dir == UP_DIR) && (pre_dir == DOWN_DIR) )
+       {
+			 //advanced dispath system.
+             ads_CallPrediction(car,local_NCF,
+                                   ocss_info[car].bottom_pos,
+                                   S_DHC,FALSE,TRUE);
+
+             //DBDSP
+             lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,TRUE);
+     
+             if (lowest_call_pos != pos)  
+                lowest_call_rev_flag = TRUE;
+             else 
+             { 
+                lowest_call_rev_flag = FALSE;
+                car_call_pred[pos][DOWN_DIR-1]=FALSE;
+             }
+          
+             /*--------------------------------------------------------------*/
+             //DBDSP
+             rrt += rrt_run_simulation(car,
+                                       local_NCF,
+                                       lowest_call_pos,
+                                       (S_DHC + S_CC + E_CC),
+                                       stopping_flag,
+                                       lowest_call_rev_flag,
+                                       distance,distance2,TRUE,
+                                       FALSE,spareCap);  //spcap
+          
+             ads_CallPrediction(car,lowest_call_pos,pos,S_UHC,TRUE,FALSE);
+          
+             /*----------------------------------------------------------------*/
+             rrt += rrt_run_simulation(car,
+                                       lowest_call_pos,
+                                       pos,
+                                       S_UHC,
+                                       TRUE,
+                                       FALSE,
+                                       distance,distance2,FALSE,
+                                       1,spareCap); //spcap
+             //DBD  Coincident Check
+             if ((asslib_DbdExpectCalls[car][pos] & DBD_SUCC) != 0)
+               {
+                 *coinc_cc_flag = TRUE;
+                 *coinc_type |= CC_HCwithDCC;
+               }
+
+             //DBD 30Jan04  Honma
+             //Check if the hallcall's destination have coincident car calls. 
+             // 10Feb04
+             if (((asslib_DbdExpectCalls[car][dstPos] & DBD_SUCC) != 0) ||
+                 ((ocss_info[car].assigned_calls[dstPos] & S_UHC) != 0))
+               { 
+                 *coinc_cc_flag = FALSE;
+                 *coinc_type |= CC_DCCwithDCC;
+
+                 if ((ocss_info[car].assigned_calls[dstPos] & S_UHC) != 0)
+                   {
+                    *coinc_cc_flag = FALSE; // shs : no need to specify because upper part alread set it
+                    *coinc_type |= CC_DCCwithHC;
+                   }
+               }
+
+             /* Calculate Express Zone run time if car is in express */
+             /* zone with no demand                                  */
+             /* -----------------------------------------------------*/
+             if ((pos > local_NCF) && (lowest_call_pos == local_NCF)
+                && (ez_running_flag == TRUE))
+               { 
+                  rrt += 2*(local_NCF - ocss_info[car].ez_bottom_pos);
+                  //dojima
+                  rrt += RRT_SHORT_RUN;
+               }
+       } /* RRT for DOWN, REVERSAL, UP */
+       
+       
+       /* Else, calculate RRT for a car traveling UP, REVERSING */
+       /* direction, and traveling DOWN to the hall call floor. */
+       /* ----------------------------------------------------- */
+       else if ( (calls_dir == DOWN_DIR) && (pre_dir == UP_DIR) ) 
+       {
+             ads_CallPrediction(car,local_NCF,
+                                   ocss_info[car].top_pos,S_UHC,FALSE,TRUE);
+
+             highest_call_pos = ads_HighestPosition(car,local_NCF,pos,TRUE);
+       
+             if (highest_call_pos != pos)  
+                highest_call_rev_flag = TRUE;
+             else
+             { 
+               highest_call_rev_flag = FALSE;
+               car_call_pred[pos][UP_DIR-1]=FALSE;
+             }
+          
+             /*-----------------------------------------------------------------*/
+             //DBDSP
+             rrt += rrt_run_simulation(car,
+                                       local_NCF,
+                                       highest_call_pos,
+                                       (S_UHC + S_CC + E_CC),
+                                       stopping_flag,
+                                       highest_call_rev_flag,
+                                       distance,distance2,TRUE,
+                                       FALSE,spareCap); //spcap
+            
+
+             ads_CallPrediction(car,highest_call_pos,pos,S_DHC,TRUE,FALSE);
+
+             rrt += rrt_run_simulation(car,
+                                       highest_call_pos,
+                                       pos,
+                                       S_DHC,
+                                       TRUE,
+                                       FALSE,
+                                       distance,distance2,FALSE,
+                                       1,spareCap); //spcap
+
+             //DBD  Coincident Check
+             if ((asslib_DbdExpectCalls[car][pos] & DBD_SDCC) != 0)
+               {
+                 *coinc_cc_flag = TRUE;
+                 *coinc_type |= CC_HCwithDCC;
+               }
+
+             //DBD 30Jan04  Honma
+             //Check if the hallcall's destination have coincident car calls. 
+             // 10Feb04
+             if (((asslib_DbdExpectCalls[car][dstPos] & DBD_SDCC) != 0) || 
+                 ((ocss_info[car].assigned_calls[dstPos] & S_DHC) != 0))
+               { 
+                 *coinc_cc_flag = FALSE;
+                 *coinc_type |= CC_DCCwithDCC;
+
+                 if ((ocss_info[car].assigned_calls[dstPos] & S_DHC) != 0)
+                   {
+                    *coinc_cc_flag = FALSE; // shs_redundant
+                    *coinc_type |= CC_DCCwithHC;
+                   }
+               }
+
+             /* Calculate Express Zone run time if car is in express */
+             /* zone with no demand                                  */
+             /* -----------------------------------------------------*/
+             if ((pos < local_NCF) && (highest_call_pos == local_NCF)
+                && (ez_running_flag == TRUE))
+               { 
+                  rrt += 2*(ocss_info[car].ez_top_pos - local_NCF);
+                  //dojima
+                  rrt += RRT_SHORT_RUN;
+               }
+  
+       } /* RRT for UP, REVERSAL, DOWN */
+       
+       
+       /* Else, the car is traveling in the direction of the hall */
+       /* call.  There are two possible reasons:  1) the call is  */
+       /* above the car, so no direction reversal is required;    */
+       /* 2) the call is below the car, requiring the car to      */
+       /* travel around the whole building.                       */
+       /* ------------------------------------------------------- */
+       else if ( (calls_dir == UP_DIR) && (pre_dir == UP_DIR) )
+       {
+
+         /* Tempflag1 is TRUE if doors are closed or closing. */
+         /* ------------------------------------------------- */
+         if (((ocss_info[car].f_door_state == DOORS_CLOSING) ||
+            (ocss_info[car].f_door_state == DOORS_CLOSED)) &&
+            ((ocss_info[car].r_door_state == DOORS_CLOSING) ||
+            (ocss_info[car].r_door_state == DOORS_CLOSED)))
+           {
+             if ((ocss_info[car].reopen_cnt!=255) &&
+                 (ocss_info[car].nudging_detect==FALSE) &&
+                 (ocss_info[car].f_door_state==DOORS_CLOSING))
+               {// reopen에 의해 Closing 하고 있다.
+                  tempflag1 = FALSE;  // shs tempflag1-> closing_flag
+               }
+            else
+                  tempflag1 = TRUE;
+           }
+		   //jsr 열려 있거나 nudging중이면
+         else
+           {
+              if ((ocss_info[car].reopen_cnt != 255)&&
+                 (ocss_info[car].nudging_detect==TRUE))
+                tempflag1 = TRUE;
+              else
+                tempflag1 = FALSE;
+           }
+  
+  
+         /* Tempflag2 is TRUE if...                       */
+         /* (car moving and call not assigned already) OR */
+         /* --------------------------------------------- */
+		 // shs_below block can be specified different way 
+		 // tempflag2 = !stopping_flag;
+		 // and tempflag2 is not good variable name -->moving_flag
+         if (stopping_flag == FALSE) 
+           {
+              tempflag2 = TRUE; 
+           } 
+         else
+           {
+              tempflag2 = FALSE;
+           }
+    
+         /* If the position is greater than the next commitable, OR */
+         /* ( 1)  The position is equal to the next commitable, AND */
+         /*   2)  The car has demand pending, AND                   */
+         /*   3)  car doors are closing or closed, AND              */
+         /*   4)  (car is moving AND no calls assigned) OR          */
+         /* ------------------------------------------------------- */
+         if ((pos < local_NCF) ||
+             (pos == local_NCF && ocss_info[car].allsummary != 0 &&
+             tempflag1 == TRUE &&
+             tempflag2 == TRUE) )
+           {
+              ads_CallPrediction(car,local_NCF,
+                                 ocss_info[car].top_pos,S_UHC,FALSE,TRUE);
+              highest_call_pos = ads_HighestPosition(car,local_NCF,pos,TRUE);
+              /*
+              if (highest_call_pos != pos)  highest_call_rev_flag = TRUE;
+              else                          highest_call_rev_flag = FALSE;
+              */
+
+              //DBDSP
+              rrt += rrt_run_simulation(car,
+                                        local_NCF,
+                                        highest_call_pos,
+                                        (S_UHC + S_CC + E_CC),
+                                        stopping_flag,
+                                        TRUE,
+                                        distance,distance2,TRUE,
+                                        FALSE,spareCap); //spcap
+
+              ads_CallPrediction(car,highest_call_pos,ocss_info[car].bottom_pos,S_DHC,FALSE,FALSE);
+              lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,FALSE);
+       
+
+              if (lowest_call_pos != pos)  lowest_call_rev_flag = TRUE;
+              else
+                { 
+                        lowest_call_rev_flag = FALSE;
+                        car_call_pred[pos][DOWN_DIR-1]=FALSE;
+                }
+
+              rrt += rrt_run_simulation(car,
+                                        highest_call_pos,
+                                        lowest_call_pos,
+                                        S_DHC,
+                                        TRUE,
+                                        lowest_call_rev_flag,
+                                        distance,distance2,FALSE,
+                                        FALSE,spareCap); //spcap
+
+              ads_CallPrediction(car,lowest_call_pos,pos,S_UHC,TRUE,FALSE);
+
+              rrt += rrt_run_simulation(car,
+                                        lowest_call_pos,
+                                        pos,
+                                        S_UHC,
+                                        TRUE,
+                                        FALSE,
+                                        distance,distance2,FALSE,
+                                        1,spareCap);
+
+              //DBD  Coincident Check   29Jan04 Honma
+              /* TestInProgress
+              if ((asslib_DbdExpectCalls[car][pos] & DBD_SDCC) != 0)
+                  *coinc_cc_flag = FALSE;
+              */
+              if ((asslib_DbdExpectCalls[car][pos] & DBD_SUCC) != 0)
+                {
+                  *coinc_cc_flag = TRUE;
+                  *coinc_type |= CC_HCwithDCC;
+                }
+
+
+              //DBD 30Jan04  Honma
+              //Check if the hallcall's destination have coincident car calls. 
+              if (((asslib_DbdExpectCalls[car][dstPos] & DBD_SUCC) != 0) &&
+                 (asslib_ValidExpectCalls2(car,UP_DIR,lowest_call_pos,local_NCF-1,dstPos)))
+                { 
+                  *coinc_cc_flag = FALSE;
+                  *coinc_type |= CC_DCCwithDCC;
+                }
+              // DBD 10Feb04
+              if (((ocss_info[car].assigned_calls[dstPos] & S_UHC) != 0) &&
+                   (dstPos < local_NCF))
+                {
+                  *coinc_cc_flag = FALSE;
+                  *coinc_type |= CC_DCCwithHC;
+                }
+
+              /* Calculate Express Zone run time if car is in express */
+              /* zone with no demand                                  */
+              /* -----------------------------------------------------*/
+              if ( (pos < local_NCF) && (highest_call_pos == local_NCF)
+                  && (ez_running_flag == TRUE) )
+                { 
+                   rrt += 2*(ocss_info[car].ez_top_pos - local_NCF);
+                   //dojima
+                   rrt += RRT_SHORT_RUN;
+                }
+           } /* car above call */
+         else
+           {
+             /* call above car */
+             if (pos >= local_NCF)
+               {
+                //DBD  ads_CallPrediction(car,local_NCF,pos,S_UHC,TRUE,TRUE);
+                  ads_CallPrediction(car,local_NCF,pos,S_UHC,FALSE,TRUE);
+
+                  highest_call_pos = ads_HighestPosition(car,local_NCF,pos,TRUE);      
+ 
+                  //DBDSP
+                  rrt += rrt_run_simulation(car,
+                                            local_NCF,
+                                            pos,
+                                            (S_UHC + S_CC + E_CC),
+                                            stopping_flag,
+                                            FALSE,
+                                            distance,distance2,TRUE,
+                                            2,spareCap); //spcap
+
+                  //DBD 30Jan04  Honma
+                  //Check if the hallcall's destination have coincident car calls. 
+                  if (((ocss_info[car].assigned_calls[dstPos] & (S_CC + E_CC)) != 0) ||
+                      (((asslib_DbdExpectCalls[car][dstPos] & DBD_SUCC) != 0) &&
+                       (asslib_ValidExpectCalls2(car,UP_DIR,local_NCF,dstPos-1,dstPos))))
+                    { 
+                      *coinc_cc_flag = FALSE;
+                      if ((ocss_info[car].assigned_calls[dstPos] & (S_CC+E_CC)) != 0)
+                        *coinc_type |= CC_DCCwithCC;
+                      else
+                        *coinc_type |= CC_DCCwithDCC;
+                    }
+                  // DBD 10Feb04 
+                  if ((ocss_info[car].assigned_calls[dstPos] & S_UHC) != 0)
+                    {
+                      *coinc_cc_flag = FALSE;
+                      *coinc_type |= CC_DCCwithHC;
+                    }
+
+                  // DBD 20Feb04 
+                  
+
+                  //special clear routine
+                  for (i=pos;i<=ocss_info[car].top_pos;i++)
+                     {
+                       car_call_pred[i][UP_DIR-1] = FALSE;
+                     }
+               }
+           }
+       } /* UP call and UP car */
+       
+       
+       /* Else, if the car and hall call are both in the down   */
+       /* direction, there are two possible cases for answering */
+       /* the call:  1) the call is below the car, requiring no */
+       /* direction reversal; 2) the call is above the car,     */
+       /* requiring the car to travel around the whole          */
+       /* building.                                             */
+       /* ----------------------------------------------------- */
+       else if ( ( calls_dir == DOWN_DIR) && (pre_dir == DOWN_DIR) )
+       {
+          /* Tempflag is TRUE if doors are closed or closing */
+          if ( ((ocss_info[car].f_door_state == DOORS_CLOSING) ||
+                (ocss_info[car].f_door_state == DOORS_CLOSED)) && 
+               ((ocss_info[car].r_door_state == DOORS_CLOSING) ||
+                (ocss_info[car].r_door_state == DOORS_CLOSED)) )
+              {
+                  if ((ocss_info[car].reopen_cnt!=255) &&
+                     (ocss_info[car].nudging_detect==FALSE) &&
+                     (ocss_info[car].f_door_state==DOORS_CLOSING))
+                    {
+                      tempflag1 = FALSE; 
+                    }
+                 else
+                      tempflag1 = TRUE;
+              }
+          else
+              {
+                 if ((ocss_info[car].reopen_cnt != 255)&&
+                    (ocss_info[car].nudging_detect==TRUE))
+                   tempflag1 = TRUE;
+                 else
+                   tempflag1 = FALSE;
+              }
+  
+          /* tempflag2 is TRUE if...                       */
+          /* (car moving and call not assigned already) OR */
+          /* --------------------------------------------- */
+          if (stopping_flag == FALSE)  
+            {
+               tempflag2 = TRUE;
+            }
+         else
+            {
+               tempflag2 = FALSE;
+            }
+    
+          /* If the position is greater than the next commitable, OR */
+          /* ( 1)  The position is equal to the next commitable, AND */
+          /*   2)  The car has demand pending, AND                   */
+          /*   3)  car doors are closing or closed, AND              */
+          /*   4)  (car is moving AND no calls assigned) OR          */
+          /* ------------------------------------------------------- */
+          if ( (pos > local_NCF) || 
+              (pos == local_NCF &&
+              ocss_info[car].allsummary != 0 &&
+              tempflag1 == TRUE &&
+              tempflag2 == TRUE) )
+            {
+              ads_CallPrediction(car,local_NCF,ocss_info[car].bottom_pos,S_DHC,FALSE,TRUE);
+              lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,TRUE);
+              /*
+               if (lowest_call_pos != pos)  lowest_call_rev_flag = TRUE;
+               else                         lowest_call_rev_flag = FALSE;
+              */
+              //DBDSP
+              rrt += rrt_run_simulation(car,
+                                        local_NCF,
+                                        lowest_call_pos,
+                                        (S_DHC + S_CC + E_CC),
+                                        stopping_flag,
+                                        TRUE,
+                                        distance,distance2,TRUE,
+                                        FALSE,spareCap); //spcap
+
+              ads_CallPrediction(car,lowest_call_pos,ocss_info[car].top_pos,S_UHC,FALSE,FALSE);
+
+              highest_call_pos = ads_HighestPosition(car,local_NCF,pos,FALSE);
+ 
+              if (highest_call_pos != pos)  highest_call_rev_flag = TRUE;
+              else{
+                          highest_call_rev_flag = FALSE;
+                          car_call_pred[pos][UP_DIR-1]=FALSE;
+                  }
+
+              rrt += rrt_run_simulation(car,
+                                        lowest_call_pos,
+                                        highest_call_pos,
+                                        S_UHC,
+                                        TRUE,
+                                        highest_call_rev_flag,
+                                        distance,distance2,FALSE,
+                                        FALSE,spareCap); //spcap
+
+              ads_CallPrediction(car,highest_call_pos,pos,S_DHC,TRUE,FALSE);
+
+              rrt += rrt_run_simulation(car,
+                                        highest_call_pos,
+                                        pos,
+                                        S_DHC,
+                                        TRUE,
+                                        FALSE,
+                                        distance,distance2,FALSE,
+                                        1,spareCap); //spcap
+              //DBD  Coincident Check
+              /* TestInProgress
+              if ((asslib_DbdExpectCalls[car][pos] & DBD_SUCC) != 0)
+                  *coinc_cc_flag = FALSE;
+              */
+              if ((asslib_DbdExpectCalls[car][pos] & DBD_SDCC) != 0)
+                {
+                  *coinc_cc_flag = TRUE;
+                  *coinc_type |= CC_HCwithDCC;
+                }
+              //DBD 30Jan04  Honma
+              //Check if the hallcall's destination have coincident car calls. 
+              if (((asslib_DbdExpectCalls[car][dstPos] & DBD_SDCC) != 0) && 
+                 (asslib_ValidExpectCalls2(car,DOWN_DIR,highest_call_pos,local_NCF+1,dstPos)))
+                { 
+                  *coinc_cc_flag = FALSE;
+                  *coinc_type |= CC_DCCwithDCC;
+                }
+              // DBD 10Feb04
+              if (((ocss_info[car].assigned_calls[dstPos] & S_DHC) != 0) &&
+                  (dstPos > local_NCF))
+                {
+                  *coinc_cc_flag = FALSE;
+                  *coinc_type |= CC_DCCwithHC;
+                }
+
+
+              /* Calculate Express Zone run time if car is in express */
+              /* zone with no demand                                  */
+              /* -----------------------------------------------------*/
+              if ( (pos > local_NCF) && (lowest_call_pos == local_NCF)
+                 && (ez_running_flag == TRUE) )
+                { 
+                    rrt += 2*(local_NCF - ocss_info[car].ez_bottom_pos);
+                    //dojima
+                    rrt += RRT_SHORT_RUN;
+                }
+            } /* car below call */
+           /* otherwise, if car above call */
+           else if (pos <= local_NCF)
+            {
+              //DBD ads_CallPrediction(car,local_NCF,pos,S_DHC,TRUE,TRUE);
+              ads_CallPrediction(car,local_NCF,pos,S_DHC,FALSE,TRUE);
+
+              lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,TRUE);
+              //DBDSP
+              rrt += rrt_run_simulation(car,
+                                        local_NCF,
+                                        pos,
+                                        (S_DHC + S_CC + E_CC),
+                                        stopping_flag,
+                                        FALSE,
+                                        distance,distance2,TRUE,
+                                        2,spareCap); //spcap
+
+              //DBD 30Jan04  Honma
+              //Check if the hallcall's destination have coincident car calls. 
+              if (((ocss_info[car].assigned_calls[dstPos] & (S_CC + E_CC)) != 0) ||
+                  (((asslib_DbdExpectCalls[car][dstPos] & DBD_SDCC) != 0) && 
+                     (asslib_ValidExpectCalls2(car,DOWN_DIR,local_NCF,dstPos+1,dstPos))))
+                {
+                  *coinc_cc_flag = FALSE;
+                  if ((ocss_info[car].assigned_calls[dstPos] & (S_CC+E_CC)) != 0)
+                    *coinc_type |= CC_DCCwithCC;
+                  else
+                    *coinc_type |= CC_DCCwithDCC;
+                }
+              // DBD 10Feb04 
+              if ((ocss_info[car].assigned_calls[dstPos] & S_DHC) != 0)
+                {
+                  *coinc_cc_flag = FALSE;
+                  *coinc_type |= CC_DCCwithHC;
+                }
+
+              //special clear routine
+               for (i=0;i<=pos;i++)
+                 {
+                   car_call_pred[i][DOWN_DIR-1] = FALSE;
+                 }
+            } /* car above call */
+       } /* DOWN call and DOWN car */
+       
+       
+       /* Otherwise, the car is at rest and travel to the hall */
+       /*  call will not require a direction reversal.         */
+       /* ---------------------------------------------------- */
+       else if (pre_dir == NO_DIR)
+       {
+         if (pos > local_NCF)
+          {
+            if (calls_dir == UP_DIR)
+             {
+
+                lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,FALSE);
+                if (lowest_call_pos != pos)  lowest_call_rev_flag = TRUE;
+                else                         lowest_call_rev_flag = FALSE;
+
+                rrt += rrt_run_simulation(car,
+                                          local_NCF,
+                                          lowest_call_pos,
+                                          S_DHC,
+                                          TRUE,
+                                          lowest_call_rev_flag,
+                                          distance,distance2,TRUE,
+                                          FALSE,spareCap); //spcap
+                //DBD
+                rrt += rrt_run_simulation(car,
+                                          lowest_call_pos,
+                                          pos,
+                                          S_UHC,
+                                          TRUE,
+                                          FALSE,
+                                          distance,distance2,FALSE,
+                                          FALSE,spareCap); //spcap
+             } /* UP hall call, STOPPED car */
+           else /* DOWN hall call, STOPPED car */
+             {
+                lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,FALSE);
+
+                if (lowest_call_pos != pos)  lowest_call_rev_flag = TRUE;
+                else                         lowest_call_rev_flag = FALSE;
+
+                rrt += rrt_run_simulation(car,
+                                          local_NCF,
+                                          lowest_call_pos,
+                                          S_DHC,
+                                          TRUE,
+                                          TRUE,
+                                          distance,distance2,TRUE,
+                                          FALSE,spareCap); //spcap
+
+                highest_call_pos = ads_HighestPosition(car,local_NCF,pos,FALSE);
+
+                if (highest_call_pos != pos)  highest_call_rev_flag = TRUE;
+                else                          highest_call_rev_flag = FALSE;
+
+                rrt += rrt_run_simulation(car,
+                                          lowest_call_pos,
+                                          highest_call_pos,
+                                          S_UHC,
+                                          TRUE,
+                                          highest_call_rev_flag,
+                                          distance,distance2,FALSE,
+                                          FALSE,spareCap); //spcap
+                rrt += rrt_run_simulation(car,
+                                          highest_call_pos,
+                                          pos,
+                                          S_DHC,
+                                          TRUE,
+                                          FALSE,
+                                          distance,distance2,FALSE,
+                                          FALSE,spareCap); //spcap
+             } /* DOWN hall call, STOPPED car */
+          } /* call above car */
+        else /* call at or below car */
+          {
+             if (calls_dir == UP_DIR)
+               {
+                  highest_call_pos = ads_HighestPosition(car,local_NCF,pos,FALSE);
+
+                  if (highest_call_pos != pos)  highest_call_rev_flag = TRUE;
+                  else                          highest_call_rev_flag = FALSE;
+
+                  rrt += rrt_run_simulation(car,
+                                            local_NCF,
+                                            highest_call_pos,
+                                            S_UHC,
+                                            TRUE,
+                                            TRUE,
+                                            distance,distance2,TRUE,
+                                            FALSE,spareCap); //spcap
+
+                  lowest_call_pos = ads_LowestPosition(car,local_NCF,pos,FALSE);
+
+                  if (lowest_call_pos != pos)  lowest_call_rev_flag = TRUE;
+                  else                         lowest_call_rev_flag = FALSE;
+
+                  rrt += rrt_run_simulation(car,
+                                            highest_call_pos,
+                                            lowest_call_pos,
+                                            S_DHC,
+                                            TRUE,
+                                            lowest_call_rev_flag,
+                                            distance,distance2,FALSE,
+                                            FALSE,spareCap); //spcap
+                  rrt += rrt_run_simulation(car,
+                                            lowest_call_pos,
+                                            pos,
+                                            S_UHC,
+                                            TRUE,
+                                            FALSE,
+                                            distance,distance2,FALSE,
+                                            FALSE,spareCap); //spcap
+               } /* UP hall call, STOPPED car */
+             else /* DOWN hall call, STOPPED car */
+               {
+                  highest_call_pos = ads_HighestPosition(car,local_NCF,pos,FALSE);
+
+                  if (highest_call_pos != pos)  highest_call_rev_flag = TRUE;
+                  else                          highest_call_rev_flag = FALSE;
+ 
+                  rrt += rrt_run_simulation(car,
+                                            local_NCF,
+                                            highest_call_pos,
+                                            S_UHC,
+                                            TRUE,
+                                            highest_call_rev_flag,
+                                            distance,distance2,TRUE,
+                                            FALSE,spareCap); //spcap
+                  rrt += rrt_run_simulation(car,
+                                            highest_call_pos,
+                                            pos,
+                                            S_DHC,
+                                            TRUE,
+                                            FALSE,
+                                            distance,distance2,FALSE,
+                                            FALSE,spareCap); //spcap
+               } /* DOWN hall call, STOPPED car */
+          } /* call at or below car */
+       } /* car is stopped */
+       
+       /* At this point, RRT will equal RSR_MIN if the hall call is */
+       /* at the car's current position and can be answered without */
+       /* a direction reversal.  If this is not the case, we must   */
+       /* factor in what is happening at the next commitable        */
+       /* position of the car, as the RRT run simulation does       */
+       /* not take this into account.                               */
+       /* --------------------------------------------------------- */
+       if (rrt != RSR_MIN)
+         {
+            if (stopping_flag == TRUE)
+              {
+                /* If car stopping for extended hall call H.H */
+                if (((ocss_info[car].assigned_calls[local_NCF] & E_HC) != 0) ||
+                   ((ocss_info[car].stop_type & E_HC) != 0))
+                  {
+                     rrt += RRT_WCS_STOP;
+                  }
+                /* If car stopping for extended car call H.H */
+                else if (((ocss_info[car].assigned_calls[local_NCF] & E_CC) != 0) ||
+                        ((ocss_info[car].stop_type & E_CC) != 0))
+                  {
+                     rrt += RRT_WCS_STOP;
+                  }
+
+                /* If car stopping for hall call */
+                else if (((ocss_info[car].assigned_calls[local_NCF] & S_HC) != 0) ||
+                         ((ocss_info[car].stop_type & S_HC) != 0))
+                  {
+                     rrt += RRT_HALL_STOP;
+#ifdef CAGS
+                     beforehallcalls[car]++;
+#endif 
+                  }
+                else
+                  {
+                    /* Car is stopping for a car call.  If the car call is */
+                    /* the lobby position, use hall stop time.  Otherwise, */
+                    /* use the default car call stop time.                 */
+                    /* --------------------------------------------------- */
+                    if (local_NCF == bld_info.ocss_lobby_pos)
+                      {
+                         rrt += RRT_HALL_STOP;
+                      }
+                    else
+                      {
+                         rrt += RRT_CAR_STOP;
+                      } /* non-lobby car stop */
+                  } /* STANDARTD  CAR CALL */
+              }
+            else
+              {
+                 switch (ocss_info[car].f_door_state)
+                       {
+                          case DOORS_CLOSED:
+                          break;
+   
+                          case DOORS_CLOSING:
+                               rrt += RRT_DOORS_CLOSING;
+                          break;
+ 
+                          case DOORS_OPENED:
+                               rrt += RRT_DOORS_OPENED;
+                          break;
+   
+                          case DOORS_OPENING:
+                               rrt += RRT_DOORS_OPENING;
+                          break;
+                       }
+              }
+         }/* if(rrt != RRT_MIN */
+       
+         /* Otherwise, the car is at the hall call floor and can answer */
+         /* the hall call without a direction reversal.  If the car     */
+         /* doors are opening or opened, the hall call can be answered  */
+         /* immediately.                                                */
+         /* ----------------------------------------------------------- */
+         else if ( ( (ocss_info[car].f_door_state == DOORS_OPENING) ||
+                   (ocss_info[car].f_door_state == DOORS_OPENED) ||
+                   (ocss_info[car].f_door_state == DOORS_CLOSED) ) &&
+                   ((((ocss_info[car].assigned_calls[pos] &(S_FUHC+S_FDHC+S_FCC)) != 0) ||
+                   ((ocss_info[car].stop_type & (S_FUHC+S_FDHC+S_FCC))!=0)
+                  ||
+                  ((ocss_info[car].opmode == MIT)&&(ocss_MitPriority[car]==Selected)))&&
+                   (ocss_info[car].actual_pos == pos)) )
+         {
+            if ((((mask&S_FUHC)!=0)&&(pre_dir==UP_DIR)) ||
+               (((mask&S_FDHC)!=0)&&(pre_dir==DOWN_DIR)))
+              {
+                 rrt = RSR_IMMEDIATE;
+              }
+            else
+              {
+                 switch (ocss_info[car].f_door_state)
+                       {
+                          case DOORS_CLOSED:
+                               rrt = RRT_CAR_STOP;
+                          break;
+                          case DOORS_CLOSING:
+                               rrt = RRT_DOORS_CLOSING;
+                          break;
+                          case DOORS_OPENED:
+                               rrt = RRT_DOORS_OPENED;
+                          break;
+                          case DOORS_OPENING:
+                               rrt = RRT_DOORS_OPENING;
+                          break;
+                       }
+ 
+              }
+         }
+       
+        /* If the car is IDL and the MG set is not powered up, adjust */
+        /* the RRT value to include the MG powerup period.            */
+        /* ---------------------------------------------------------- */
+		//jsr : 아마 motor generator 동작이 안되는 중에는 조금 더 길게 잡는다.
+        if ( (ocss_info[car].opmode == IDL) && 
+            (ocss_info[car].mgset_status == 0) )
+          { 
+              rrt += RRT_MG_START;
+          }
+       
+       
+        /* S E T   I C A   C O I N C I D E N T   C A L L   F L A G */
+        /* ------------------------------------------------------- */
+        /* The Coincident car call flag is set either TRUE or      */
+        /* FALSE, if a coincident car call exists at the same      */
+        /* floor as the hall call.                                 */
+        /* ------------------------------------------------------- */
+        //DBD *coinc_cc_flag = FALSE;
+
+        if (pre_dir == UP_DIR)
+          {
+            if (((calls_dir == UP_DIR) && (pos != highest_call_pos) ) ||
+               ((pos == highest_call_pos) && ( ( (calls_dir == UP_DIR) && 
+               ((ocss_info[car].assigned_calls[pos]&(S_DHC+E_DHC))==0)) ||
+               (calls_dir == DOWN_DIR))))      
+              {
+                 //DBD          if ( (ocss_info[car].assigned_calls[pos] & (S_CC + E_CC)) != 0)
+                 if ( ((ocss_info[car].assigned_calls[pos] & (S_CC + E_CC)) != 0) ||
+                    (((asslib_DbdExpectCalls[car][pos] & DBD_SUCC) != 0) &&
+                      (asslib_ValidExpectCalls2(car,UP_DIR,local_NCF,pos-1,pos))))
+                   {
+                      *coinc_cc_flag = TRUE;
+                      AARULE_Coincident_CC[car] = TRUE;
+
+                      if ((calls_dir == UP_DIR)&&(pos==highest_call_pos))
+                        {
+                          for (i=local_NCF;i<=pos;i++) 
+                             {
+                                if ((ocss_info[car].assigned_calls[i] & (S_DHC+E_DHC)) != 0)
+                                  {
+                                     *coinc_cc_flag = FALSE;
+                                     AARULE_Coincident_CC[car] = FALSE;
+                                     break;
+                                  }
+                             }
+
+                          for( i=ocss_info[car].bottom_pos;i<local_NCF;i++)
+                            if ((ocss_info[car].assigned_calls[i] & (S_HC+E_HC)) != 0)
+                              {
+                                 *coinc_cc_flag = FALSE;
+                                 AARULE_Coincident_CC[car] = FALSE;
+                                 break;
+                              }
+                        }
+
+                      if (*coinc_cc_flag == TRUE)
+                        {
+                          if ((ocss_info[car].assigned_calls[pos] & (S_CC+E_CC)) != 0)
+                            *coinc_type |= CC_HCwithCC;
+                          else
+                            *coinc_type |= CC_HCwithDCC;
+                        }
+                   }
+              }
+          }// if (pre_dir == UP_DIR)
+
+        else if (pre_dir == DOWN_DIR)
+          {
+             if (((calls_dir == DOWN_DIR) && (pos != lowest_call_pos) ) ||
+                 ((pos == lowest_call_pos) && ( ( (calls_dir == DOWN_DIR) && 
+                 ((ocss_info[car].assigned_calls[pos]&(S_DHC+E_DHC))==0)) ||
+                  (calls_dir == UP_DIR))))      
+               {
+                 //DBD     if ( (ocss_info[car].assigned_calls[pos] & (S_CC+E_CC)) != 0)
+                 if ( ((ocss_info[car].assigned_calls[pos] & (S_CC+E_CC)) != 0) ||
+                    (((asslib_DbdExpectCalls[car][pos] & DBD_SDCC) != 0) &&
+                      (asslib_ValidExpectCalls2(car,DOWN_DIR,local_NCF,pos+1,pos))))
+                    {
+                       *coinc_cc_flag = TRUE;
+                       AARULE_Coincident_CC[car] = TRUE;
+
+                       if ((calls_dir == DOWN_DIR)&&(pos==lowest_call_pos))
+                         {
+                            for (i=pos;i<=local_NCF;i++) 
+                               {
+                                 if ((ocss_info[car].assigned_calls[i] & (S_UHC+E_UHC)) != 0)
+                                   {
+                                      *coinc_cc_flag = FALSE;
+                                      AARULE_Coincident_CC[car] = FALSE;
+                                      break;
+                                   }
+                               }
+                            for (i=local_NCF+1;i<=ocss_info[car].top_pos;i++)
+                              if ((ocss_info[car].assigned_calls[i] & (S_HC+E_HC)) != 0)
+                                {
+                                   *coinc_cc_flag = FALSE;
+                                   AARULE_Coincident_CC[car] = FALSE;
+                                   break;
+                                }
+
+                         }
+
+                       if (*coinc_cc_flag == TRUE)
+                         {
+                           if ((ocss_info[car].assigned_calls[pos] & (S_CC+E_CC)) != 0)
+                             *coinc_type |= CC_HCwithCC;
+                           else
+                             *coinc_type |= CC_HCwithDCC;
+                         }
+                    }
+
+               }
+          }//if (pre_dir == DOWN_DIR)
+       
+       /* A L L   D O N E ! */
+       /* ----------------- */
+       return(rrt);
+}
+
+
+
+/**************************************************************************
+;---------------------------------------------------------------------------
+;  L O C A L   C R I S P   R R T   F U N C T I O N S
+;---------------------------------------------------------------------------
+;***************************************************************************
+;
+;
+;**************************************************************************/.

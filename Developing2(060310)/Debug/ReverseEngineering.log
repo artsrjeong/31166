@@ -1,0 +1,110 @@
+
+Reverse Engineering 'D:\31166\Developing2\IHC\HPE.cpp'
+File: D:\31166\Developing2\IHC\HPE.cpp, Line: 4 #include stdafx.h ignored--file not found.
+File: D:\31166\Developing2\IHC\HPE.cpp, Line: 5 #include ..\common\2dsim_defs.h ignored--file not found.
+File: D:\31166\Developing2\IHC\HPE.cpp, Line: 6 #include ..\HoistwayPlanner\hoistway_plan.h ignored--file not found.
+Reverse Engineering include file 'D:\31166\Developing2\IHC\Car.h'
+Removing Package 'IHC' from Project 'IHC'. ok.
+Adding package 'IHC' to project 'IHC'. ok.
+Adding file 'Car' to package 'IHC'. ok.
+File: D:\31166\Developing2\IHC\Car.h, Line: 8 #include Common.h ignored--file not found.
+Reverse Engineering include file 'D:\31166\Developing2\IHC\CMotion.h'
+Adding file 'CMotion' to package 'IHC'. ok.
+File: D:\31166\Developing2\IHC\CMotion.h, Line: 9 #include Common.h ignored--file not found.
+Analyzing struct 'CMotion' from File: D:\31166\Developing2\IHC\CMotion.h, Line: 12
+File: D:\31166\Developing2\IHC\HPE.cpp, Line: 8 #include ..\common\2DInterfaceFunctionType.h ignored--file not found.
+File: D:\31166\Developing2\IHC\HPE.cpp, Line: 9 #include crtdbg.h ignored--file not found.
+Analyzing struct 'CCar' from File: D:\31166\Developing2\IHC\Car.h, Line: 44
+Adding file 'HPE' to package 'IHC'. ok.
+Analyzing struct 'anonymous-class-at-"D:\31166\Developing2\IHC\HPE.cpp":LINE 25.9' from File: D:\31166\Developing2\IHC\HPE.cpp, Line: 25
+
+Parsing Summary:
+"D:\31166\Developing2\IHC\HPE.cpp":LINE 69 *** syntax error on input DllMain
+"D:\31166\Developing2\IHC\HPE.cpp":LINE 73 *** parsing resumes at '{'
+
+Reverse Engineering 'D:\31166\Developing2\IHC\Car.cpp'
+File: D:\31166\Developing2\IHC\Car.cpp, Line: 1 #include stdafx.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Car.cpp, Line: 2 #include ..\common\2dsim_defs.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Car.cpp, Line: 3 #include ..\HoistwayPlanner\hoistway_plan.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Car.cpp, Line: 4 #include ..\common\2DInterfaceFunctionType.h ignored--file not found.
+Reverse Engineering include file 'D:\31166\Developing2\IHC\Car.h'
+File: D:\31166\Developing2\IHC\Car.h, Line: 8 #include Common.h ignored--file not found.
+Reverse Engineering include file 'D:\31166\Developing2\IHC\CMotion.h'
+File: D:\31166\Developing2\IHC\CMotion.h, Line: 9 #include Common.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Car.cpp, Line: 6 #include math.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Car.cpp, Line: 7 #include crtdbg.h ignored--file not found.
+
+Reverse Engineering 'D:\31166\Developing2\IHC\CMotion.cpp'
+File: D:\31166\Developing2\IHC\CMotion.cpp, Line: 1 #include stdafx.h ignored--file not found.
+File: D:\31166\Developing2\IHC\CMotion.cpp, Line: 2 #include ..\common\2dsim_defs.h ignored--file not found.
+File: D:\31166\Developing2\IHC\CMotion.cpp, Line: 3 #include Common.h ignored--file not found.
+Reverse Engineering include file 'D:\31166\Developing2\IHC\CMotion.h'
+File: D:\31166\Developing2\IHC\CMotion.h, Line: 9 #include Common.h ignored--file not found.
+File: D:\31166\Developing2\IHC\CMotion.cpp, Line: 5 #include math.h ignored--file not found.
+
+Reverse Engineering 'D:\31166\Developing2\IHC\IHC.cpp'
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 4 #include stdafx.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 5 #include stdio.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 6 #include ..\common\2DInterfaceFunctionType.h ignored--file not found.
+Adding file 'IHC' to package 'IHC'. ok.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 10 #include ..\HoistwayPlanner\HoistwayPlanner.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 11 #include ..\HoistwayPlanner\HoistwaySchedule.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 12 #include ..\HoistwayPlanner\HoistwayPlanSelection.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 13 #include ..\HoistwayPlanner\HoistwayPlanGen.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 14 #include crtdbg.h ignored--file not found.
+File: D:\31166\Developing2\IHC\IHC.cpp, Line: 15 #include ..\common\2DSim_Defs.h ignored--file not found.
+
+Reverse Engineering 'D:\31166\Developing2\IHC\Building.cpp'
+File: D:\31166\Developing2\IHC\Building.cpp, Line: 5 #include stdafx.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Building.cpp, Line: 6 #include ..\2dsim_defs.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Building.cpp, Line: 7 #include ..\hoist_exec.h ignored--file not found.
+File: D:\31166\Developing2\IHC\Building.cpp, Line: 8 #include Building.h ignored--file not found.
+
+Parsing Summary:
+"D:\31166\Developing2\IHC\Building.cpp":LINE 14 *** >>CBuilding::CBuilding<< declared at "D:\31166\Developing2\IHC\Building.cpp":LINE 14, does not denote a member function
+"D:\31166\Developing2\IHC\Building.cpp":LINE 19 *** in destructor CBuilding::~CBuilding, this class does not have any destructor declared
+"D:\31166\Developing2\IHC\Building.cpp":LINE 19 *** No destructor was declared for this class >>CBuilding::~CBuilding<<
+"D:\31166\Developing2\IHC\Building.cpp":LINE 29 *** GetNextState is not a member of prefixing class CBuilding
+"D:\31166\Developing2\IHC\Building.cpp":LINE 38 *** GetHoistWayInx is not a member of prefixing class CBuilding
+"D:\31166\Developing2\IHC\Building.cpp":LINE 43 *** SetUpHoistWay is not a member of prefixing class CBuilding
+"D:\31166\Developing2\IHC\Building.cpp":LINE 65 *** IsLowerCar is not a member of prefixing class CBuilding
+Adding file 'Building' to package 'IHC'. ok.
+
+Reverse Engineering 'D:\31166\Developing2\IHC\HoistWay.cpp'
+File: D:\31166\Developing2\IHC\HoistWay.cpp, Line: 5 #include stdafx.h ignored--file not found.
+File: D:\31166\Developing2\IHC\HoistWay.cpp, Line: 6 #include ..\2dsim_defs.h ignored--file not found.
+File: D:\31166\Developing2\IHC\HoistWay.cpp, Line: 7 #include ..\hoist_exec.h ignored--file not found.
+File: D:\31166\Developing2\IHC\HoistWay.cpp, Line: 8 #include HoistWay.h ignored--file not found.
+
+Parsing Summary:
+"D:\31166\Developing2\IHC\HoistWay.cpp":LINE 14 *** >>CHoistWay::CHoistWay<< declared at "D:\31166\Developing2\IHC\HoistWay.cpp":LINE 14, does not denote a member function
+"D:\31166\Developing2\IHC\HoistWay.cpp":LINE 19 *** in destructor CHoistWay::~CHoistWay, this class does not have any destructor declared
+"D:\31166\Developing2\IHC\HoistWay.cpp":LINE 19 *** No destructor was declared for this class >>CHoistWay::~CHoistWay<<
+"D:\31166\Developing2\IHC\HoistWay.cpp":LINE 24 *** UpdateNext is not a member of prefixing class CHoistWay
+Adding file 'HoistWay' to package 'IHC'. ok.
+
+Reverse Engineering 'D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h'
+Removing Package 'HoistwayPlanner' from Project 'IHC'. ok.
+Adding package 'HoistwayPlanner' to project 'IHC'. ok.
+Adding file 'hoistway_plan' to package 'HoistwayPlanner'. ok.
+File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 4 #include stdio.H ignored--file not found.
+File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 5 #include ..\common\2DInterfaceData.h ignored--file not found.
+Analyzing struct 'Stop' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 71
+Analyzing struct 'DestinationEntry' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 125
+Analyzing struct 'HoistwayPlanGen' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 156
+Analyzing struct 'StopSequence' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 157
+Analyzing struct 'HoistwaySchedule' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 158
+Analyzing struct 'DestinationEntryCalls' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 148
+Analyzing struct 'StopSequence' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 174
+Analyzing struct 'HoistwayPlan' from File: D:\31166\Developing2\HoistwayPlanner\hoistway_plan.h, Line: 228
+
+Reverse Engineering 'D:\31166\Developing2\IHC\Car.h'
+File: D:\31166\Developing2\IHC\Car.h, Line: 8 #include Common.h ignored--file not found.
+Reverse Engineering include file 'D:\31166\Developing2\IHC\CMotion.h'
+File: D:\31166\Developing2\IHC\CMotion.h, Line: 9 #include Common.h ignored--file not found.
+
+Reverse Engineering 'D:\31166\Developing2\IHC\CMotion.h'
+File: D:\31166\Developing2\IHC\CMotion.h, Line: 9 #include Common.h ignored--file not found.
+
+Reverse Engineering Done. See detailed report in the log file.
+

@@ -1,0 +1,5 @@
+Car,Type,T begin run,T decel,T reach AP,T end run,Origin,Dest,Pax in run,Changed target,T opened,Deboard,Board,T dwelled,Extra dwell,T closed,T released
+0,N,11.700,28.762,28.371,31.168,0,5,0,0
+0,N,31.168,42.083,41.717,44.488,5,8,0,0,45.988,0,0,50.588,0,53.088
+0,N,53.088,64.003,63.613,66.409,8,5,1,0,67.909,0,0,72.509,0,75.009
+0,N,75.009,89.023,88.632,91.429,5,1,2,0,92.929,0,0,96.029,0,98.529

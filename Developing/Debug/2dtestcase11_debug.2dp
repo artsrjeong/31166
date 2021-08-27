@@ -1,0 +1,243 @@
+T   0.0
+T   0.0
+B    9    0    0
+G    7   15
+I    0    1    3    5    7    8    0    9
+T   0.0
+T   0.0
+P	2.6	2	0	8	65	3
+P	5.79	10	6	0	65	2
+P	7.97	16	7	6	65	2
+P	16.94	2	0	1	65	3
+P	49.5	16	5	8	65	3
+P	50.87	10	6	0	65	2
+P	56.96	16	4	5	65	3
+P	76.18	10	2	0	65	2
+P	93.57	10	9	0	65	2
+P	95.64	2	0	2	65	3
+P	101.99	2	0	6	65	3
+P	108.21	2	0	3	65	3
+P	108.82	2	0	7	65	3
+P	112.15	2	0	5	65	3
+P	112.15	2	0	5	65	3
+P	124.43	2	0	5	65	3
+P	124.92	2	0	7	65	3
+P	131.68	2	0	5	65	3
+P	134.34	2	0	2	65	3
+P	134.91	2	0	5	65	3
+P	136.72	2	0	3	65	3
+P	139.1	2	0	7	65	3
+P	139.75	2	0	5	65	3
+P	140.53	2	0	3	65	3
+P	143.1	2	0	3	65	3
+P	172.12	16	9	7	65	2
+P	174.24	10	9	0	65	2
+P	184.26	2	0	7	65	3
+P	189.01	2	0	5	65	3
+P	203.64	2	0	7	65	3
+P	227.78	2	0	7	65	3
+P	230.19	10	6	0	65	2
+P	232.79	2	0	7	65	3
+P	252.74	2	0	8	65	3
+P	256.96	2	0	9	65	3
+P	257.55	2	0	5	65	3
+P	261.36	2	0	9	65	3
+P	266.17	2	0	5	65	3
+P	274.17	2	0	8	65	3
+P	279.05	16	7	2	65	2
+P	280.14	2	0	8	65	3
+P	283.89	2	0	9	65	3
+P	285.01	10	7	0	65	2
+P	289.56	2	0	5	65	3
+P	291.61	2	0	7	65	3
+P	293.41	2	0	8	65	3
+P	301.94	10	5	0	65	2
+P	311.05	2	0	2	65	3
+P	314.29	2	0	2	65	3
+P	336.99	2	0	4	65	3
+P	337.03	2	0	2	65	3
+P	339.64	2	0	9	65	3
+P	351.97	2	0	8	65	3
+P	353.73	2	0	8	65	3
+P	354	2	0	9	65	3
+P	358.84	2	0	4	65	3
+P	359.2	2	0	8	65	3
+P	361.19	10	7	0	65	2
+P	365.56	10	7	0	65	2
+P	366.2	2	0	9	65	3
+P	374.71	2	0	2	65	3
+P	377.92	2	0	9	65	3
+P	382.5	2	0	9	65	3
+P	388.87	2	0	8	65	3
+P	389.05	2	0	9	65	3
+P	403.89	16	6	2	65	2
+P	416.18	10	7	0	65	2
+P	433.37	16	6	5	65	2
+P	436.36	2	0	1	65	3
+P	446.52	2	0	5	65	3
+P	456.47	2	0	5	65	3
+P	457.61	2	0	1	65	3
+P	465.27	2	0	1	65	3
+P	471.05	2	0	1	65	3
+P	476.64	2	0	4	65	3
+P	484.63	2	0	1	65	3
+P	484.81	2	0	1	65	3
+P	485.37	2	0	2	65	3
+P	489.09	2	0	5	65	3
+P	491.25	2	0	4	65	3
+P	497.01	2	0	4	65	3
+P	498.28	2	0	2	65	3
+P	498.6	2	0	1	65	3
+P	508.05	2	0	8	65	3
+P	518.37	16	1	9	65	3
+P	539.87	2	0	7	65	3
+P	547.45	2	0	2	65	3
+P	550.05	16	4	1	65	2
+P	558.35	10	3	0	65	2
+P	568.2	16	3	1	65	2
+P	571.63	2	0	2	65	3
+P	575.28	2	0	2	65	3
+P	581.13	2	0	4	65	3
+P	583.71	2	0	2	65	3
+P	586.01	2	0	3	65	3
+P	586.52	2	0	2	65	3
+P	589.48	2	0	5	65	3
+P	589.67	2	0	7	65	3
+P	590.42	2	0	5	65	3
+P	591.04	2	0	9	65	3
+P	591.29	2	0	6	65	3
+P	592	2	0	3	65	3
+P	593.51	2	0	7	65	3
+P	594.17	2	0	6	65	3
+P	615.26	10	3	0	65	2
+P	632.28	10	1	0	65	2
+P	634.27	16	7	1	65	2
+P	665.28	10	7	0	65	2
+P	665.7	16	3	2	65	2
+P	685.39	2	0	1	65	3
+P	687.64	2	0	1	65	3
+P	691.97	2	0	1	65	3
+P	695.02	10	3	0	65	2
+P	697	16	7	8	65	3
+P	699.48	16	4	5	65	3
+P	700.36	2	0	5	65	3
+P	714.09	2	0	3	65	3
+P	714.52	2	0	3	65	3
+P	719.82	2	0	1	65	3
+P	721.16	2	0	1	65	3
+P	721.31	2	0	1	65	3
+P	721.62	2	0	8	65	3
+P	722.86	2	0	8	65	3
+P	731.13	2	0	3	65	3
+P	733.27	16	5	8	65	3
+P	735.01	2	0	1	65	3
+P	735.04	2	0	1	65	3
+P	736.82	2	0	4	65	3
+Z
+2D
+
+// ELEVATOR PARAMETERS
+2D Building@	// Building Name
+4                   // Number of Hoistways
+// for each hoistway
+8                   // Number of Cars
+1                   // pit existence
+1                   // overhead existence
+0                   // Minimum Adj Floor for all hoistways
+//	for each car
+15   1040           // Duty 0:900KG,1:1000KG,2:1150,..15:custom
+4.00                // Velocities for all cars[m/s]
+1.00                // Accels for all cars[m/ss]
+2.00                // Jerks for all cars[m/sss]
+1         // Cars with Single Door(1) or Double Door(2)
+0    700       // DoorType ID & Opening width[mm]
+1.50                // Door Opening Time [s]
+2.50                // Door Closing Time [s]
+2.00                // Door Dwell MIN_CAR_NT [s]
+4.60                // Door Dwell MIN_HALL_NT [s]
+6.60                // Door Dwell MAX_HALL_NT [s]
+4.60                // Door Dwell LOBBY_NT [s]
+0.523               // START LOSS BASE [s]
+0.329               // STOP LOSS BASE [s]
+1                   // Re-Open for each car 0: disable, 1: enable
+0.00                // Additional Time at Each Stop
+80.00               // % Boarding Ratio
+1.00                // Board + Deboard time per person
+0                   // 0: No MG set, 1:MG[MotorGenerator]
+
+// BUILDING PARAMETERS
+10                  // Number of floors
+0                   // Lobby Floor (Floor Index starts from 0)
+255                 // 2nd Lobby Floor [255:none]
+255                 // Restaurant Floor [255:none]
+255                 // 2nd Restaurant Floor [255:none]
+255                 // Top of Exp. zone for each car
+255                 // Bottom of Exp. zone for each car
+12                  // Arrive Delay Time [sec] for each car
+60                  // Arrive Delay Time for Stairs [sec] for each car
+
+// FLOOR HEIGHT [m]
+4.000               // floor height of Pit
+4.000               // floor height of 0F
+4.000               // floor height of 1F
+4.000               // floor height of 2F
+4.000               // floor height of 3F
+4.000               // floor height of 4F
+4.000               // floor height of 5F
+4.000               // floor height of 6F
+4.000               // floor height of 7F
+4.000               // floor height of 8F
+4.000               // floor height of 9F
+4.000               // floor height of 10F
+
+// POPULATION OF EACH FLOOR
+80                  // floor population of 0F
+80                  // floor population of 1F
+80                  // floor population of 2F
+80                  // floor population of 3F
+80                  // floor population of 4F
+80                  // floor population of 5F
+80                  // floor population of 6F
+80                  // floor population of 7F
+80                  // floor population of 8F
+80                  // floor population of 9F
+
+// Allowed_Mask for each car per floor (Hexa)
+0      07  07  07  07  07  07  07  07
+1      07  07  07  07  07  07  07  07
+2      07  07  07  07  07  07  07  07
+3      07  07  07  07  07  07  07  07
+4      07  07  07  07  07  07  07  07
+5      07  07  07  07  07  07  07  07
+6      07  07  07  07  07  07  07  07
+7      07  07  07  07  07  07  07  07
+8      07  07  07  07  07  07  07  07
+9      07  07  07  07  07  07  07  07
+
+// Destination Entry Device Installation
+1         // 0F
+1         // 1F
+1         // 2F
+1         // 3F
+1         // 4F
+1         // 5F
+1         // 6F
+1         // 7F
+1         // 8F
+1         // 9F
+
+// Simulation Configuration
+0                   // Simulation Hour 0: None 1:Up 2:Dn 3:Lunch 4:Business
+720                 // Building Population
+
+// Simulation Algorithm Selection
+1                   // Manual:0, Automatic:1
+Dispatcher.dll@ // .@
+0                    // Minimum hoistway impact@
+
+// Violation Display
+16                  
+
+//Minimum Separation Distance
+4.00                // Minimum Separation Distance [m]
+Z                   

@@ -1,0 +1,540 @@
+Candidate 0
+Upper Car Sequence:
+Current NCF = 5, Initial Passengers = 0
+stop 0: floor = 5
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Pivot
+Arrival Precedessor :0
+Arrival Successor :3
+Departure Precedessor :0
+Departure Successor :3
+
+stop 1: floor = 10
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :4
+Departure Precedessor :4
+
+stop 2: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :5
+Departure Precedessor :5
+
+stop 3: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :6
+Arrival Successor :6
+
+stop 4: floor = 2
+boarding = 1, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 3
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 6: floor = 7
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 7: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+
+Lower Car Sequence:
+Current NCF = 4, Initial Passengers = 8
+stop 0: floor = 4
+boarding = 0, deboarding = 1, on board = 7.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :0
+Departure Successor :0
+
+stop 1: floor = 2
+boarding = 0, deboarding = 2, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 1
+boarding = 0, deboarding = 5, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 3: floor = 4
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :0
+Departure Precedessor :0
+
+stop 4: floor = 9
+boarding = 2, deboarding = 0, on board = 2.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :1
+Departure Successor :1
+
+stop 5: floor = 1
+boarding = 0, deboarding = 2, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :2
+Departure Successor :2
+
+stop 6: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+Arrival Precedessor :3
+Arrival Successor :3
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 7	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   4	      	      	Demand     	 902.980	   6.600	 909.580		0	1
+[  1]	   2	      	      	Demand     	 916.611	   7.100	 923.711		0	2
+[  2]	   1	      	      	Demand     	 929.094	   8.600	 937.694		0	5
+[  3]	   4	A<-  0	D<-  0	Conditional	 941.440	   0.000	 945.992		0	0
+[  4]	   9	A<-  1	      	Demand     	 951.046	   8.600	 959.646		2	0
+[  5]	   1	      	      	Demand     	 972.998	   8.600	 981.598		0	2
+[  6]	   0	A<-  3	      	Parking    	 986.981	   0.000	 986.981		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 8	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	A<-  0	D<-  0	Pivot      	 902.980	   0.000	 902.980		0	0
+[  1]	  10	      	D<-  4	Yield      	 906.965	   0.000	 906.965		0	0
+[  2]	   2	A<-  5	D<-  5	Conditional	 901.878	   0.000	 906.965		0	0
+[  3]	   1	A<-  6	      	Demand     	 907.949	   8.600	 916.549		1	0
+[  4]	   2	      	      	Demand     	 921.932	   8.600	 930.532		1	0
+[  5]	   3	      	      	Demand     	 935.915	   8.600	 944.515		2	0
+[  6]	   7	      	      	Demand     	 953.883	   8.100	 961.983		0	4
+[  7]	   2	      	      	Parking    	 972.335	   0.000	 972.335		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 7	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   4	      	      	Demand     	 902.980	   6.600	 909.580		0	1
+[  1]	   2	      	      	Demand     	 916.611	   7.100	 923.711		0	2
+[  2]	   1	      	      	Demand     	 929.094	   8.600	 937.694		0	5
+[  3]	   4	A<-  0	D<-  0	Conditional	 941.440	   0.000	 945.992		0	0
+[  4]	   9	A<-  1	      	Demand     	 951.046	   8.600	 959.646		2	0
+[  5]	   1	      	      	Demand     	 972.998	   8.600	 981.598		0	2
+[  6]	   0	A<-  3	      	Parking    	 986.981	   0.000	 986.981		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 8	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	A<-  0	D<-  0	Pivot      	 902.980	   6.600	 909.580		0	0
+[  1]	  10	      	D<-  4	Yield      	 913.565	  73.120	 986.685		0	0
+[  2]	   2	A<-  5	D<-  5	Conditional	 981.598	   0.000	 986.685		0	0
+[  3]	   1	A<-  6	      	Demand     	 987.669	   8.600	 996.269		1	0
+[  4]	   2	      	      	Demand     	1001.652	   8.600	1010.252		1	0
+[  5]	   3	      	      	Demand     	1015.635	   8.600	1024.235		2	0
+[  6]	   7	      	      	Demand     	1033.603	   8.100	1041.703		0	4
+[  7]	   2	      	      	Parking    	1052.055	   0.000	1052.055		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=5396.187012
+
+Candidate 1
+Upper Car Sequence:
+Current NCF = 5, Initial Passengers = 0
+stop 0: floor = 5
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Departure Precedessor :0
+
+stop 1: floor = 3
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :2
+Departure Precedessor :2
+
+stop 3: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :3
+Departure Successor :3
+
+stop 4: floor = 2
+boarding = 1, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :4
+Departure Successor :4
+
+stop 5: floor = 3
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :5
+Departure Successor :5
+
+stop 6: floor = 7
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :6
+Departure Successor :6
+
+stop 7: floor = 10
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :7
+Departure Precedessor :7
+
+stop 8: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+
+Lower Car Sequence:
+Current NCF = 4, Initial Passengers = 8
+stop 0: floor = 4
+boarding = 0, deboarding = 1, on board = 7.0
+None-empty move to the stop
+Stop Type: Demand
+Departure Successor :0
+
+stop 1: floor = 2
+boarding = 0, deboarding = 2, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 1
+boarding = 0, deboarding = 5, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :2
+Departure Successor :2
+
+stop 3: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :3
+Departure Precedessor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :4
+Departure Precedessor :4
+
+stop 5: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :5
+Departure Precedessor :5
+
+stop 6: floor = 6
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :6
+Departure Precedessor :6
+
+stop 7: floor = 9
+boarding = 2, deboarding = 0, on board = 2.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :7
+Departure Successor :7
+
+stop 8: floor = 1
+boarding = 0, deboarding = 2, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 9: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 10	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   4	      	      	Demand     	 902.980	   6.600	 909.580		0	1
+[  1]	   2	      	      	Demand     	 916.611	   7.100	 923.711		0	2
+[  2]	   1	      	      	Demand     	 929.094	   8.600	 937.694		0	5
+[  3]	   0	      	D<-  3	Yield      	 943.077	   0.000	 943.077		0	0
+[  4]	   1	A<-  4	D<-  4	Conditional	 937.694	   0.000	 937.694		0	0
+[  5]	   2	A<-  5	D<-  5	Conditional	 939.983	   0.000	 943.077		0	0
+[  6]	   6	A<-  6	D<-  6	Conditional	 943.217	   0.000	 948.046		0	0
+[  7]	   9	A<-  7	      	Demand     	 951.046	   8.600	 959.646		2	0
+[  8]	   1	      	      	Demand     	 972.998	   8.600	 981.598		0	2
+[  9]	   0	      	      	Parking    	 986.981	   0.000	 986.981		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 9	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	D<-  0	Conditional	 899.886	   0.000	 902.980		0	0
+[  1]	   3	A<-  1	D<-  1	Conditional	 901.343	   0.000	 905.895		0	0
+[  2]	   2	A<-  2	D<-  2	Conditional	 901.878	   0.000	 906.965		0	0
+[  3]	   1	A<-  3	      	Demand     	 907.949	   8.600	 916.549		1	0
+[  4]	   2	      	      	Demand     	 921.932	   8.600	 930.532		1	0
+[  5]	   3	      	      	Demand     	 935.915	   8.600	 944.515		2	0
+[  6]	   7	      	      	Demand     	 953.883	   8.100	 961.983		0	4
+[  7]	  10	      	D<-  7	Yield      	 970.281	   0.000	 970.281		0	0
+[  8]	   2	      	      	Parking    	 972.335	   0.000	 972.335		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 10	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   4	      	      	Demand     	 902.980	   6.600	 909.580		0	1
+[  1]	   2	      	      	Demand     	 916.611	   7.100	 923.711		0	2
+[  2]	   1	      	      	Demand     	 929.094	   8.600	 937.694		0	5
+[  3]	   0	      	D<-  3	Yield      	 943.077	  55.051	 998.128		0	0
+[  4]	   1	A<-  4	D<-  4	Conditional	 992.745	   0.000	 992.745		0	0
+[  5]	   2	A<-  5	D<-  5	Conditional	 995.034	   0.000	 998.128		0	0
+[  6]	   6	A<-  6	D<-  6	Conditional	 998.268	   0.000	1003.097		0	0
+[  7]	   9	A<-  7	      	Demand     	1006.097	   8.600	1014.697		2	0
+[  8]	   1	      	      	Demand     	1028.049	   8.600	1036.649		0	2
+[  9]	   0	      	      	Parking    	1042.032	   0.000	1042.032		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 9	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	D<-  0	Conditional	 899.886	  35.816	 938.796		0	0
+[  1]	   3	A<-  1	D<-  1	Conditional	 937.159	   0.000	 941.711		0	0
+[  2]	   2	A<-  2	D<-  2	Conditional	 937.694	   0.000	 942.781		0	0
+[  3]	   1	A<-  3	      	Demand     	 943.765	   8.600	 952.365		1	0
+[  4]	   2	      	      	Demand     	 957.748	   8.600	 966.348		1	0
+[  5]	   3	      	      	Demand     	 971.731	   8.600	 980.331		2	0
+[  6]	   7	      	      	Demand     	 989.699	   8.100	 997.799		0	4
+[  7]	  10	      	D<-  7	Yield      	1006.097	   8.600	1014.697		0	0
+[  8]	   2	      	      	Parking    	1016.751	   0.000	1016.751		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=4943.154297
+
+* Best Plan :  candidate 1
+Candidate 1
+Upper Car Sequence:
+Current NCF = 5, Initial Passengers = 0
+stop 0: floor = 5
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Departure Precedessor :0
+
+stop 1: floor = 3
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :2
+Departure Precedessor :2
+
+stop 3: floor = 1
+boarding = 1, deboarding = 0, on board = 1.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :3
+Departure Successor :3
+
+stop 4: floor = 2
+boarding = 1, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :4
+Departure Successor :4
+
+stop 5: floor = 3
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :5
+Departure Successor :5
+
+stop 6: floor = 7
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :6
+Departure Successor :6
+
+stop 7: floor = 10
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :7
+Departure Precedessor :7
+
+stop 8: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+
+Lower Car Sequence:
+Current NCF = 4, Initial Passengers = 8
+stop 0: floor = 4
+boarding = 0, deboarding = 1, on board = 7.0
+None-empty move to the stop
+Stop Type: Demand
+Departure Successor :0
+
+stop 1: floor = 2
+boarding = 0, deboarding = 2, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 1
+boarding = 0, deboarding = 5, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :2
+Departure Successor :2
+
+stop 3: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :3
+Departure Precedessor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :4
+Departure Precedessor :4
+
+stop 5: floor = 2
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :5
+Departure Precedessor :5
+
+stop 6: floor = 6
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Conditional
+Arrival Precedessor :6
+Departure Precedessor :6
+
+stop 7: floor = 9
+boarding = 2, deboarding = 0, on board = 2.0
+Empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :7
+Departure Successor :7
+
+stop 8: floor = 1
+boarding = 0, deboarding = 2, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 9: floor = 0
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Parking
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 10	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   4	      	      	Demand     	 902.980	   6.600	 909.580		0	1
+[  1]	   2	      	      	Demand     	 916.611	   7.100	 923.711		0	2
+[  2]	   1	      	      	Demand     	 929.094	   8.600	 937.694		0	5
+[  3]	   0	      	D<-  3	Yield      	 943.077	   0.000	 943.077		0	0
+[  4]	   1	A<-  4	D<-  4	Conditional	 937.694	   0.000	 937.694		0	0
+[  5]	   2	A<-  5	D<-  5	Conditional	 939.983	   0.000	 943.077		0	0
+[  6]	   6	A<-  6	D<-  6	Conditional	 943.217	   0.000	 948.046		0	0
+[  7]	   9	A<-  7	      	Demand     	 951.046	   8.600	 959.646		2	0
+[  8]	   1	      	      	Demand     	 972.998	   8.600	 981.598		0	2
+[  9]	   0	      	      	Parking    	 986.981	   0.000	 986.981		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 9	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	D<-  0	Conditional	 899.886	   0.000	 902.980		0	0
+[  1]	   3	A<-  1	D<-  1	Conditional	 901.343	   0.000	 905.895		0	0
+[  2]	   2	A<-  2	D<-  2	Conditional	 901.878	   0.000	 906.965		0	0
+[  3]	   1	A<-  3	      	Demand     	 907.949	   8.600	 916.549		1	0
+[  4]	   2	      	      	Demand     	 921.932	   8.600	 930.532		1	0
+[  5]	   3	      	      	Demand     	 935.915	   8.600	 944.515		2	0
+[  6]	   7	      	      	Demand     	 953.883	   8.100	 961.983		0	4
+[  7]	  10	      	D<-  7	Yield      	 970.281	   0.000	 970.281		0	0
+[  8]	   2	      	      	Parking    	 972.335	   0.000	 972.335		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 10	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   4	      	      	Demand     	 902.980	   6.600	 909.580		0	1
+[  1]	   2	      	      	Demand     	 916.611	   7.100	 923.711		0	2
+[  2]	   1	      	      	Demand     	 929.094	   8.600	 937.694		0	5
+[  3]	   0	      	D<-  3	Yield      	 943.077	  55.051	 998.128		0	0
+[  4]	   1	A<-  4	D<-  4	Conditional	 992.745	   0.000	 992.745		0	0
+[  5]	   2	A<-  5	D<-  5	Conditional	 995.034	   0.000	 998.128		0	0
+[  6]	   6	A<-  6	D<-  6	Conditional	 998.268	   0.000	1003.097		0	0
+[  7]	   9	A<-  7	      	Demand     	1006.097	   8.600	1014.697		2	0
+[  8]	   1	      	      	Demand     	1028.049	   8.600	1036.649		0	2
+[  9]	   0	      	      	Parking    	1042.032	   0.000	1042.032		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 9	Conditional->Decel Time,Others->ArrivalTime			plan+car.nBoard	plan+car.nDeboard
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	D<-  0	Conditional	 899.886	  35.816	 938.796		0	0
+[  1]	   3	A<-  1	D<-  1	Conditional	 937.159	   0.000	 941.711		0	0
+[  2]	   2	A<-  2	D<-  2	Conditional	 937.694	   0.000	 942.781		0	0
+[  3]	   1	A<-  3	      	Demand     	 943.765	   8.600	 952.365		1	0
+[  4]	   2	      	      	Demand     	 957.748	   8.600	 966.348		1	0
+[  5]	   3	      	      	Demand     	 971.731	   8.600	 980.331		2	0
+[  6]	   7	      	      	Demand     	 989.699	   8.100	 997.799		0	4
+[  7]	  10	      	D<-  7	Yield      	1006.097	   8.600	1014.697		0	0
+[  8]	   2	      	      	Parking    	1016.751	   0.000	1016.751		0	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=4943.154297
+
+Score : 4943.154297

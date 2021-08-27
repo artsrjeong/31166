@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IHC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP88.tmp" with contents
+[
+/nologo /o"Debug/IHC.bsc" 
+.\Debug\Car.sbr
+.\Debug\CMotion.sbr
+".\Debug\ESP-NSP.sbr"
+.\Debug\hoistway_plan.sbr
+.\Debug\HoistwayPlanGen.sbr
+.\Debug\HoistwayPlanner.sbr
+.\Debug\HoistwayPlanSelection.sbr
+.\Debug\HPE.sbr
+.\Debug\IHC.sbr
+.\Debug\InterfaceDLL.sbr
+.\Debug\timer.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP88.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+IHC.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

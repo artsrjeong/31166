@@ -1,0 +1,187 @@
+/* U10 Project: @(#)infads.l	1.1	2/15/95	09:16:40 */
+/*********************************************************************
+;  File Name: INFADS.L - ADSS/PU local data.
+;
+;  File Description:
+;  This file contains the local data definitions used by adss/pu
+;  commmunication functions/tasks.
+; 
+; 
+;  This work and the information it contains are the confidential
+;  property of Otis Elevator Company ("Otis").  It is delivered on
+;  the express condition that it will be used only for, or on
+;  behalf of, Otis; that neither it nor the information it contains
+;  will be reproduced, distributed or disclosed, in whole or in part,
+;  without the written consent of Otis; and that on demand it and any
+;  copies will be promptly returned.
+;
+;  Unpublished work - Copyright 1995 Otis Elevator Company
+;  All rights reserved.
+;
+;
+;  Revision History:
+;
+;  SCN                   Author	                       Date
+;  ------------------------------------------------------------------------
+;  A1730203BAA           Geoff Mochau                  02 February 1995
+;  - SCR 30203-38: Created (renamed) module from "infads_l.h".
+;
+;************************************************************************/
+
+/*** External Public Data ***********************************************/
+
+/*** Public Data Definitions ********************************************/
+
+/*** ADSS/PU Commmunications Constants **********************************/
+#define	NUM_INPUTS	6	/* number of inputs from adss/pu	*/
+#define NUM_STATES	25	/* number of adss/pu comm. states	*/
+#define ZERO		0	/* zero					*/
+#define ONE		1	/* one					*/	
+#define TWO		2	/* two					*/
+#define THREE		3	/* three				*/
+#define FOUR		4	/* four					*/
+#define FIVE		5	/* five					*/
+#define SIX		6	/* six					*/
+#define SEVEN		7	/* seven				*/
+#define EIGHT		8	/* eight				*/
+#define NINE		9	/* nine					*/
+#define TEN		10	/* ten					*/
+#define ELEVEN		11	/* eleven				*/
+#define TWELVE		12	/* twelve				*/
+#define THIRTEEN	13	/* thirteen				*/
+#define FOURTEEN	14	/* fourteen				*/
+#define FIFTEEN		15	/* fifteen				*/
+#define ADS_INIT	4	/* Perform ads initialization		*/
+#define	ADS_READ	1	/* Read from adss/pu			*/
+#define ADS_TRANSITION  2	/* Perform state transition		*/
+#define ADS_WRITE	3	/* Write to the adss/pu			*/
+
+/*** Local Data Definitions *****************************************/
+
+BYTE_T	ads_read_len;
+BYTE_T	ads_write_len;
+BYTE_T  ads_state_action;
+struct  ELEM {
+	  BYTE_T  action;
+	  BYTE_T  next_state;
+};
+
+struct	ELEM ads_trans_tab[NUM_INPUTS][NUM_STATES] = {
+
+/*---------------------------------------------------------------------------
+; This is the adss/pu communications state transition table.
+;
+; Valid inputs (x-value) range from 0 to 5.
+; Valid states (y-value) range from 1 to 23.
+; Valid actions range from 1 to 7.
+;
+; Each entry in the state transition table is an (action,next state) pair.
+;
+; Based on a present input (x-value) and a present state (y-value)
+; the state transition table will yeild a next state and an action.
+;
+; VALID INPUTS:
+; =============
+;
+;	(0) ACK : Acknowledgement
+;
+;	(1) NAK : Negative Acknowledgement
+;
+;	(2) TOUT : Timeout
+;
+;	(3) 1 Valid Byte : ICSS2 has determined that the byte may be the first
+;	    byte of a six byte message from the ADSS/PU.
+;
+;	(4) 5 Valid Bytes : ICSS2 has determined that the ADSS/PU has transmitted
+;	    the last five bytes of a six byte message.
+;
+;	(5) other : The ICSS2 was unable to identify the input as one of those
+;	    described above.
+;
+; VALID STATES:
+; =============
+;
+;	(1) - (6) : States 1 thru 6 are communication initialization states.
+;	    If the ICSS2 is in any of these states, ICSS2 and the 
+;	    ADSS/PU are going thru the ENQ - ACK initialization sequence.
+;
+; 	(7) : This is the ICSS2 write mode. While in this mode, ICSS2 is 
+;	    transmitting six byte messages to the ADSS/PU.
+;
+;	(8) - (12) : States 8 thru 12 are ICSS2 write mode error recovery 
+;	    states. Should ICSS2 unsucessfully transmit a six byte message to
+;	    the ADSS/PU, the state machine will enter state 8 where it will
+;	    attempt to retransmit the six byte message. If failures persist
+;	    the state machine will progress to states 9, 10, ... If the
+;	    state machine reaches state 12 and is still unable to 
+;	    sucessfully transmit the six byte message to the ADSS/PU, the
+;	    state machine will enter state 2 where in will attempt to 
+;	    re-initialize communications with the ADSS/PU.
+;
+;	(13) : This is the ICSS2 read mode. While in this mode, ICSS2 is 
+;	    receiving a six byte message from the ADSS/PU.
+;
+;	(14) - (23) : States 14 thru 23 are the ICSS2 read mode error recovery 
+;	    states. Should the ICSS2 unsucessfully receive a six byte 
+;	    message from the ADSS/PU, the state machine will enter state 14 
+;	    where it will prompt the ADSS/PU to retransmit the six byte message.
+;	    If failures persist, the state machine will progress to states
+;	    15, 16/17, 18/19, .... If the state machine enters state 22/23
+;	    and is still unable to sucessfully receive the six byte message
+;	    from the ADSS/PU, the state machine will enter state 2 where it will
+;	    attempt to re-initialize communications with the ADSS/PU.
+;
+; VALID ACTIONS:
+; ==============
+;
+;	(1) : Transmit an ENQ to the ADSS/PU and set the ADSS/PU communications 
+;	   timeout to 10 seconds.
+;
+;	(2) : Retransmit six byte message to the ADSS/PU and set the ADSS/PU
+;	   communications timeout to 200 msec.
+;
+;	(3) : If ADSS message queue is not empty, read next message from the 
+;	   message queue and transmit it to the ADSS/PU. Set ADSS/PU 
+;	   communications timeout to 200 msec.
+;
+;	(4) : Transmit NAK to the ADSS/PU and set communications timeout to
+;	   200 msec.
+;
+;	(5) : Set ADSS/PU communications timeout to 200 msec.
+;
+;	(6) : Decode six byte message from the ADSS/PU. Based on the message
+;	   type and subtype, perform the appropriate action. If there are no
+;	   messages in the ADSS message queue, transmit an ACK to the ADSS/PU.
+;	   If there are messages in the ADSS message queue, transmit a six byte
+;	   message to the ADSS/PU. Set communications timeout to 200 msec.
+;
+;	(7) : Transmit an ENQ to the ADSS/PU and set the ADSS/PU communications
+;	   timeout to 200 msec. If the state machine is moving from state
+;	   6 to state 7, flush the ADSS message queue. 
+;
+; 	    PRESENT STATE, PRESENT INPUT ----> NEXT STATE, ACTION
+;
+;----------------------------------------------------------------------------*/
+/* 0 */		1,2,  1,2,  7,3,  7,4,  7,5,  7,6,  3,7,  3,7,  3,7,  3,7,
+		3,7,  3,7,  3,7,  1,2,  3,7,  4,16, 3,7,  4,18, 3,7,  4,20,
+		3,7,  4,22, 3,7,  1,2,  1,2,
+
+/* 1 */		1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  2,8,  2,9,  3,10,
+		2,11, 2,12, 1,2,  1,2,  4,16, 4,16, 4,18, 4,18, 4,20, 4,20,
+		4,22, 4,22, 1,2,  1,2,  1,2,
+
+/* 2 */		1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  4,8,  4,9,  3,10,
+		4,11, 4,12, 1,2,  4,14, 4,16, 4,16, 4,18, 4,18, 4,20, 4,20,
+		4,22, 4,22, 1,2,  1,2,  1,2,
+
+/* 3 */		1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  5,13, 5,13, 5,13,
+		5,13, 5,13, 5,13, 1,2,  5,15, 4,16, 5,17, 4,18, 5,19, 4,20,
+		5,21, 4,22, 5,23, 1,2,  1,2,
+
+/* 4 */		1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,
+		1,2,  1,2,  1,2,  6,7,  1,2,  6,7,  1,2,  6,7,  1,2,  6,7,
+		1,2,  6,7,  1,2,  6,7,  1,2,
+
+/* 5 */		1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  1,2,  4,8,  4,9,  3,10,
+		4,11, 4,12, 1,2,  4,14, 4,16, 4,16, 4,18, 4,18, 4,20, 4,20,
+		4,22, 4,22, 1,2,  1,2,  1,2  };

@@ -1,0 +1,59 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\testcase14.2dp
+             Engine version : 050826
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : 
+
+// Violation Display
+18                  
+Z                     
+
+                   Run date : Fri Sep 02 17:52:46 2005
+
+       Number of passengers : 500
+                     floors : 12 (10 + 1 pit + 1 overhead)
+                  hoistways : 4
+                       cars : 8
+
+             Time simulated : 1058.578
+                Normal runs : 473
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 485
+ Closest margin (time, hwy) : 4.000 (622.825, 2)
+
+  Destination registrations : 168
+    Hall call registrations : 112
+           Re-registrations : 1
+ Avg registration time (AP) : 74.524
+ Max registration time (AP) : 431.219
+      Avg waiting time (AP) : 64.556
+      Max waiting time (AP) : 431.219
+           Avg service time : 109.021
+           Max service time : 470.664
+
+ Avg registration time (CP) : 73.458
+ Max registration time (CP) : 430.719
+      Avg waiting time (CP) : 63.418
+      Max waiting time (CP) : 430.719
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    9       41         42        3.253         9         2.268
+    8       38         32        2.734         8         2.410
+    7       41         46        2.626         9         2.004
+    6       48         52        2.000         7         1.646
+    5       34         44        1.795         7         1.476
+    4       40         37        2.110         9         1.829
+    3       44         36        1.680         8         2.181
+    2       32         42        2.305         7         1.590
+    1       42         43        2.621         7         1.880
+    0      140        126       14.091        53        12.085
+
+Overall Rejection Occurrence:
+  Null_Rej(1), H_Rej(1), C_Rej(1), D_Rej(1), HC_Rej(0), HD_Rej(1), CD_Rej(1)
+
+Overall Rejection Count:
+  NULL_Rej(288), H_Rej(191), C_Rej(164), D_Rej(246), HC_Rej(0), HD_Rej(71), CD_Rej(164)

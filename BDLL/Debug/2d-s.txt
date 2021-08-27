@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : d:\jsr\문서\군관리\TestTarget\LRTest_005_005_005_005_005_005_005_005_005.2dp
+             Engine version : 050614
+             Dispatcher DLL : BDLL.dll
+                  Algorithm : PI Reuse (1D TWO WAY)
+                   Run date : Wed Jun 22 19:33:15 2005
+
+       Number of passengers : 5
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 1
+                       cars : 2
+
+             Time simulated : 125.882
+                Normal runs : 8
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 11
+ Closest margin (time, hwy) : 6.096 (64.960, 0)
+
+  Destination registrations : 5
+    Hall call registrations : 5
+           Re-registrations : 0
+ Avg registration time (AP) : 6.026
+ Max registration time (AP) : 76.335
+      Avg waiting time (AP) : 6.026
+      Max waiting time (AP) : 76.335
+           Avg service time : 8.480
+           Max service time : 57.662
+
+ Avg registration time (CP) : 6.356
+ Max registration time (CP) : 76.726
+      Avg waiting time (CP) : 6.356
+      Max waiting time (CP) : 76.726
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        0          0        0.000         0         0.000
+    7        0          0        0.000         0         0.000
+    6        0          0        0.000         0         0.000
+    5        1          1        0.633         1         0.482
+    4        1          1        0.353         1         0.478
+    3        1          0        0.211         1         0.408
+    2        0          0        0.000         0         0.000
+    1        1          1        0.232         1         0.422
+    0        1          0        0.122         1         0.327
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(1), C_Rej(0), D_Rej(1), HC_Rej(0), HD_Rej(1), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(2), C_Rej(0), D_Rej(2), HC_Rej(0), HD_Rej(2), CD_Rej(0)

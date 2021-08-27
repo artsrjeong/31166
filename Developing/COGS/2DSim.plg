@@ -1,0 +1,359 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Dispatcher - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP152.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DISPATCHER_EXPORTS" /Fp"Release/Dispatcher.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\Dispatcher\2DGroupDispatcher.cpp"
+"C:\31166\f\Dispatcher\assign.cpp"
+"C:\31166\f\Dispatcher\Asslib.cpp"
+"C:\31166\f\Dispatcher\crisppwt.cpp"
+"C:\31166\f\Dispatcher\Crisprrt.cpp"
+"C:\31166\f\Dispatcher\E2p.cpp"
+"C:\31166\f\Dispatcher\Gcbinfad.cpp"
+"C:\31166\f\Dispatcher\Infbld.cpp"
+"C:\31166\f\Dispatcher\infdes.cpp"
+"C:\31166\f\Dispatcher\Infocs.cpp"
+"C:\31166\f\Dispatcher\NPI.cpp"
+"C:\31166\f\Dispatcher\Pwt.cpp"
+"C:\31166\f\Dispatcher\rrt.cpp"
+"C:\31166\f\Dispatcher\trafdat.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP152.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DISPATCHER_EXPORTS" /Fp"Release/Dispatcher.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\Dispatcher\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP153.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP154.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Dispatcher.pdb" /machine:I386 /out:"..\Release/Dispatcher.dll" /implib:"Release/Dispatcher.lib" 
+.\Release\2DGroupDispatcher.obj
+.\Release\assign.obj
+.\Release\Asslib.obj
+.\Release\crisppwt.obj
+.\Release\Crisprrt.obj
+.\Release\E2p.obj
+.\Release\Gcbinfad.obj
+.\Release\Infbld.obj
+.\Release\infdes.obj
+.\Release\Infocs.obj
+.\Release\NPI.obj
+.\Release\Pwt.obj
+.\Release\rrt.obj
+.\Release\StdAfx.obj
+.\Release\trafdat.obj
+]
+Creating command line "link.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP154.tmp""
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+2DGroupDispatcher.cpp
+assign.cpp
+C:\31166\f\Dispatcher\assign.cpp(1428) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\31166\f\Dispatcher\assign.cpp(160) : warning C4101: 'dpcTmp1' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(141) : warning C4101: 'CrowdFlag' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(161) : warning C4101: 'passIdLow' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(157) : warning C4101: 'tmp_lowest_pos' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(160) : warning C4101: 'dpcTmp2' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(160) : warning C4101: 'dpcAssignCar' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(160) : warning C4101: 'dpcCallFlag' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(126) : warning C4101: 'number_affected_calls' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(134) : warning C4101: 'TaskID' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(128) : warning C4101: 'queue_count' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(159) : warning C4101: 'waitLevel' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(146) : warning C4101: 'nn_rrts' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(127) : warning C4101: 'flag' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(161) : warning C4101: 'passTmp' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(157) : warning C4101: 'tmp_highest_pos' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(137) : warning C4101: 'ignore_coinc_flag' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(158) : warning C4101: 'carBit' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(138) : warning C4101: 'parkIdleFlag' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(159) : warning C4101: 'callDir' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(151) : warning C4101: 'p_rrts' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(155) : warning C4101: 'best_car2' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(156) : warning C4101: 'affectPassFlag' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(118) : warning C4101: 'best_rrt' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(128) : warning C4101: 'dbdQueueCount' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(163) : warning C4101: 'passId' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(161) : warning C4101: 'passIdHigh' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(151) : warning C4101: 'p_rrt' : unreferenced local variable
+C:\31166\f\Dispatcher\assign.cpp(114) : warning C4101: 'msg_temp' : unreferenced local variable
+Asslib.cpp
+C:\31166\f\Dispatcher\Asslib.cpp(491) : warning C4101: 'msg_temp' : unreferenced local variable
+crisppwt.cpp
+C:\31166\f\Dispatcher\crisppwt.cpp(676) : warning C4101: 'distance' : unreferenced local variable
+C:\31166\f\Dispatcher\crisppwt.cpp(673) : warning C4101: 'upper' : unreferenced local variable
+C:\31166\f\Dispatcher\crisppwt.cpp(675) : warning C4101: 'direction' : unreferenced local variable
+C:\31166\f\Dispatcher\crisppwt.cpp(674) : warning C4101: 'ignore_coinc_flag' : unreferenced local variable
+C:\31166\f\Dispatcher\crisppwt.cpp(673) : warning C4101: 'start_distance' : unreferenced local variable
+C:\31166\f\Dispatcher\crisppwt.cpp(673) : warning C4101: 'lower' : unreferenced local variable
+Crisprrt.cpp
+C:\31166\f\Dispatcher\Crisprrt.cpp(36) : warning C4101: 'temp_bottom_cc_flag' : unreferenced local variable
+C:\31166\f\Dispatcher\Crisprrt.cpp(36) : warning C4101: 'temp_top_cc_flag' : unreferenced local variable
+E2p.cpp
+C:\31166\f\Dispatcher\E2p.cpp(23) : warning C4101: 'e2pBackTmp1' : unreferenced local variable
+C:\31166\f\Dispatcher\E2p.cpp(23) : warning C4101: 'e2pBackTmp2' : unreferenced local variable
+C:\31166\f\Dispatcher\E2p.cpp(655) : warning C4101: 'x_upper_limit' : unreferenced local variable
+Gcbinfad.cpp
+Infbld.cpp
+C:\31166\f\Dispatcher\Infbld.cpp(272) : warning C4101: 'j' : unreferenced local variable
+infdes.cpp
+C:\31166\f\Dispatcher\infdes.cpp(60) : warning C4101: 'segment' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(60) : warning C4101: 'carIdx' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(61) : warning C4101: 'deviceId' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(60) : warning C4101: 'floorId' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(60) : warning C4101: 'i' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(60) : warning C4101: 'stateIdx' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(77) : warning C4101: 'distance' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(76) : warning C4101: 'rateHc' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(76) : warning C4101: 'rateStd' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(77) : warning C4101: 'remain' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(76) : warning C4101: 'walkTime' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(77) : warning C4101: 'decRecordIdx' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(104) : warning C4101: 'sequenceNumber' : unreferenced local variable
+C:\31166\f\Dispatcher\infdes.cpp(104) : warning C4101: 'deviceAddress' : unreferenced local variable
+Infocs.cpp
+NPI.cpp
+C:\31166\f\Dispatcher\NPI.cpp(27) : warning C4129: 'd' : unrecognized character escape sequence
+C:\31166\f\Dispatcher\NPI.cpp(146) : warning C4129: 'd' : unrecognized character escape sequence
+C:\31166\f\Dispatcher\NPI.cpp(174) : warning C4129: 'h' : unrecognized character escape sequence
+C:\31166\f\Dispatcher\NPI.cpp(182) : warning C4101: 'str' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'dest_mask' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'dstPos' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'carPos' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'finish2' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'start2' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'callDir' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'finish' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(192) : warning C4101: 'start' : unreferenced local variable
+C:\31166\f\Dispatcher\NPI.cpp(449) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\31166\f\Dispatcher\NPI.cpp(450) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+Pwt.cpp
+rrt.cpp
+C:\31166\f\Dispatcher\rrt.cpp(171) : warning C4101: 'crisp_rrt' : unreferenced local variable
+C:\31166\f\Dispatcher\rrt.cpp(172) : warning C4101: 'min_rrt' : unreferenced local variable
+C:\31166\f\Dispatcher\rrt.cpp(175) : warning C4101: 'i' : unreferenced local variable
+C:\31166\f\Dispatcher\rrt.cpp(169) : warning C4101: 'nn_rrt' : unreferenced local variable
+C:\31166\f\Dispatcher\rrt.cpp(175) : warning C4101: 'j' : unreferenced local variable
+trafdat.cpp
+Generating Code...
+C:\31166\f\Dispatcher\assign.cpp(1285) : warning C4700: local variable 'invChnBestCar' used without having been initialized
+Linking...
+   Creating library Release/Dispatcher.lib and object Release/Dispatcher.exp
+<h3>
+--------------------Configuration: HExec - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP158.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HEXEC_EXPORTS" /Fp"Release/HExec.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\HExec\Car.cpp"
+"C:\31166\f\HExec\CMotion.cpp"
+"C:\31166\f\HExec\ESP-NSP.cpp"
+"C:\31166\f\HExec\HExec.cpp"
+"C:\31166\f\HoistwayPlanner\hoistway_plan.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP158.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP159.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HEXEC_EXPORTS" /Fp"Release/HExec.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\HExec\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP159.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP15A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/HExec.pdb" /machine:I386 /out:"../Release/HExec.dll" /implib:"Release/HExec.lib" 
+.\Release\Car.obj
+.\Release\CMotion.obj
+".\Release\ESP-NSP.obj"
+.\Release\HExec.obj
+.\Release\hoistway_plan.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP15A.tmp""
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Car.cpp
+C:\31166\f\HExec\Car.cpp(131) : warning C4101: 'tgtTrail' : unreferenced local variable
+C:\31166\f\HExec\Car.cpp(131) : warning C4101: 'orgTrail' : unreferenced local variable
+C:\31166\f\HExec\Car.cpp(513) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+CMotion.cpp
+C:\31166\f\HExec\CMotion.cpp(1050) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1058) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1062) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1066) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1129) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1133) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1137) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+C:\31166\f\HExec\CMotion.cpp(1100) : warning C4101: 'p' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1101) : warning C4101: 'vb' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1100) : warning C4101: 'a' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1106) : warning C4101: 'b' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1100) : warning C4101: 'v' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1104) : warning C4101: 'tStep1' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1099) : warning C4101: 'minCommitDist' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1107) : warning C4101: 'i' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1100) : warning C4101: 'j' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1096) : warning C4101: 'committableFloor' : unreferenced local variable
+C:\31166\f\HExec\CMotion.cpp(1107) : warning C4101: 'ib' : unreferenced local variable
+ESP-NSP.cpp
+HExec.cpp
+C:\31166\f\HExec\HExec.cpp(179) : warning C4101: 'n_userfloor' : unreferenced local variable
+hoistway_plan.cpp
+Generating Code...
+Linking...
+   Creating library Release/HExec.lib and object Release/HExec.exp
+<h3>
+--------------------Configuration: HoistwayPlanner - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP15E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HOISTWAYPLANNER_EXPORTS" /Fp"Release/HoistwayPlanner.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\HExec\ESP-NSP.cpp"
+"C:\31166\f\HoistwayPlanner\hoistway_plan.cpp"
+"C:\31166\f\HoistwayPlanner\HoistwayPlanGen.cpp"
+"C:\31166\f\HoistwayPlanner\HoistwayPlanner.cpp"
+"C:\31166\f\HoistwayPlanner\HoistwayPlanSelection.cpp"
+"C:\31166\f\HoistwayPlanner\timer.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP15E.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP15F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HOISTWAYPLANNER_EXPORTS" /Fp"Release/HoistwayPlanner.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\HoistwayPlanner\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP15F.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP160.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/HoistwayPlanner.pdb" /machine:I386 /out:"..\Release/HoistwayPlanner.dll" /implib:"Release/HoistwayPlanner.lib" 
+".\Release\ESP-NSP.obj"
+.\Release\hoistway_plan.obj
+.\Release\HoistwayPlanGen.obj
+.\Release\HoistwayPlanner.obj
+.\Release\HoistwayPlanSelection.obj
+.\Release\StdAfx.obj
+.\Release\timer.obj
+]
+Creating command line "link.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP160.tmp""
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ESP-NSP.cpp
+hoistway_plan.cpp
+HoistwayPlanGen.cpp
+C:\31166\f\HoistwayPlanner\HoistwayPlanGen.cpp(2647) : warning C4305: 'return' : truncation from 'const int' to 'float'
+C:\31166\f\HoistwayPlanner\HoistwayPlanGen.cpp(2651) : warning C4305: 'return' : truncation from 'const int' to 'float'
+C:\31166\f\HoistwayPlanner\HoistwayPlanGen.cpp(2671) : warning C4305: 'return' : truncation from 'const int' to 'float'
+C:\31166\f\HoistwayPlanner\HoistwayPlanGen.cpp(2675) : warning C4305: 'return' : truncation from 'const int' to 'float'
+HoistwayPlanner.cpp
+HoistwayPlanSelection.cpp
+C:\31166\f\HoistwayPlanner\HoistwayPlanSelection.cpp(1534) : warning C4305: 'return' : truncation from 'const int' to 'float'
+timer.cpp
+Generating Code...
+Linking...
+   Creating library Release/HoistwayPlanner.lib and object Release/HoistwayPlanner.exp
+<h3>
+--------------------Configuration: 2DSim - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/2DSim.res" /d "NDEBUG" "C:\31166\f\COGS\2DSim.rc"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP164.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/2DSim.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\COGS\2DFileIO.cpp"
+"C:\31166\f\COGS\2DSim.cpp"
+"C:\31166\f\COGS\2DSimDlg.cpp"
+"C:\31166\f\COGS\DlgSelectAlgorithm.cpp"
+"C:\31166\f\COGS\DlgSetFloor.cpp"
+"C:\31166\f\COGS\HideUnhide.cpp"
+"C:\31166\f\HoistwayPlanner\hoistway_plan.cpp"
+"C:\31166\f\COGS\JumpToTime.cpp"
+"C:\31166\f\COGS\msflexgrid.cpp"
+"C:\31166\f\COGS\ShowLoadDlg.cpp"
+"C:\31166\f\COGS\UserConfiguration.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP164.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP165.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/2DSim.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\31166\f\COGS\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP165.tmp"" 
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP166.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/2DSim.pdb" /machine:I386 /out:"..\Release/2DSim.exe" 
+.\Release\2DFileIO.obj
+.\Release\2DSim.obj
+.\Release\2DSimDlg.obj
+.\Release\DlgSelectAlgorithm.obj
+.\Release\DlgSetFloor.obj
+.\Release\HideUnhide.obj
+.\Release\hoistway_plan.obj
+.\Release\JumpToTime.obj
+.\Release\msflexgrid.obj
+.\Release\ShowLoadDlg.obj
+.\Release\StdAfx.obj
+.\Release\UserConfiguration.obj
+.\Release\2DSim.res
+\31166\f\Dispatcher\Release\Dispatcher.lib
+\31166\f\HExec\Release\HExec.lib
+\31166\f\HoistwayPlanner\Release\HoistwayPlanner.lib
+]
+Creating command line "link.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP166.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+2DFileIO.cpp
+2DSim.cpp
+2DSimDlg.cpp
+DlgSelectAlgorithm.cpp
+DlgSetFloor.cpp
+HideUnhide.cpp
+hoistway_plan.cpp
+JumpToTime.cpp
+msflexgrid.cpp
+ShowLoadDlg.cpp
+UserConfiguration.cpp
+Generating Code...
+Linking...
+   Creating library ..\Release/2DSim.lib and object ..\Release/2DSim.exp
+Creating temporary file "C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP16A.tmp" with contents
+[
+/nologo /o"Release/2DSim.bsc" 
+.\Release\StdAfx.sbr
+.\Release\2DFileIO.sbr
+.\Release\2DSim.sbr
+.\Release\2DSimDlg.sbr
+.\Release\DlgSelectAlgorithm.sbr
+.\Release\DlgSetFloor.sbr
+.\Release\HideUnhide.sbr
+.\Release\hoistway_plan.sbr
+.\Release\JumpToTime.sbr
+.\Release\msflexgrid.sbr
+.\Release\ShowLoadDlg.sbr
+.\Release\UserConfiguration.sbr]
+Creating command line "bscmake.exe @"C:\DOCUME~1\신청식\LOCALS~1\Temp\RSP16A.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+2DSim.exe - 0 error(s), 103 warning(s)
+</pre>
+</body>
+</html>

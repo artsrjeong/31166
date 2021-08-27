@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2DSim", "2DSim.vcproj", "{AD49AD8B-708D-40BD-9025-1E9A4027E692}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dispatcher", "..\Dispatcher\Dispatcher.vcproj", "{88EC6E5A-93CE-499A-8DC9-AAAC7693A73C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HExec", "..\HExec\HExec.vcproj", "{BD91C539-B255-4CA1-88A1-F6505D16935D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoistwayPlanner", "..\HoistwayPlanner\HoistwayPlanner.vcproj", "{35BD1F24-6434-4899-88A7-03C3618ECF83}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AD49AD8B-708D-40BD-9025-1E9A4027E692}.Debug.ActiveCfg = Debug|Win32
+		{AD49AD8B-708D-40BD-9025-1E9A4027E692}.Debug.Build.0 = Debug|Win32
+		{AD49AD8B-708D-40BD-9025-1E9A4027E692}.Release.ActiveCfg = Release|Win32
+		{AD49AD8B-708D-40BD-9025-1E9A4027E692}.Release.Build.0 = Release|Win32
+		{88EC6E5A-93CE-499A-8DC9-AAAC7693A73C}.Debug.ActiveCfg = Debug|Win32
+		{88EC6E5A-93CE-499A-8DC9-AAAC7693A73C}.Debug.Build.0 = Debug|Win32
+		{88EC6E5A-93CE-499A-8DC9-AAAC7693A73C}.Release.ActiveCfg = Release|Win32
+		{88EC6E5A-93CE-499A-8DC9-AAAC7693A73C}.Release.Build.0 = Release|Win32
+		{BD91C539-B255-4CA1-88A1-F6505D16935D}.Debug.ActiveCfg = Debug|Win32
+		{BD91C539-B255-4CA1-88A1-F6505D16935D}.Debug.Build.0 = Debug|Win32
+		{BD91C539-B255-4CA1-88A1-F6505D16935D}.Release.ActiveCfg = Release|Win32
+		{BD91C539-B255-4CA1-88A1-F6505D16935D}.Release.Build.0 = Release|Win32
+		{35BD1F24-6434-4899-88A7-03C3618ECF83}.Debug.ActiveCfg = Debug|Win32
+		{35BD1F24-6434-4899-88A7-03C3618ECF83}.Debug.Build.0 = Debug|Win32
+		{35BD1F24-6434-4899-88A7-03C3618ECF83}.Release.ActiveCfg = Release|Win32
+		{35BD1F24-6434-4899-88A7-03C3618ECF83}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

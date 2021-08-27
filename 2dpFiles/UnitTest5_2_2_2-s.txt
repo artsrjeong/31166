@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\UnitTest5_2_2_2.2dp
+             Engine version : 0500913
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : Just Sequential dispatching(0 to ncar)
+                   Run date : Thu Oct 06 15:19:15 2005
+
+       Number of passengers : 2
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 1
+                       cars : 2
+
+             Time simulated : 104.089
+                Normal runs : 5
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 5
+ Closest margin (time, hwy) : 7.048 (97.350, 0)
+
+  Destination registrations : 2
+    Hall call registrations : 2
+           Re-registrations : 0
+ Avg registration time (AP) : 4.077
+ Max registration time (AP) : 8.153
+      Avg waiting time (AP) : 4.077
+      Max waiting time (AP) : 8.153
+           Avg service time : 50.532
+           Max service time : 67.269
+
+ Avg registration time (CP) : 8.955
+ Max registration time (CP) : 10.966
+      Avg waiting time (CP) : 8.955
+      Max waiting time (CP) : 10.966
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        1          0        0.363         1         0.481
+    7        0          0        0.000         0         0.000
+    6        0          0        0.000         0         0.000
+    5        0          1        0.000         0         0.000
+    4        0          0        0.000         0         0.000
+    3        1          0        0.187         1         0.390
+    2        0          0        0.000         0         0.000
+    1        0          1        0.000         0         0.000
+    0        0          0        0.000         0         0.000
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)

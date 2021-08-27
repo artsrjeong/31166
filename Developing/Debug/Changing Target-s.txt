@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\Changing Target.2dp
+             Engine version : 0501025A
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : Just Sequential dispatching(0 to ncar)
+                   Run date : Tue Nov 15 09:34:25 2005
+
+       Number of passengers : 3
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 1
+                       cars : 2
+
+             Time simulated : 62.084
+                Normal runs : 6
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 6
+ Closest margin (time, hwy) : 8.000 (20.641, 0)
+
+  Destination registrations : 3
+    Hall call registrations : 3
+           Re-registrations : 0
+ Avg registration time (AP) : 20.078
+ Max registration time (AP) : 36.081
+      Avg waiting time (AP) : 20.078
+      Max waiting time (AP) : 36.081
+           Avg service time : 46.537
+           Max service time : 56.484
+
+ Avg registration time (CP) : 18.430
+ Max registration time (CP) : 34.707
+      Avg waiting time (CP) : 18.430
+      Max waiting time (CP) : 34.707
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        0          1        0.000         0         0.000
+    7        1          0        0.279         1         0.448
+    6        0          0        0.000         0         0.000
+    5        1          0        0.399         1         0.490
+    4        0          0        0.000         0         0.000
+    3        1          0        0.726         1         0.446
+    2        0          2        0.000         0         0.000
+    1        0          0        0.000         0         0.000
+    0        0          0        0.000         0         0.000
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)

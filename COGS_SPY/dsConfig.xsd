@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsConfig" targetNamespace="http://tempuri.org/dsConfig.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsConfig.xsd" xmlns:mstns="http://tempuri.org/dsConfig.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsConfig" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="FloorHeight">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Label" type="xs:string" minOccurs="0" />
+							<xs:element name="Height" type="xs:int" minOccurs="0" />
+							<xs:element name="Position" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SqcUpper">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Floor" type="xs:string" minOccurs="0" />
+							<xs:element name="TimeOffset" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SqcLower">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Floor" type="xs:string" minOccurs="0" />
+							<xs:element name="TimeOffset" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ocss_info">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Vel" type="xs:string" minOccurs="0" />
+							<xs:element name="Acc" type="xs:string" minOccurs="0" />
+							<xs:element name="Jerk" type="xs:string" minOccurs="0" />
+							<xs:element name="SafeG" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="environment">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="carId" type="xs:int" minOccurs="0" />
+							<xs:element name="isChecked" type="xs:boolean" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="traffic">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="time" type="xs:double" minOccurs="0" />
+							<xs:element name="pos" type="xs:int" minOccurs="0" />
+							<xs:element name="dst" type="xs:int" minOccurs="0" />
+							<xs:element name="car" type="xs:int" minOccurs="0" />
+							<xs:element name="w_t" type="xs:double" minOccurs="0" />
+							<xs:element name="s_t" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HoistWay">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="lowerCarId" type="xs:int" minOccurs="0" />
+							<xs:element name="upperCarId" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CarInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="maxJerk" type="xs:unsignedShort" minOccurs="0" />
+							<xs:element name="maxAcceleration" type="xs:unsignedShort" minOccurs="0" />
+							<xs:element name="maxVelocity" type="xs:unsignedShort" minOccurs="0" />
+							<xs:element name="tDoorOpening" type="xs:int" minOccurs="0" />
+							<xs:element name="tDoorClosing" type="xs:int" minOccurs="0" />
+							<xs:element name="boardingRatio" type="xs:unsignedShort" minOccurs="0" />
+							<xs:element name="capacity" type="xs:unsignedShort" minOccurs="0" />
+							<xs:element name="nDoors" type="xs:unsignedByte" minOccurs="0" />
+							<xs:element name="doorWidth" type="xs:unsignedShort" minOccurs="0" />
+							<xs:element name="tStartDelay" type="xs:int" minOccurs="0" />
+							<xs:element name="tStopDelay" type="xs:int" minOccurs="0" />
+							<xs:element name="Afd" type="xs:unsignedShort" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Parameter">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tCarMinDwell" type="xs:int" minOccurs="0" />
+							<xs:element name="tHallMinDwell" type="xs:int" minOccurs="0" />
+							<xs:element name="tHallMaxDwell" type="xs:int" minOccurs="0" />
+							<xs:element name="tLobbyDwell" type="xs:int" minOccurs="0" />
+							<xs:element name="tBoardingDeboardingTime" type="xs:int" minOccurs="0" />
+							<xs:element name="bReopenEnabled" minOccurs="0" type="xs:boolean" />
+							<xs:element name="Lobby1Floor" type="xs:byte" minOccurs="0" />
+							<xs:element name="Lobby2Floor" type="xs:unsignedByte" minOccurs="0" />
+							<xs:element name="Lobby3Floor" type="xs:unsignedByte" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TSADelay">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TDLODist" type="xs:int" minOccurs="0" />
+							<xs:element name="leadTrv" type="xs:int" minOccurs="0" />
+							<xs:element name="trailTrv" type="xs:int" minOccurs="0" />
+							<xs:element name="delay" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TSACompress">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TDLODist" type="xs:int" minOccurs="0" />
+							<xs:element name="leadTrv" type="xs:int" minOccurs="0" />
+							<xs:element name="trailTrv" type="xs:int" minOccurs="0" />
+							<xs:element name="delay" type="xs:int" minOccurs="0" />
+							<xs:element name="type" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TSARestore">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TDLODist" type="xs:int" minOccurs="0" />
+							<xs:element name="leadTrv" type="xs:int" minOccurs="0" />
+							<xs:element name="trailTrv" type="xs:int" minOccurs="0" />
+							<xs:element name="delay" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

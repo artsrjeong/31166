@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IHC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IHC_EXPORTS" /FR"Debug/" /Fp"Debug/IHC.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\31149\Prototype 1\IHC\Car.cpp"
+"D:\31149\Prototype 1\IHC\CMotion.cpp"
+"D:\31149\Prototype 1\HoistwayPlanner\ESP-NSP.cpp"
+"D:\31149\Prototype 1\HoistwayPlanner\hoistway_plan.cpp"
+"D:\31149\Prototype 1\HoistwayPlanner\HoistwayPlanGen.cpp"
+"D:\31149\Prototype 1\HoistwayPlanner\HoistwayPlanner.cpp"
+"D:\31149\Prototype 1\HoistwayPlanner\HoistwayPlanSelection.cpp"
+"D:\31149\Prototype 1\IHC\HPE.cpp"
+"D:\31149\Prototype 1\IHC\IHC.cpp"
+"D:\31149\Prototype 1\IHCInterfaceCOGS\InterfaceDLL.cpp"
+"D:\31149\Prototype 1\HoistwayPlanner\timer.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSPF3.tmp" 
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/IHC.pdb" /debug /machine:I386 /out:"../Debug/IHC.dll" /implib:"Debug/IHC.lib" /pdbtype:sept 
+".\Debug\Car.obj"
+".\Debug\CMotion.obj"
+".\Debug\ESP-NSP.obj"
+".\Debug\hoistway_plan.obj"
+".\Debug\HoistwayPlanGen.obj"
+".\Debug\HoistwayPlanner.obj"
+".\Debug\HoistwayPlanSelection.obj"
+".\Debug\HPE.obj"
+".\Debug\IHC.obj"
+".\Debug\InterfaceDLL.obj"
+".\Debug\timer.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSPF4.tmp"
+<h3>Output Window</h3>
+Compiling...
+Car.cpp
+CMotion.cpp
+ESP-NSP.cpp
+hoistway_plan.cpp
+HoistwayPlanGen.cpp
+HoistwayPlanner.cpp
+HoistwayPlanSelection.cpp
+HPE.cpp
+IHC.cpp
+InterfaceDLL.cpp
+timer.cpp
+Linking...
+   Creating library Debug/IHC.lib and object Debug/IHC.exp
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+/nologo /o"Debug/IHC.bsc" 
+".\Debug\Car.sbr"
+".\Debug\CMotion.sbr"
+".\Debug\ESP-NSP.sbr"
+".\Debug\hoistway_plan.sbr"
+".\Debug\HoistwayPlanGen.sbr"
+".\Debug\HoistwayPlanner.sbr"
+".\Debug\HoistwayPlanSelection.sbr"
+".\Debug\HPE.sbr"
+".\Debug\IHC.sbr"
+".\Debug\InterfaceDLL.sbr"
+".\Debug\timer.sbr"]
+Creating command line "bscmake.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSPF8.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+IHC.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

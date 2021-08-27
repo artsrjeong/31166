@@ -1,0 +1,58 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing2\Debug\T1-L-2w-sub.2dp
+             Engine version : 060119
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : Minimum hoistway impact
+                   Run date : Fri Feb 03 15:21:43 2006
+
+       Number of passengers : 1135
+                     floors : 16 (14 + 1 pit + 1 overhead)
+                  hoistways : 4
+                       cars : 8
+
+             Time simulated : 2229.968
+                Normal runs : 830
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 838
+ Closest margin (time, hwy) : 3.910 (31.936, 2)
+
+  Destination registrations : 179
+    Hall call registrations : 74
+           Re-registrations : 32
+ Avg registration time (AP) : 201.114
+ Max registration time (AP) : 695.863
+      Avg waiting time (AP) : 183.823
+      Max waiting time (AP) : 898.639
+           Avg service time : 255.779
+           Max service time : 1029.740
+
+ Avg registration time (CP) : 200.495
+ Max registration time (CP) : 695.197
+      Avg waiting time (CP) : 183.200
+      Max waiting time (CP) : 897.972
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+   13       70         43        3.296        14         3.187
+   12       50         38        2.049         8         1.795
+   11       74         28        4.930        15         3.449
+   10       61         39        4.874        14         3.511
+    9       62         35        6.489        16         3.936
+    8       46         44        5.278        15         3.437
+    7       78         48        8.952        23         6.614
+    6       69         43        5.724        14         4.192
+    5       73         30        7.186        23         5.966
+    4       63         34        5.214        16         3.824
+    3       74         33        6.839        20         5.431
+    2      192        331       20.642        58        18.430
+    1       70        122        6.058        17         4.628
+    0      153        267       12.210        36         9.328
+
+Overall Rejection Occurrence:
+  Null_Rej(1), H_Rej(1), C_Rej(1), D_Rej(1), HC_Rej(0), HD_Rej(1), CD_Rej(1)
+
+Overall Rejection Count:
+  NULL_Rej(891), H_Rej(650), C_Rej(396), D_Rej(499), HC_Rej(0), HD_Rej(69), CD_Rej(396)

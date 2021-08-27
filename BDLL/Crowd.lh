@@ -1,0 +1,56 @@
+/* U10 Project: @(#)crowd.l	2.1	5/13/94	09:31:26 */
+/* SCCS:@(#)crowd.l 1.1	9/17/92 */
+/**************************************************************************
+;  File Name: CROWD.L - Local Definitions for CROWD.C
+; 
+;  File Description:
+;  This file describes the CROWD.C local definitions.
+; 
+; 
+;  This work and the information it contains are the confidential
+;  property of Otis Elevator Company ("Otis").  It is delivered on
+;  the express condition that it will be used only for, or on
+;  behalf of, Otis; that neither it nor the information it contains
+;  will be reproduced, distributed or disclosed, in whole or in part,
+;  without the written consent of Otis; and that on demand it and any
+;  copies will be promptly returned.
+;
+;  Unpublished work - Copyright 1992 Otis Elevator Company
+;  All rights reserved.
+;
+; 
+;  Revision History:
+; 
+;  SCN                   Author	                       Date
+;  ------------------------------------------------------------------------
+;  AAA30xxxAAA           Toshimitsu Mori		14 Dec. 1994
+;  - Created program
+;
+;  J1830203AAA           Hideyuki Honma 		09 June 1995
+;  - Crowd Operation
+;*************************************************************************/
+
+/**************************************************************************
+;  Constants
+;*************************************************************************/
+#define EXTERN extern
+#undef EXTERN
+
+
+/**************************************************************************
+;  Data Types
+;*************************************************************************/
+/* None */
+
+
+/**************************************************************************
+;  Variables
+;*************************************************************************/
+BYTE_T ehp_landing;
+BYTE_T ehp_old_cars_in_group;
+
+
+/*************************************************************************
+;  Function Prototypes
+;*************************************************************************/
+/* None */

@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COGS_SPY", "COGS_SPY.csproj", "{9765AF65-8B11-443D-B408-6A17FD8ABEEB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2DSim", "..\Developing\COGS\2DSim.vcproj", "{90663B7D-86D0-4F2B-AC78-FFE11722F8A9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HExec", "..\Developing\HExec\HExec.vcproj", "{4C842311-935A-44AA-B2B1-288AB8254010}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoistwayPlanner", "..\Developing\HoistwayPlanner\HoistwayPlanner.vcproj", "{405FAECF-5036-4672-B573-705146D4410F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dispatcher", "..\Developing\Dispatcher\Dispatcher.vcproj", "{64100590-B5E4-42FD-8B44-551ADC9C68B4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpyDll", "SpyDll\SpyDll.vcproj", "{C307CFB1-DAFA-47B6-A650-3C52FE6DC275}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IHC", "..\Developing2\IHC\IHC.vcproj", "{CA6C4CEE-831E-41CA-8718-58D021F08F1C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Debug.ActiveCfg = Debug|.NET
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Debug.Build.0 = Debug|.NET
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Release.ActiveCfg = Release|.NET
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Release.Build.0 = Release|.NET
+		{90663B7D-86D0-4F2B-AC78-FFE11722F8A9}.Debug.ActiveCfg = Debug|Win32
+		{90663B7D-86D0-4F2B-AC78-FFE11722F8A9}.Debug.Build.0 = Debug|Win32
+		{90663B7D-86D0-4F2B-AC78-FFE11722F8A9}.Release.ActiveCfg = Release|Win32
+		{90663B7D-86D0-4F2B-AC78-FFE11722F8A9}.Release.Build.0 = Release|Win32
+		{4C842311-935A-44AA-B2B1-288AB8254010}.Debug.ActiveCfg = Debug|Win32
+		{4C842311-935A-44AA-B2B1-288AB8254010}.Debug.Build.0 = Debug|Win32
+		{4C842311-935A-44AA-B2B1-288AB8254010}.Release.ActiveCfg = Release|Win32
+		{4C842311-935A-44AA-B2B1-288AB8254010}.Release.Build.0 = Release|Win32
+		{405FAECF-5036-4672-B573-705146D4410F}.Debug.ActiveCfg = Debug|Win32
+		{405FAECF-5036-4672-B573-705146D4410F}.Debug.Build.0 = Debug|Win32
+		{405FAECF-5036-4672-B573-705146D4410F}.Release.ActiveCfg = Release|Win32
+		{405FAECF-5036-4672-B573-705146D4410F}.Release.Build.0 = Release|Win32
+		{64100590-B5E4-42FD-8B44-551ADC9C68B4}.Debug.ActiveCfg = Debug|Win32
+		{64100590-B5E4-42FD-8B44-551ADC9C68B4}.Debug.Build.0 = Debug|Win32
+		{64100590-B5E4-42FD-8B44-551ADC9C68B4}.Release.ActiveCfg = Release|Win32
+		{64100590-B5E4-42FD-8B44-551ADC9C68B4}.Release.Build.0 = Release|Win32
+		{C307CFB1-DAFA-47B6-A650-3C52FE6DC275}.Debug.ActiveCfg = Debug|Win32
+		{C307CFB1-DAFA-47B6-A650-3C52FE6DC275}.Debug.Build.0 = Debug|Win32
+		{C307CFB1-DAFA-47B6-A650-3C52FE6DC275}.Release.ActiveCfg = Release|Win32
+		{C307CFB1-DAFA-47B6-A650-3C52FE6DC275}.Release.Build.0 = Release|Win32
+		{CA6C4CEE-831E-41CA-8718-58D021F08F1C}.Debug.ActiveCfg = Debug|Win32
+		{CA6C4CEE-831E-41CA-8718-58D021F08F1C}.Debug.Build.0 = Debug|Win32
+		{CA6C4CEE-831E-41CA-8718-58D021F08F1C}.Release.ActiveCfg = Release|Win32
+		{CA6C4CEE-831E-41CA-8718-58D021F08F1C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

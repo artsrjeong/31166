@@ -1,0 +1,2428 @@
+
+GDInitialize called; using algorithm 0
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:145/0  2:145/0  4:145/0  6:306/0 ->0
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:1270/137  2:306/0  4:123/0  6:155/0 ->4
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:1104/137  2:239/0  4:486/110  6:213/0 ->6
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:718/137  3:10/0  5:911/110  7:862/200 ->3
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:2110/137  2:1173/10  4:1265/110  6:1777/200 ->4
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:823/145  3:880/10  5:3882/1058  7:1230/200 ->1
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:3346/823  2:778/10  4:1975/1058  6:1612/200 ->2
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:2341/823  2:3509/1326  4:2208/1058  6:606/200 ->6
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:1440/823  3:3620/1326  5:3717/1058  7:2485/606 ->1
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:3784/1307  2:3407/1355  4:2120/1075  6:1216/606 ->6
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:3838/1307  2:2032/778  4:2389/1267  6:1336/1216 ->6
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:4218/1307  2:1905/778  4:2144/1267  6:4070/1336 ->4
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:4060/1307  2:2425/1060  4:2655/2201  6:3958/1377 ->4
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:2640/1919  3:3422/1060  5:6469/3073  7:3159/1108 ->1
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:4784/2640  2:2484/1060  4:4660/3101  6:1536/1108 ->6
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:2575/1741  3:2629/1183  5:4429/2655  7:2659/1536 ->1
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:5379/2575  2:1624/782  4:3734/2655  6:1607/1536 ->6
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:5681/2575  2:1352/782  4:3271/2323  6:3527/1607 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:5234/2575  2:2473/1352  4:3311/2323  6:1659/1607 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:5679/2840  2:2394/1352  4:3236/2323  6:3281/1659 ->4
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:3561/2840  3:2594/1352  5:5205/3236  7:2234/1293 ->1
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:6176/3561  2:2428/1352  4:4603/3236  6:1342/1293 ->6
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:5663/3561  2:2452/1352  4:4631/3236  6:1503/1290 ->6
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:4276/3561  3:2791/1480  5:5167/3236  7:2414/1503 ->1
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:4494/4335  3:3530/1480  5:6065/3236  7:3598/1572 ->1
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:8624/5271  2:2329/1484  4:4298/3236  6:3929/1572 ->2
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:6775/5271  2:3811/2379  4:4448/3236  6:2014/1572 ->6
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:9673/5271  2:2565/2379  4:4312/3236  6:5165/2014 ->2
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:9662/4494  2:5414/2515  4:5871/2380  6:5183/2014 ->2
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:7393/4494  2:6891/5414  4:3368/2380  6:4714/2014 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:6766/4494  2:7318/5414  4:4208/3368  6:4530/2014 ->4
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:2949/2547  3:8202/5498  5:6127/4208  7:1615/735 ->1
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:4392/2949  2:8137/6137  4:5429/4208  6:780/735 ->6
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:3047/2949  3:8988/5448  5:7419/4208  7:2656/780 ->1
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:4909/3047  2:7035/5498  4:4786/4208  6:2863/780 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:6943/3047  2:6054/5498  4:8569/4786  6:3084/780 ->2
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:3830/3047  2:7695/6054  4:5862/4786  6:839/780 ->6
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:6015/3047  2:7176/5830  4:7127/3548  6:2986/839 ->2
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:7745/3047  2:7492/7176  4:7265/3548  6:3096/839 ->2
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:8244/3047  3:10128/7492  5:5535/3548  7:1403/488 ->7
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:5796/3047  2:8208/7492  4:6888/3548  6:6725/2596 ->2
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:5489/609  3:10641/8208  5:5336/3548  7:4541/2596 ->5
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:1795/609  2:7274/5908  4:12268/11814  6:5008/2440 ->4
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:4511/609  2:9919/5908  4:11600/12268 !  6:5954/2440 ->4
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:5043/609  3:8025/5908  5:10527/8411  7:3811/2301 ->7
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:3468/609  2:6131/5908  4:12624/8411  6:7398/3576 ->2
+DispatchNewCall: origin=2 dest=5 manualAssignment=-1
+  [2 -> 5]  1:4912/609  3:8193/6131  5:10442/8411  7:5254/3811 ->7
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:4464/522  3:8720/6131  5:15363/8722  7:6983/2281 ->3
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:3719/522  2:47813/23644  4:12478/8722  6:6007/3001 ->6
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:3697/522  2:47758/23644  4:9849/6098  6:9009/6007 ->6
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:4535/522  2:14683/21754 !  4:11758/6098  6:16276/9009 ->2
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:3550/522  2:19233/12694  4:8911/6098  6:10859/7052 ->4
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:1999/522  2:15110/12666  4:16044/11266  6:10079/7052 ->0
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:13262/5774  3:17833/12666  5:15875/11266  7:8667/7052 ->7
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:10933/5774  2:15046/12694  4:15035/11266  6:12210/8667 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:12001/5774  2:17803/15046  4:13506/11266  6:12420/8667 ->4
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:60825/5774  2:22106/15046  4:17053/13506  6:12916/8667 ->4
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:9688/5774  3:21061/15046  5:22218/17053  7:10165/8667 ->7
+GDCancelHallCalls 2: expectedTransfer list is not empty! 7
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:10509/5680  2:17500/17186  4:17296/13470  6:11337/8111 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:11630/5680  2:20318/17500  4:13610/13470  6:11605/8111 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:59121/5680  2:23770/17500  4:17188/13610  6:10497/8111 ->6
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:4799/1905  3:20264/13897  5:22810/17126  7:12681/10558 ->7
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:3631/1905  2:16458/13897  4:17349/17126  6:16678/12681 ->4
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:4885/1905  3:17675/13868  5:26702/13633  7:17422/10782 ->1
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:13893/8585  2:14239/13868  4:17377/13732  6:14725/11015 ->2
+DispatchNewCall: origin=11 dest=2 manualAssignment=-1
+  [11 -> 2]  0:17105/8585  2:20765/14239  4:17151/13732  6:14463/11015 ->4
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:12493/4885  2:20413/14269  4:24891/22699  6:16160/11015 ->4
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:6812/4885  2:16744/14269  4:29381/24891  6:14897/11015 ->0
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:9297/6812  2:14667/14269  4:29648/24891  6:14498/11015 ->2
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:10450/6812  2:16975/14667  4:29764/24891  6:14602/11015 ->2
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:9969/6730  2:23756/18804  4:23858/19630  6:14597/11015 ->0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:18500/9969  2:24059/18804  4:22594/19630  6:14039/11015 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:18473/9969  2:24012/18804  4:25522/22594  6:13999/11015 ->4
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:13002/9969  2:21665/18804  4:29602/25522  6:14378/11015 ->2
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:11749/9969  2:27241/21711  4:29787/25554  6:14536/11015 ->0
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+GDCancelHallCalls 5: no passengers at floor 5 for car 0 for hall call
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:11495/8710  2:22218/21711  4:29436/25554  6:14196/11015 ->2
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:11475/8710  2:25001/19693  4:29401/25554  6:14165/11015 ->0
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:15566/11475  2:27268/19693  4:28767/25251  6:13893/11015 ->6
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:14864/11475  2:27872/19693  4:34307/29754  6:17515/13638 ->0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:26297/14927  2:26970/19659  4:32072/29754  6:16952/13638 ->4
+GDAcceptCarCall: no car calls for 5 in expected transfer list for car 7
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:15583/14927  2:27117/19659  4:36209/32072  6:17035/13657 ->0
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:26369/15583  2:26888/19659  4:30446/27897  6:16877/13657 ->4
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:20854/15583  2:26989/19659  4:33878/30446  6:16317/13657 ->6
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:31849/17887  2:26848/19659  4:33768/30446  6:18879/16317 ->6
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:23502/17887  2:27286/19659  4:34124/30446  6:22494/18879 ->6
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:22406/17826  3:24636/19693  5:43955/33235  7:30267/22494 ->1
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:21481/19566  2:24357/16633  4:37242/33235  6:26817/22494 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:28824/21481  2:21501/16633  4:36876/33235  6:26468/22494 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:24704/21481  2:21656/16633  4:41272/36876  6:26524/22494 ->0
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:26079/24704  2:24146/16633  4:41444/36876  6:26656/22494 ->0
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:31141/26079  3:20871/16633  5:48643/36327  7:29966/22494 ->3
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:27407/26079  2:32129/25632  4:40666/36327  6:26494/22494 ->0
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:33736/27343  3:33637/25632  5:44024/36327  7:27396/22494 ->7
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:28229/27343  2:30686/25632  4:40355/36327  6:31921/27396 ->0
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:33977/28229  2:33899/25632  4:40237/36258  6:30308/27360 ->6
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:35143/28762  2:31505/25632  4:40652/38305  6:108765/95382 ->4
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:59670/28691  2:32023/24720  4:41609/40426  6:63852/45601 ->4
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:33101/28691  3:30491/24767  5:51359/41609  7:41025/30241 ->1
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:67228/33101  2:29915/24767  4:42753/41609  6:38766/30241 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:52895/33101  2:27229/19959  4:44275/42753  6:35699/30241 ->4
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:38921/33101  3:24964/19959  5:50059/44275  7:34547/30241 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:34111/33101  2:27756/19959  4:48412/44275  6:59612/53365 ->0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:67105/34045  2:26829/19959  4:50634/43870  6:56695/53365 ->6
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:40553/34045  2:32378/24720  4:47829/43870  6:61834/56695 ->4
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:38200/34045  3:30024/24720  5:58317/47829  7:85822/56695 ->1
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:39219/38200  2:32358/24720  4:52542/47829  6:62870/56695 ->0
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:39741/39219  2:31988/24720  4:52861/47829  6:40880/35849 ->0
+DispatchNewCall: origin=11 dest=2 manualAssignment=-1
+  [11 -> 2]  0:63922/39741  2:31943/24720  4:49206/47829  6:41852/35849 ->4
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:40177/39741  2:32053/24720  4:54225/49206  6:40812/35849 ->0
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:40917/40177  2:32122/24720  4:53732/49206  6:41030/35849 ->0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:65243/40985  2:31704/24720  4:56944/49206  6:37042/35814 ->6
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:61768/38870  2:26460/19959  4:50437/49206  6:67636/59864 ->4
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:60478/38764  2:25727/19224  4:57548/50437  6:63706/60020 ->6
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:40946/36013  3:23620/19224  5:58683/52030  7:53750/49105 ->3
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:40799/36013  3:25386/23568  5:55758/50342  7:54234/49701 ->3
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:36605/36013  2:33844/25386  4:56214/50342  6:57909/49701 ->0
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:43651/36508  2:41414/35677  4:60283/50342  6:39040/38305 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:36802/36057  2:32669/24901  4:55382/50342  6:48657/44506 ->0
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:43181/36802  2:31834/24901  4:56811/50342  6:45219/44089 ->6
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:40710/36802  2:32009/24901  4:56168/50342  6:49845/45219 ->0
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:44786/40709  2:31847/24901  4:56127/50342  6:49817/45219 ->0
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:54985/44724  2:31477/24901  4:56721/50342  6:46231/45219 ->6
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:80858/175120 !  2:31126/24901  4:59999/50342  6:50080/49324 ->0
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:89835/80858  3:25559/24979  5:58950/50497  7:53774/41106 ->3
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:91402/80858  2:32099/25559  4:56894/50497  6:45168/41106 ->6
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:73984/56108  2:37515/31447  4:44776/37746  6:59364/45168 ->2
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:64874/56108  2:45117/37515  4:40711/37746  6:52930/48133 ->4
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:64903/56186  2:35333/29146  4:44281/40711  6:45858/44521 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:63982/56186  2:35493/29146  4:45105/40711  6:49625/45927 ->6
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:54579/49144  3:32050/29146  5:44154/40711  7:52935/49804 ->3
+GDAcceptCarCall: no car calls for 2 in expected transfer list for car 0
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:60572/49415  2:38109/32050  4:48529/40519  6:56210/49804 ->2
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:53514/49415  3:42142/38109  5:49963/40519  7:64204/49804 ->3
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:56909/49415  2:51233/42142  4:44642/40519  6:42747/37712 ->4
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:57462/49415  2:50631/42142  4:50779/44700  6:43934/37712 ->4
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:51613/49415  3:42383/42142  5:67595/50779  7:52017/37712 ->3
+GDCancelHallCalls 2: expectedTransfer list is not empty! 6
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:57510/49415  2:50891/42383  4:120990/102996  6:33280/29460 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:81687/75831  2:49679/41480  4:39862/35091  6:34962/33204 ->6
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:85964/75831  2:49266/41654  4:38150/35091  6:43515/34962 ->4
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:85814/75831  2:49141/41706  4:41089/38150  6:189410/116414 ->4
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:84730/75354  2:41821/34901  4:53594/41031  6:40634/35038 ->6
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:106647/75683  2:39773/34901  4:63715/41031  6:40687/30073 ->2
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:88620/75683  3:40240/39773  5:44161/41031  7:32668/30073 ->3
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:85327/75683  2:47461/40240  4:96721/85082  6:36950/30073 ->6
+DispatchNewCall: origin=11 dest=2 manualAssignment=-1
+  [11 -> 2]  0:84625/75683  2:46686/40240  4:53259/41089  6:42056/36950 ->6
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:92363/75683  2:45572/40240  4:55777/41089  6:52398/42056 ->2
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:84770/75683  2:52084/45572  4:43658/35413  6:46917/42056 ->6
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:80462/75683  2:52717/45572  4:39165/35413  6:53033/46917 ->4
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:88776/75683  3:50665/45572  5:43626/38910  7:49334/46917 ->7
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:84636/75683  2:51926/45572  4:48081/38910  6:56736/49334 ->2
+GDCancelHallCalls 5: no passengers at floor 8 for car 4 for hall call
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:88744/75683  3:51292/50891  5:43002/39808  7:55521/49333 ->3
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:84455/75683  2:57217/51292  4:49007/39808  6:56795/49333 ->2
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:84562/75683  2:64540/57428  4:41295/39165  6:65049/49333 ->4
+GDCancelHallCalls 5: no passengers at floor 8 for car 4 for hall call
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:88528/75596  3:57984/57428  5:49548/41295  7:54705/49333 ->3
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:84374/75596  2:65028/57984  4:43298/41237  6:95364/74566 ->4
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:82580/75596  3:65549/57984  5:46609/43298  7:82412/74566 ->5
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:84380/75925  2:58854/52407  4:48596/46609  6:63688/48208 ->4
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:84664/76242  2:58766/52407  4:50541/48596  6:63493/48208 ->4
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:86305/77933  2:58463/52407  4:61082/50624  6:58700/48208 ->2
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:85842/79575  3:111561/257834 !  5:82097/66187  7:88427/48108 ->3
+DispatchNewCall: origin=2 dest=4 manualAssignment=-1
+  [2 -> 4]  1:96587/83456  3:81665/68801  5:70792/65756  7:68478/48108 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:92564/83794  2:76551/68801  4:72858/70792  6:84505/73441 ->4
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:92436/83856  2:76281/68801  4:74491/72858  6:83408/73441 ->4
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:96596/85279  3:82368/69611  5:71094/62063  7:90766/73580 ->5
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:94401/85865  2:74783/69611  4:85141/71094  6:54081/48208 ->2
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:93739/86412  3:87755/74783  5:80781/71094  7:52873/48208 ->7
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 6
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:105894/89986  2:77837/75029  4:111386/79717  6:75788/51547 ->2
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:99295/90535  2:140838/129096  4:73161/70972  6:62885/56077 ->4
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:99458/90642  2:140945/129096  4:79585/73161  6:63041/56169 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:100337/90941  2:142713/129096  4:113549/79201  6:61007/57230 ->6
+GDCancelHallCalls 2: expectedTransfer list is not empty! 6
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:95978/90941  3:158392/129096  5:79790/79201  7:59339/54051 ->5
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:95889/90941  3:157054/129096  5:90342/79224  7:58783/54051 ->7
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:100849/90941  2:83183/76401  4:82361/79790  6:100471/89569 ->4
+GDCancelHallCalls 2: expectedTransfer list is not empty! 5
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:100869/90941  2:83234/76401  4:73102/70461  6:100516/89569 ->4
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:100598/90941  2:82962/76401  4:74698/73102  6:100552/89783 ->4
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:91940/90941  2:140832/129096  4:82450/74698  6:64648/58783 ->0
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:92890/91940  2:140651/129096  4:82018/74415  6:62131/56396 ->0
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:96171/92890  3:143165/129096  5:104186/74415  7:98175/56396 ->1
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:107044/96171  2:139611/128997  4:81318/74415  6:63331/56991 ->6
+GDCancelHallCalls 2: expectedTransfer list is not empty! 6
+GDCancelHallCalls 5: no passengers at floor 5 for car 6 for hall call
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:97253/96171  2:140184/128997  4:81754/74415  6:53714/53047 ->6
+GDCancelHallCalls 5: no passengers at floor 5 for car 6 for hall call
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:107050/96171  2:139650/128997  4:81926/74526  6:59713/53651 ->6
+GDCancelHallCalls 5: no passengers at floor 5 for car 6 for hall call
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:128475/96171  2:134967/128997  4:147498/74526  6:87610/59713 ->2
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:93674/93355  2:82170/75175  4:110123/63256  6:108282/92412 ->0
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:102562/93674  2:79814/78146  4:136309/63256  6:116953/76289 ->2
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:97313/93674  3:89760/79835  5:86393/67578  7:77632/77068 ->7
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:102323/93674  2:81411/79835  4:142668/67578  6:118453/77632 ->2
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:104372/93567  2:87049/81411  4:78141/67578  6:86112/77632 ->2
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:100335/93567  2:125831/122285  4:128239/74298  6:101605/77632 ->2
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:104106/93567  2:130188/125831  4:102985/74298  6:85661/77632 ->2
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+GDAcceptCarCall: no car calls for 12 in expected transfer list for car 5
+GDAcceptCarCall: no car calls for 14 in expected transfer list for car 5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:104339/93567  2:138754/130188  4:82307/74388  6:85708/77632 ->4
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:99783/93567  2:130926/127818  4:136610/82307  6:100216/77056 ->2
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:104013/93567  2:144774/130926  4:91274/82307  6:84984/77056 ->6
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:95479/93567  3:141632/130751  5:91085/82307  7:100756/85134 ->1
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:98550/95586  3:143539/130751  5:87096/82307  7:98574/85134 ->1
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:103768/98550  2:145055/131453  4:87182/82307  6:71238/68366 ->6
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:100400/98550  3:88811/81797  5:90823/82307  7:85002/69840 ->1
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:138349/200154 !  2:88255/81797  4:104027/82274  6:80235/71238 ->0
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:77029/72943  3:88525/80127  5:85835/82274  7:71664/71238 ->7
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:76615/72804  3:108937/99424  5:85620/82274  7:77048/71664 ->5
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:86620/72804  2:105752/99424  4:141173/85620  6:98751/71664 ->2
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:77450/72804  2:95499/85119  4:107427/85620  6:80385/71664 ->0
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:83274/77450  2:94063/85119  4:90241/85620  6:79684/71664 ->4
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:96055/77589  2:97019/84950  4:207818/90104  6:97885/71049 ->2
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:133529/107720  2:102357/97019  4:239598/90104  6:117189/71049 ->2
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:111354/107720  3:110086/102357  5:105487/90104  7:79745/71049 ->1
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:117083/111354  3:111465/102357  5:92508/90104  7:77135/71049 ->5
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:116950/111354  3:115176/102357  5:94868/92508  7:77090/71049 ->5
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:82418/80508  3:111452/102357  5:103227/94868  7:78216/71049 ->1
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:102175/82418  2:115687/102357  4:221301/94868  6:97682/71049 ->2
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:83560/82418  3:133577/121389  5:115598/94821  7:79574/71049 ->1
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:89811/83560  3:135790/121389  5:97153/94821  7:76995/71049 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:89587/83560  2:131547/121389  4:105552/97153  6:78511/70992 ->0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:108650/88957  2:138011/121389  4:222241/103605  6:84912/70992 ->6
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:138707/132637  3:128969/115466  5:102664/100390  7:91745/84912 ->5
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:136597/132637  3:126971/115687  5:130853/102664  7:94444/84912 ->1
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:99924/92624  2:124902/115687  4:112784/102664  6:88060/84912 ->6
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:99835/92624  2:124811/115687  4:117040/106713  6:91287/88060 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:99160/92418  2:96602/87889  4:110562/100510  6:94172/91287 ->6
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:93289/92418  3:98384/87889  5:127963/100510  7:103100/94172 ->1
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:100375/93289  2:96659/87889  4:103939/100510  6:98236/93961 ->4
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:102365/93231  2:92025/87889  4:89462/71432  6:104616/93961 ->2
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:94825/93231  3:100846/92025  5:101071/71432  7:102680/93961 ->1
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:99522/94825  3:104118/92025  5:74554/72850  7:99882/93961 ->5
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:101480/94825  2:100395/92025  4:86296/74554  6:96596/93961 ->6
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:117683/109867  2:99403/92025  4:81543/74173  6:99814/96596 ->6
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:141923/109867  2:99949/92025  4:106874/74173  6:131393/99814 ->2
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:112691/107473  2:106088/99949  4:92278/74173  6:111542/99814 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:119787/112691  2:93960/86086  4:85479/74173  6:101819/99814 ->6
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:118924/112691  2:95880/86086  4:84540/74173  6:116955/101819 ->0
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:126148/118924  2:91491/86086  4:81259/74135  6:111396/101819 ->2
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:153341/118924  2:98872/91491  4:99637/74135  6:108994/101722 ->6
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:153293/118924  2:99231/91491  4:99600/74135  6:118219/108888 ->2
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:124558/118632  2:109601/99231  4:84308/74173  6:125863/108994 ->0
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:115718/109185  3:110230/99231  5:75396/74173  7:114011/108994 ->5
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:166645/109185  2:122560/99231  4:121196/75396  6:182757/108994 ->2
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:116499/109185  2:132746/122560  4:81383/69968  6:119114/108994 ->0
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:121093/116499  2:132641/122560  4:81662/69968  6:119118/108994 ->0
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:121985/121093  3:135076/122560  5:84626/69968  7:114515/108891 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 1
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:120550/116865  2:129339/122560  4:87329/69968  6:129347/108891 ->0
+GDCancelHallCalls 2: expectedTransfer list is not empty! 1
+GDCancelHallCalls 5: no passengers at floor 2 for car 1 for hall call
+DispatchNewCall: origin=11 dest=2 manualAssignment=-1
+  [11 -> 2]  0:145986/112774  2:138861/122401  4:99258/69968  6:118137/108891 ->6
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:148107/112774  2:137164/122401  4:100339/69968  6:122534/118011 ->6
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:115184/110914  2:132091/122401  4:79636/69968  6:141621/122534 ->0
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:115316/115184  3:132547/122401  5:103984/69968  7:131128/122534 ->1
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:123701/115316  3:134638/122401  5:70863/69968  7:126207/122534 ->5
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:151035/115316  2:136821/122401  4:100125/70863  6:133803/122534 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:118878/115397  2:131877/122401  4:84526/70863  6:134699/133803 ->6
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:58332/50635  2:131422/122401  4:63460/48844  6:157771/141503 ->0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:98850/59253  2:136437/122401  4:77658/48844  6:157076/141503 ->2
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:62164/59253  2:146020/136437  4:63144/48844  6:157262/141429 ->0
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:123874/62164  2:151271/136437  4:85204/48844  6:200208/141429 ->2
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:106743/62164  2:166998/151271  4:78439/48844  6:157048/141429 ->6
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:67293/62164  2:157606/151271  4:54465/48844  6:162779/156725 ->0
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:73321/67293  2:160550/151271  4:50276/48844  6:163529/156725 ->4
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:67702/67293  3:162016/151271  5:87824/50276  7:169077/156800 ->1
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:115749/67702  2:166743/151271  4:83811/50276  6:161954/156800 ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:71658/67702  2:161668/151271  4:60371/50237  6:174644/161954 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:74468/71658  2:161330/151271  4:66627/50237  6:167749/161954 ->0
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:568101/315112  2:155383/151271  4:73628/49046  6:179079/159343 ->2
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:651114/315112  2:158604/155383  4:81010/49046  6:164765/159343 ->2
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:89551/86008  2:167767/158021  4:63778/49046  6:163736/159343 ->0
+GDCancelHallCalls 5: no passengers at floor 2 for car 1 for hall call
+GDAcceptCarCall: no car calls for 7 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 12 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 13 in expected transfer list for car 1
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:122262/90135  2:161787/158021  4:73317/49046  6:178941/159343 ->2
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:99977/90135  3:171318/161787  5:161257/49046  7:170150/159343 ->3
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:99947/90135  3:180834/171318  5:85955/50673  7:170118/159343 ->3
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:453901/89998  3:192349/180834  5:50845/50646  7:161125/159343 ->5
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:145083/89998  2:203744/180834  4:85965/50886  6:161546/135941 ->2
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:94411/89998  2:209709/203744  4:56711/50886  6:140565/135941 ->0
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:103479/94548  2:216239/203744  4:62148/50886  6:147355/135941 ->0
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:109023/103479  2:207946/203331  4:70006/50151  6:155551/135941 ->2
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:169556/103341  2:208764/206275  4:85117/50151  6:161274/135941 ->2
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:1331986/288147  2:223252/210480  4:102059/50192  6:165902/135941 ->2
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:518784/288347  2:233043/223252  4:76117/50192  6:155277/135941 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:110069/103386  2:250310/233043  4:44121/33028  6:146852/135941 ->0
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:120519/110069  3:249049/233043  5:33053/33028  7:137198/135941 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:247990/229115  2:249843/233043  4:44176/33048  6:146598/135941 ->6
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:245558/229115  2:246719/233043  4:33470/33048  6:151721/146598 ->4
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:481098/229115  2:253521/231618  4:69133/32617  6:159365/135085 ->2
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:675312/229115  2:273331/253521  4:70672/32622  6:161995/135085 ->2
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:246968/229115  3:298164/273331  5:34949/32622  7:136125/135085 ->7
+DispatchNewCall: origin=2 dest=6 manualAssignment=-1
+  [2 -> 6]  1:115746/110069  3:297282/273331  5:36535/32622  7:288385/175476 ->5
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:119686/110069  2:291437/273331  4:55538/36535  6:184385/175476 ->6
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:119254/109604  2:291199/273331  4:55678/36535  6:193418/182303 ->0
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:128747/119131  2:289718/273331  4:36821/36535  6:189827/182303 ->4
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:128675/119131  2:289661/273331  4:37206/36821  6:189784/182303 ->4
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:126224/119254  2:290786/273331  4:58993/37206  6:157943/141273 ->0
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:198006/186699  2:287456/273331  4:43551/37122  6:145073/141284 ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:196688/186699  2:290736/273331  4:50499/37122  6:147937/145073 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:135809/127067  2:287737/272645  4:37129/37021  6:161445/156157 ->4
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:135762/127067  2:287675/272645  4:37239/37129  6:140155/136029 ->4
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:136959/126976  3:288876/272645  5:41083/37239  7:136657/136029 ->7
+GDCancelHallCalls 5: no passengers at floor 7 for car 6 for hall call
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:135477/126976  2:287420/272645  4:37422/37342  6:140647/136657 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:204548/127106  2:280492/272645  4:42953/37422  6:172765/136657 ->4
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:255529/127106  2:279476/272645  4:50630/42953  6:190214/135176 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:133384/127106  2:294843/279476  4:49918/42953  6:137903/135176 ->6
+GDCancelHallCalls 5: no passengers at floor 7 for car 6 for hall call
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:620124/147978  2:308548/279476  4:18647/11336  6:194495/137893 ->4
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:619920/147978  2:308933/279476  4:24165/18647  6:194439/137917 ->4
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:156910/147978  2:292214/279476  4:24188/24165  6:141348/137917 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:134141/127010  2:293860/279476  4:32139/24182  6:141411/139327 ->6
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:137475/125625  3:293825/279476  5:36251/24182  7:168472/141250 ->1
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:148998/135279  3:304320/279476  5:30440/24182  7:162008/145492 ->5
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:151087/137475  3:295044/279476  5:36432/30446  7:160340/139313 ->5
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:151036/137475  3:304100/279476  5:38870/36432  7:160327/139313 ->5
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:149025/137475  3:293657/279476  5:55379/38870  7:167850/139313 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:197915/121319  2:309224/279476  4:47404/38870  6:177187/139313 ->4
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:128402/121319  2:293285/279595  4:57559/47404  6:140936/139313 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:128350/121319  2:293121/279595  4:57231/47241  6:142500/140936 ->6
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:135867/125851  3:290484/275107  5:59965/47241  7:142661/142500 ->7
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:224931/125851  2:303243/275107  4:57111/47208  6:211191/142563 ->4
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:373250/118973  2:303224/275107  4:64872/57111  6:211140/142563 ->4
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:126474/119087  2:284721/275107  4:75683/64872  6:144780/142576 ->6
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:106700/100139  2:287541/275107  4:74854/64872  6:162713/142656 ->0
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:72573/59228  2:304213/275107  4:74415/64872  6:175222/142656 ->4
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:67796/59228  2:284283/275107  4:85878/74415  6:144652/142656 ->6
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:73427/60044  2:304182/275107  4:83693/74415  6:188307/144652 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:78613/60044  2:287578/275107  4:94808/83693  6:155280/144652 ->6
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:72838/60044  2:301541/275107  4:94306/83693  6:197732/155280 ->4
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:72285/60044  2:301886/272323  4:101504/94306  6:202084/155280 ->4
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:70894/60044  2:284361/272323  4:112404/101504  6:188252/155280 ->0
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:76981/70894  2:284274/272323  4:111606/101006  6:167640/155280 ->0
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:85213/76981  3:823667/762160  5:115428/101006  7:158873/155280 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:82821/76981  2:815888/762160  4:111754/101006  6:171595/158873 ->0
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:91914/82821  3:838639/762160  5:115266/101006  7:160781/157253 ->7
+DispatchNewCall: origin=2 dest=14 manualAssignment=-1
+  [2 -> 14]  1:78480/69755  3:285841/272323  5:84496/77138  7:169388/160740 ->5
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:76373/69755  2:281619/272323  4:94982/84496  6:166203/160740 ->6
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:78556/69755  3:285986/272323  5:90425/84496  7:169566/166203 ->7
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:76142/69755  2:275510/266405  4:94632/84496  6:174868/169566 ->6
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:76539/69755  3:269794/266405  5:108608/83728  7:200839/174868 ->3
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:72854/66716  3:292013/269794  5:90406/83606  7:185739/174868 ->1
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:87032/77942  3:688812/630453  5:88788/83606  7:177816/174868 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:81200/77942  2:666935/630453  4:93484/83606  6:190249/177816 ->0
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:97586/81200  2:689721/630453  4:86811/83606  6:227864/177816 ->4
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:86965/81200  2:672524/630453  4:96412/86811  6:189937/177816 ->0
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:97101/87000  3:687601/630453  5:91991/86811  7:180544/177703 ->7
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:94283/87000  3:656316/630453  5:111179/86811  7:228957/180544 ->1
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:101456/94283  3:670540/630453  5:111238/86811  7:228947/180544 ->1
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:116280/106789  2:278112/269794  4:96632/86811  6:185256/180544 ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:109757/106789  2:280267/269794  4:96413/86811  6:197416/185256 ->0
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:120093/109757  3:291716/269794  5:91729/86811  7:187987/185256 ->7
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:148676/118317  2:304102/259650  4:88728/86811  6:269416/187987 ->4
+GDCancelHallCalls 5: no passengers at floor 7 for car 0 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 0
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 0
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:139137/107738  2:264996/259650  4:97118/88397  6:235385/187987 ->2
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:117414/107738  3:288210/264996  5:92855/88397  7:190436/187987 ->7
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:149359/107738  2:310700/264996  4:90285/88397  6:274010/190436 ->4
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:149163/107738  2:310479/264996  4:91897/90186  6:273531/190436 ->4
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:149126/107738  2:310254/522413 !  4:93691/92000  6:239753/190549 ->2
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:112733/106813  2:315896/310254  4:101366/92102  6:202648/190549 ->2
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:116345/106813  3:328367/315896  5:96356/92102  7:192799/190549 ->7
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:108865/106813  3:324713/316083  5:124481/97399  7:237054/167513 ->1
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:161096/108865  2:340971/316083  4:98964/97399  6:218086/167513 ->4
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:126051/73353  2:271740/247070  4:100596/99149  6:217716/167513 ->4
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:114209/73353  2:267119/247070  4:102179/99616  6:198496/167513 ->4
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:102950/81446  2:262466/247070  4:110360/102179  6:195686/167513 ->4
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:83408/81479  3:256457/247070  5:140909/110360  7:210817/167513 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:133053/74735  2:249492/246883  4:123184/110360  6:215715/167471 ->2
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:76884/74735  3:258552/249492  5:139283/110360  7:215549/167471 ->1
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:81979/73543  3:260382/249680  5:118374/110360  7:160257/158833 ->7
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:139041/73543  2:274506/249680  4:123029/110360  6:209809/160257 ->4
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:77298/73543  2:264758/249680  4:135415/123029  6:171971/160257 ->0
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:146065/77298  2:279125/249680  4:133070/123029  6:219130/160257 ->4
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:145971/77298  2:279047/249680  4:134527/133070  6:219017/160257 ->4
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:120000/77298  2:252934/249680  4:145351/134527  6:188782/160257 ->2
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:133497/76417  2:272729/252934  4:148469/134527  6:198075/160257 ->4
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:80605/76417  2:257006/252934  4:160896/148469  6:171685/160257 ->2
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:81521/76417  2:268318/257006  4:160907/148469  6:162768/160257 ->6
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:133230/76417  2:277321/257006  4:156568/148592  6:205182/162768 ->4
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:141260/76417  2:280609/254864  4:167003/156568  6:252513/205951 ->4
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:145228/76417  2:286047/254864  4:178786/167003  6:256248/205951 ->4
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:144367/76417  2:285739/254864  4:168967/172879 !  6:225186/174965 ->4
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:80115/76417  2:258487/254864  4:179853/168967  6:198099/179230 ->2
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:115699/76417  2:273712/258487  4:177953/168967  6:229950/179230 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:92846/76417  2:273882/258487  4:188395/177953  6:204435/179230 ->4
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:136956/76417  2:260686/258487  4:211999/188395  6:217819/179230 ->2
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:115511/76417  2:276100/260686  4:197246/188395  6:229749/179230 ->4
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:83648/75325  3:269729/260686  5:215588/197246  7:182565/179230 ->7
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:104511/88082  3:269645/260686  5:213955/197246  7:185905/182565 ->7
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:96005/88082  3:267737/260686  5:259779/197246  7:520998/185905 ->3
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:97213/88082  3:276668/267737  5:229547/197246  7:189070/185905 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:91924/88082  2:270932/267737  4:208269/197246  6:160991/148312 ->2
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:104327/88082  3:279495/270932  5:227830/197246  7:149144/148312 ->7
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:85890/81855  2:282113/270779  4:200097/189509  6:142548/141441 ->6
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:127283/81457  2:292155/270779  4:196065/189509  6:225966/142548 ->4
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:84531/81457  2:273613/270779  4:206593/196065  6:155530/142548 ->2
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:138175/81457  2:302405/273613  4:236414/196065  6:262745/142548 ->2
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:85224/81457  2:327394/314674  4:393989/373792  6:143509/142549 ->6
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:141758/81457  2:346144/314674  4:256307/373792 !  6:271366/143509 ->4
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:83648/81457  2:320611/302405  4:273295/256369  6:166572/142753 ->0
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:113441/96616  2:318846/301103  4:249463/242702  6:180969/142907 ->4
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:97792/94363  3:307727/301103  5:290069/249463  7:149018/142907 ->1
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:150257/97792  2:303229/301103  4:275787/249463  6:246952/122500 ->2
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:106724/97792  2:311548/303229  4:266039/249463  6:123917/123236 ->6
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:98732/97792  2:312670/303229  4:265604/249463  6:137455/123917 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:121235/98732  2:328218/303229  4:255189/249463  6:206508/123917 ->4
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:106469/98732  3:311145/303229  5:302678/280541  7:129568/123917 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:103386/102182  2:312329/303229  4:294188/280541  6:142992/129568 ->0
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:142653/103386  2:312272/303229  4:274109/255189  6:216276/129568 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:104366/103477  2:338211/312204  4:270873/255189  6:154173/129568 ->0
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:168766/104365  2:321466/312204  4:293682/255189  6:264220/128743 ->2
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:107244/104365  3:326910/321466  5:294280/255189  7:135489/128743 ->1
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:165700/107244  2:354283/321466  4:259709/255189  6:219178/128743 ->4
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:193303/107244  2:362975/321466  4:268793/259709  6:290445/128743 ->4
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:110000/107244  3:326742/321466  5:312291/268793  7:135324/128743 ->1
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:130575/110000  2:347760/321466  4:280080/268793  6:168149/128743 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:180106/110000  2:331022/321466  4:303842/280080  6:262734/128743 ->2
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:179669/110000  2:340434/331022  4:303405/280080  6:262711/128743 ->2
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:130560/110000  2:368992/340434  4:291274/280080  6:168118/128743 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:180087/110000  2:351350/340434  4:315035/291274  6:262688/128743 ->2
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:120535/110061  2:369462/351350  4:314993/291274  6:262638/128743 ->0
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:132265/120535  2:394146/351350  4:289975/291274 !  6:218877/128719 ->4
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:102218/98606  3:356070/351350  5:342611/289241  7:134807/128719 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:105290/103020  3:355847/351418  5:342203/289241  7:134441/128658 ->1
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:109760/105290  3:362602/350572  5:306547/289241  7:133426/128719 ->1
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:112724/109760  3:362393/350572  5:301438/289241  7:133370/128719 ->1
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:125697/112724  2:392432/350572  4:306584/289241  6:130594/128719 ->6
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:129390/112724  2:429806/350572  4:306243/289241  6:145652/130556 ->6
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:125557/112724  2:393031/350572  4:327168/289241  6:154790/145652 ->6
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:113760/112724  2:357239/350572  4:299502/289241  6:165725/154790 ->0
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:130307/113760  2:429576/350572  4:306167/289241  6:162375/154790 ->6
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:118116/113760  3:362195/350572  5:306231/289241  7:56684/44037 ->1
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:132789/118116  2:386089/350572  4:299089/289241  6:53245/44037 ->6
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:233736/179552  2:431874/922973 !  4:326222/289241  6:57219/53245 ->2
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:184398/179552  3:443035/431874  5:346712/288998  7:76037/53245 ->1
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:232269/173663  2:449716/431874  4:305276/288998  6:57139/53245 ->6
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:123288/109180  2:471852/431874  4:297179/288998  6:63160/54910 ->4
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:124038/109180  2:450346/431874  4:306948/296958  6:54926/54910 ->6
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:123742/110242  2:451443/429370  4:356890/297179  6:62673/54917 ->6
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:111230/110160  2:427782/417932  4:306705/297179  6:71853/62673 ->0
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:122024/117592  3:433477/417932  5:309273/297179  7:64211/52845 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+GDCancelHallCalls 5: no passengers at floor 5 for car 0 for hall call
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:128554/114355  2:440320/417932  4:365929/297179  6:61560/52845 ->6
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:231479/181116  2:466673/417932  4:315068/297179  6:71169/61560 ->6
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:227703/181116  2:426958/417932  4:306162/297179  6:81526/71169 ->4
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:200727/181116  3:421263/417932  5:364719/306162  7:89326/71169 ->3
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:232054/181116  2:471662/421263  4:313541/306162  6:81245/71169 ->4
+DispatchNewCall: origin=2 dest=8 manualAssignment=-1
+  [2 -> 8]  1:204388/181116  3:442958/421263  5:320554/312760  7:83127/71169 ->5
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:231923/181116  2:471151/421019  4:330293/320554  6:75728/68488 ->6
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:127043/113743  2:442510/421019  4:379559/320554  6:79259/75728 ->6
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:125956/113743  3:439807/430551  5:394427/320554  7:96560/79259 ->3
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:127888/115404  3:449341/440094  5:385162/320554  7:96486/79259 ->3
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:202093/182642  3:451220/426927  5:342161/320554  7:90689/79129 ->7
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:203418/182642  2:398365/335720  4:347049/320554  6:102553/91292 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:127931/115199  2:398492/335720  4:327123/320454  6:114726/102553 ->4
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:128422/115199  2:350636/335720  4:336156/327123  6:114065/102553 ->4
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:128444/115199  2:350654/335720  4:344997/336156  6:113975/102553 ->4
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:189188/172275  2:397404/335720  4:377902/344997  6:108612/102553 ->6
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:198530/172275  3:359450/335720  5:349294/344997  7:120009/108612 ->5
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:189846/172275  2:350394/335720  4:357978/349294  6:119862/108612 ->4
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:188290/172369  2:355824/335475  4:395998/357978  6:111873/108306 ->6
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:127243/115591  2:355858/335475  4:422181/357978  6:116588/111715 ->6
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:131170/115591  2:345442/335475  4:395780/357978  6:119143/116588 ->6
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:125611/115702  2:355516/335720  4:430933/357978  6:133444/119143 ->0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:135416/125611  2:355378/335720  4:431834/357978  6:133465/119143 ->0
+GDCancelHallCalls 2: expectedTransfer list is not empty! 1
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:121190/113130  2:355594/335720  4:421052/357978  6:123192/118508 ->6
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:140250/134987  3:358612/335720  5:361707/357978  7:133326/123192 ->5
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:144247/134987  2:355222/335720  4:430257/361707  6:135241/123192 ->0
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:152057/144247  2:305598/286248  4:466974/361707  6:146174/123192 ->0
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:135376/126413  2:306187/286248  4:372213/361707  6:135601/122722 ->0
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:145244/135376  2:306111/286248  4:367052/361707  6:141940/122722 ->4
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:142190/135104  3:305353/282426  5:383644/367151  7:133502/122722 ->1
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:168218/142190  2:291189/282426  4:439303/367151  6:132834/122722 ->2
+GDCancelHallCalls 5: no passengers at floor 5 for car 2 for hall call
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:150224/142190  2:347556/307398  4:438422/367151  6:134230/122722 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:160507/150224  2:347572/307398  4:429068/361921  6:135393/122722 ->0
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:161596/160507  3:316009/307398  5:391560/361921  7:132996/122722 ->1
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:168357/161596  2:347281/307398  4:471910/361921  6:145263/122722 ->0
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:169495/168357  3:315757/307398  5:378129/361921  7:132877/122722 ->1
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:180575/169495  2:330522/307398  4:462896/361921  6:134635/122722 ->0
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:181665/180575  3:313102/305033  5:377839/361856  7:132553/122722 ->1
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:233171/181665  2:308016/305033  4:515431/361856  6:132462/122722 ->2
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:189812/179029  2:347966/308016  4:765718/738635  6:134179/122722 ->0
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:199193/189812  2:331050/308016  4:858007/738635  6:134623/122315 ->0
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:238500/199374  2:314081/296927  4:484883/361921  6:132180/122315 ->6
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:126109/119180  2:313912/296681  4:387146/316274  6:137733/132181 ->6
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:131977/119180  3:310441/296681  5:331758/316274  7:145671/137733 ->7
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:145685/119180  3:308760/296014  5:399890/316274  7:175884/145290 ->3
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:128742/119180  2:326487/308031  4:522658/505784  6:154396/145290 ->6
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:131240/119180  2:327360/309057  4:515365/505784  6:171927/154396 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:132624/119180  2:326772/309057  4:472838/515365 !  6:175437/154396 ->4
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:127443/119180  2:335198/312650  4:444135/418619  6:174637/154396 ->0
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:135411/127443  2:335693/312650  4:443998/418619  6:176436/155969 ->0
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:143349/135411  2:335677/312650  4:443965/418619  6:176398/155969 ->0
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:175067/143349  3:316817/312650  5:420956/418619  7:162297/155969 ->5
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:155720/143349  3:316938/310480  5:417893/377557  7:173197/161904 ->3
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:146873/140890  2:355567/317408  4:410140/377557  6:183814/162035 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:154478/146873  2:355758/317408  4:402744/377557  6:182443/162163 ->0
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:170038/154478  3:321843/317408  5:486969/377557  7:196478/162163 ->3
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:166527/154664  3:327079/321372  5:398252/377557  7:169369/162163 ->3
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:169886/154664  3:331558/327079  5:503102/377557  7:196150/162163 ->3
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:241499/154664  2:356832/331558  4:469329/377557  6:182771/162163 ->6
+DispatchNewCall: origin=2 dest=6 manualAssignment=-1
+  [2 -> 6]  1:281851/1518620 !  3:336895/329547  5:379571/377557  7:194517/182920 ->1
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:333151/279407  3:335140/329547  5:400963/380296  7:195442/182920 ->3
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:190016/162479  2:361676/335140  4:386335/380296  6:183809/182920 ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:178786/162479  2:361776/335140  4:394602/380296  6:193621/183809 ->6
+GDAcceptCarCall: no car calls for 5 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 6 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 7 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 9 in expected transfer list for car 1
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:184584/168098  2:381581/354131  4:404962/380296  6:204915/196138 ->6
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:182966/168098  2:362243/335741  4:472097/438896  6:234051/204915 ->0
+GDCancelHallCalls 2: expectedTransfer list is not empty! 1
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:201816/178666  3:339744/335741  5:502050/438896  7:244573/204915 ->3
+DispatchNewCall: origin=2 dest=8 manualAssignment=-1
+  [2 -> 8]  1:187199/175707  3:347505/339744  5:379329/377556  7:218698/204915 ->5
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:242083/175707  2:341968/339744  4:470426/379329  6:233090/204915 ->2
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:300599/269150  2:369051/341968  4:354661/349333  6:233517/204915 ->4
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:185464/175707  2:394925/341874  4:378130/354661  6:233233/204915 ->0
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:210600/185464  3:345351/341874  5:467225/354661  7:243824/204915 ->3
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:200173/185464  3:349965/345351  5:395767/354661  7:210499/204915 ->3
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:260415/185464  2:352152/349965  4:448968/354661  6:232985/204915 ->2
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:199069/184470  3:372374/352152  5:395729/354661  7:210425/204915 ->7
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:203329/184470  2:380785/352152  4:378340/354661  6:218290/210425 ->6
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:203353/184470  2:379978/352152  4:378336/354661  6:226274/218290 ->6
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:194262/184470  3:376375/352152  5:378414/357524  7:230846/226401 ->7
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:208776/184470  3:372637/352152  5:471059/357524  7:274240/216785 ->3
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:217308/184314  2:402473/372637  4:362771/357524  6:249218/216785 ->4
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:254902/184314  2:403584/372637  4:457010/362839  6:248226/216785 ->2
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:208303/184314  3:426289/403584  5:479281/362839  7:280331/216785 ->3
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:318067/293305  2:459186/426289  4:386155/362839  6:223935/216785 ->6
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:223640/204795  2:458140/426289  4:413404/389109  6:230847/223935 ->6
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:219847/204795  2:452211/426289  4:397482/389109  6:240553/230847 ->4
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:217535/204795  2:458940/426386  4:384924/365921  6:229402/221869 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:328496/308479  2:453053/426386  4:378654/365921  6:237286/228253 ->6
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:326518/308479  2:457940/426386  4:384776/365921  6:244737/237286 ->6
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:364642/308479  3:447207/426386  5:388695/365921  7:282018/244737 ->3
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:382287/308479  2:439950/437690  4:473880/365921  6:336580/245974 ->2
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:362551/308479  2:465860/433550  4:433952/365921  6:286613/245974 ->2
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:274560/204648  2:474949/472573  4:481847/376328  6:336052/243431 ->2
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:221812/204810  2:510903/474949  4:389426/360697  6:794659/766210 ->0
+GDCancelHallCalls 5: no passengers at floor 5 for car 0 for hall call
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:368456/331620  2:510857/474949  4:247104/237561  6:286250/241220 ->4
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:415833/331620  3:498426/474949  5:260911/247104  7:309334/241220 ->5
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:415843/331620  3:498284/474949  5:272061/260911  7:309291/241220 ->5
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:368414/331620  2:510846/474949  4:287630/272061  6:286243/241220 ->4
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:353830/331620  2:510866/474949  4:303922/287630  6:246146/231842 ->6
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:390188/331620  3:495589/474949  5:318901/291842  7:248386/244944 ->7
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:415662/331620  3:497864/474758  5:302911/291842  7:332599/249616 ->5
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:233621/221812  2:508802/474758  4:351028/302911  6:329469/249616 ->0
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:245752/233621  2:510507/474758  4:341766/302911  6:297769/249616 ->0
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:259275/245266  2:476160/474758  4:319453/302911  6:258838/249616 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:257657/245266  2:512044/476160  4:331056/302911  6:256228/249616 ->6
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:256717/245454  2:1338228/475468  4:351091/302911  6:357841/606317 ! ->6
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:260900/245454  3:494967/475468  5:330994/302911  7:343676/339609 ->7
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:268120/245454  3:494896/475468  5:358009/302911  7:369273/343676 ->3
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:256982/245454  2:519828/495588  4:350957/302911  6:356277/343676 ->0
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:394330/379117  2:516183/495588  4:350620/302911  6:356207/343676 ->6
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:394952/379117  2:507786/494896  4:340865/302911  6:386780/340066 ->2
+DispatchNewCall: origin=2 dest=14 manualAssignment=-1
+  [2 -> 14]  1:381439/379117  3:542607/507786  5:316741/302911  7:342775/340066 ->1
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:310319/265606  2:552682/507786  4:390867/302911  6:386057/340066 ->0
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:326455/310319  2:521155/507786  4:341656/302911  6:379786/340066 ->2
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:320449/310319  3:557441/521847  5:316516/302911  7:342680/340066 ->7
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:377877/344900  2:555052/521847  4:314831/302911  6:359436/342680 ->4
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:366265/344900  2:523632/521155  4:330796/314831  6:380212/365178 ->2
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:377612/344924  2:555662/523632  4:326447/314831  6:378084/365178 ->4
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:374412/344924  3:541570/523632  5:340543/325817  7:368524/342681 ->5
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:389086/344924  3:545826/523632  5:349669/340543  7:418471/342681 ->5
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+GDCancelHallCalls 5: no passengers at floor 6 for car 0 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 0
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 0
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:266746/254849  2:728262/667327  4:404080/349669  6:342662/325940 ->0
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:286942/266746  3:695982/667327  5:360161/349669  7:329313/325940 ->7
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:283643/266746  3:695976/667327  5:360184/349669  7:332699/329313 ->7
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:267102/266746  2:670738/668100  4:393014/349669  6:371796/332699 ->0
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:288281/266614  2:464460/452208  4:393577/349669  6:371402/332566 ->2
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:283505/266614  3:481117/464460  5:359788/349669  7:358429/332566 ->5
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:335620/266614  2:552886/464460  4:524173/359788  6:417243/332566 ->0
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:379685/335694  2:748219/463183  4:370812/359788  6:347641/332566 ->4
+GDCancelHallCalls 5: no passengers at floor 5 for car 0 for hall call
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:366608/355711  2:481776/464459  4:616373/555579  6:349243/332566 ->0
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:417970/366608  2:499501/464459  4:580361/555579  6:370352/332566 ->4
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:391899/366608  2:551939/464459  4:839688/580361  6:416724/332566 ->0
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:402205/391899  2:533663/464459  4:780256/580361  6:377226/332566 ->0
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:447845/402205  3:484647/463247  5:599832/580361  7:428230/332566 ->5
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:447913/402205  3:485046/463247  5:619479/599832  7:427881/332566 ->5
+DispatchNewCall: origin=2 dest=5 manualAssignment=-1
+  [2 -> 5]  1:453356/428262  3:499122/463247  5:657910/632103  7:359333/333855 ->1
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:503829/459011  3:484502/463247  5:559208/542596  7:426550/332846 ->5
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:487718/459011  3:478122/463247  5:578122/559208  7:358009/332846 ->3
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:475471/459093  2:497419/478122  4:569047/558752  6:346352/332846 ->4
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:487611/459093  3:492868/478122  5:462413/447417  7:359876/332846 ->3
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:487244/459093  3:656336/636670  5:461931/447417  7:357882/332846 ->5
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:474319/459093  2:660225/636670  4:450570/461931 !  6:349349/332846 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:473951/459093  2:510417/492778  4:426501/415283  6:376296/363907 ->4
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:512806/469067  3:513627/492778  5:430909/426501  7:424637/330293 ->5
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:484499/469067  2:573435/492778  4:598438/430625  6:373640/330293 ->0
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:509468/484583  3:505924/492778  5:436712/430626  7:354942/330293 ->5
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:500443/488281  2:565457/547111  4:529614/436579  6:341631/326912 ->0
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:515210/500443  2:570327/490672  4:756531/436579  6:369612/326912 ->0
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:535404/515210  3:502963/490672  5:442401/436579  7:351514/326912 ->5
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:525936/515210  2:499125/490672  4:561795/459395  6:362965/326912 ->2
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:525154/515210  2:506306/498929  4:547225/447068  6:363089/326912 ->2
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:529813/514686  2:597731/506306  4:620255/447068  6:369627/327045 ->0
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:540504/529813  2:522828/506306  4:546943/446362  6:318977/304549 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:550133/540504  2:522619/506306  4:545780/446362  6:321846/307548 ->0
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:583764/550133  3:527072/506306  5:449883/446362  7:321080/307548 ->5
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:589039/568035  2:522413/506306  4:549875/449883  6:321722/307548 ->6
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:582002/569086  3:545088/506306  5:487458/464517  7:367669/321722 ->1
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:605335/576951  2:622928/506306  4:645554/464517  6:404134/321722 ->0
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:624596/605335  2:512911/506306  4:549109/448697  6:356620/321722 ->2
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:625960/605335  2:523991/508019  4:548607/448830  6:333719/321722 ->6
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:596524/605335 !  2:577573/508019  4:604691/448830  6:345109/333719 ->0
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:645956/591173  3:528690/508167  5:451922/448830  7:350409/333719 ->5
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:611151/591173  2:228554/212810  4:487535/429915  6:314066/302145 ->6
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:621596/591173  3:223096/212810  5:447946/429915  7:341696/314066 ->3
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:646706/591173  3:243767/223096  5:432707/429915  7:331486/314066 ->5
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:610950/591173  2:241781/225143  4:470071/432707  6:323393/314066 ->6
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:621314/591173  3:235150/225143  5:436919/432707  7:325488/323393 ->7
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:608122/591173  2:230965/225143  4:533079/432707  6:362183/324442 ->2
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:611078/591173  2:249262/230965  4:438318/432707  6:334878/324442 ->4
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:646079/591173  3:251745/230965  5:440840/438318  7:342391/325488 ->5
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:608613/591173  2:247789/230965  4:547645/440840  6:337828/325488 ->6
+DispatchNewCall: origin=2 dest=14 manualAssignment=-1
+  [2 -> 14]  1:595851/591173  3:272592/230965  5:473667/440840  7:344893/337828 ->1
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:686243/595851  2:308372/230965  4:606865/440840  6:350640/337828 ->6
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:665057/595851  3:251118/230965  5:453173/440840  7:367545/350640 ->5
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:661242/595851  3:251106/230965  5:466090/453173  7:367525/350640 ->5
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:615185/595851  2:248082/230965  4:470669/466090  6:362648/350640 ->4
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:630411/595851  3:240483/230965  5:483367/470669  7:356373/350640 ->7
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:612998/595851  2:237121/230965  4:593159/470669  6:399214/356373 ->2
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:687213/595850  2:318194/237121  4:635031/470669  6:371295/356373 ->6
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:664531/595851  3:280386/237121  5:483855/470669  7:638355/614655 ->5
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:687676/595921  2:344707/236062  4:692078/483855  6:561796/515721 ->6
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:631015/595922  3:245121/236062  5:495942/483855  7:603064/561796 ->3
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:629387/595921  3:253854/245121  5:495761/483855  7:413489/408064 ->7
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:607460/591595  2:2071188/1942337  4:454911/337640  6:443169/413489 ->0
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:621013/605250  2:2034397/1942739  4:467619/337640  6:674792/599977 ->0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:718714/623279  2:307938/229319  4:506476/337640  6:637528/599977 ->6
+DispatchNewCall: origin=2 dest=4 manualAssignment=-1
+  [2 -> 4]  1:658561/623279  3:273890/235423  5:395935/337640  7:692820/637528 ->1
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:677491/658835  3:243980/235423  5:348767/337640  7:647045/637528 ->3
+GDCancelHallCalls 5: no passengers at floor 3 for car 3 for hall call
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:677970/658835  2:248528/243980  4:467133/337640  6:667223/637663 ->2
+GDCancelHallCalls 5: no passengers at floor 3 for car 3 for hall call
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:725479/658835  3:491209/415776  5:357471/337640  7:490742/442133 ->5
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:741948/658835  2:483703/415776  4:594975/357471  6:432327/442133 ! ->6
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:677082/658835  2:439322/415776  4:396576/357471  6:563153/552041 ->6
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:728166/658870  2:454622/415776  4:545723/357471  6:637702/563153 ->2
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:757087/649172  2:394822/293608  4:594099/357471  6:471233/439340 ->6
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:1086305/1033228  3:302640/293608  5:367162/356439  7:474631/471233 ->7
+GDCancelHallCalls 2: expectedTransfer list is not empty! 6
+GDCancelHallCalls 5: no passengers at floor 8 for car 6 for hall call
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:1086294/1033228  3:302629/293608  5:367150/356439  7:229413/225444 ->7
+GDCancelHallCalls 5: no passengers at floor 8 for car 6 for hall call
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:1061733/1033228  2:299528/293608  4:507297/356439  6:258191/229413 ->2
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:738831/646125  2:545512/474019  4:592654/356439  6:238944/229413 ->6
+GDCancelHallCalls 5: no passengers at floor 8 for car 6 for hall call
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:649114/646125  3:525679/474019  5:380035/356439  7:260451/238944 ->1
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:719369/649114  3:578138/474019  5:351027/356439 !  7:289695/239898 ->5
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:571899/556205  2:318253/297615  4:409788/351028  6:275006/263124 ->6
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:586243/556205  3:305883/297615  5:359934/351028  7:289519/284996 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:572212/556205  2:318449/297615  4:353291/351028  6:299661/289519 ->4
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:643766/556205  2:358549/297615  4:552792/353291  6:264616/254666 ->6
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:569611/556205  2:317216/297616  4:563646/414594  6:295631/264119 ->0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:642842/569611  2:301156/297615  4:615955/414594  6:295254/264119 ->2
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:584784/569611  2:321423/301157  4:480607/414594  6:275569/264119 ->6
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:651727/569611  3:574982/489091  5:441961/414263  7:346520/275569 ->5
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:642885/569010  3:574812/489091  5:452252/441961  7:342566/275569 ->5
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:583921/569010  2:511156/489091  4:455040/452252  6:283812/275569 ->4
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:682951/569010  2:594614/489229  4:716985/455040  6:318382/275569 ->6
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:683570/569011  2:434638/301156  4:716919/455040  6:343541/329525 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:583414/569011  2:320936/301156  4:530855/455040  6:339451/343541 ! ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:583269/569011  2:320189/300506  4:463068/422557  6:346248/340700 ->6
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:658423/569011  2:362193/300506  4:671924/422557  6:372416/345161 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:587566/573809  2:508873/488441  4:433977/431919  6:379701/372415 ->4
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:588944/573809  3:494118/488579  5:393877/384838  7:375103/372415 ->7
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:583087/569334  3:341916/300506  5:401444/384838  7:431555/375103 ->1
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:594820/581492  2:318651/300221  4:424031/384838  6:380482/374694 ->6
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:682220/581493  2:397442/300221  4:685229/384838  6:384636/380483 ->6
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:596474/581492  3:306195/300221  5:393316/384838  7:386980/384636 ->7
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:652370/581493  3:376244/300221  5:391506/384838  7:502017/386980 ->5
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:652171/581493  3:572315/488156  5:393825/387163  7:501561/386980 ->5
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:670895/581492  3:572369/488156  5:400341/393825  7:501725/386980 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:594159/581493  2:506729/488156  4:439121/400341  6:392185/386980 ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:592634/580760  2:317953/299965  4:369775/331106  6:391634/386937 ->6
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:594388/580761  3:492127/487900  5:338360/331106  7:393329/391634 ->7
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:592287/580761  2:505318/487900  4:331815/331106  6:637333/624700 ->4
+GDCancelHallCalls 5: no passengers at floor 1 for car 5 for hall call
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:680751/580761  2:556880/487900  4:664291/331815  6:549035/624700 ! ->6
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:643012/628461  2:505235/487900  4:332508/331815  6:562900/549035 ->4
+GDCancelHallCalls 5: no passengers at floor 1 for car 5 for hall call
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:597795/580911  2:501119/488038  4:547185/332508  6:582472/527039 ->2
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:651219/580911  2:304372/301717  4:599986/332508  6:555448/499475 ->2
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:591235/580911  2:321217/304372  4:409733/336640  6:517186/499475 ->0
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:603455/589533  3:308499/304372  5:342917/336749  7:501952/499475 ->7
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:699743/589532  2:425454/304372  4:717907/336749  6:576873/501953 ->6
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:593969/589533  3:343470/304372  5:350619/336640  7:624743/576873 ->1
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:603594/593969  2:320906/304372  4:409054/336640  6:614700/591914 ->0
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:677359/603594  2:306673/304372  4:924008/330195  6:630751/576873 ->2
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:691939/603594  2:370042/306673  4:345321/330348  6:629854/578212 ->4
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:677330/603594  2:308624/306354  4:361708/345321  6:630672/578212 ->2
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:682320/603594  3:383393/308624  5:349653/345321  7:658306/578212 ->5
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:705649/603594  2:411297/308624  4:369342/349653  6:592084/578212 ->6
+DispatchNewCall: origin=2 dest=4 manualAssignment=-1
+  [2 -> 4]  1:607563/603594  3:347470/308624  5:331924/315545  7:646408/592084 ->1
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:695975/607400  2:372313/308624  4:331813/317266  6:658207/608309 ->4
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:688564/607400  3:383026/308624  5:337867/330743  7:698935/608309 ->5
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:623293/607400  2:310399/308624  4:356421/338937  6:658912/608309 ->2
+GDCancelHallCalls 5: no passengers at floor 8 for car 6 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 6
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 6
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:622416/607400  2:414512/400615  4:356206/338937  6:700670/647953 ->2
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:688199/607400  3:476007/320729  5:342777/338937  7:741626/647953 ->5
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:681029/607400  2:336478/320729  4:359588/342777  6:700544/647953 ->2
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:617207/607400  2:348377/336478  4:360549/342777  6:652602/636047 ->0
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:632170/617208  3:339731/336478  5:347730/342777  7:645013/636047 ->3
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:625257/617208  2:347302/336046  4:359293/342372  6:649153/636047 ->0
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:640867/625257  3:339198/336046  5:204521/199704  7:609035/600235 ->3
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:641228/625257  3:342146/339198  5:207374/199704  7:610216/600235 ->3
+GDCancelHallCalls 2: expectedTransfer list is not empty! 2
+GDCancelHallCalls 5: no passengers at floor 9 for car 2 for hall call
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:634244/625257  2:263931/247555  4:216604/199704  6:706658/660177 ->0
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:650079/634244  2:263418/247555  4:215793/199704  6:716883/660177 ->0
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:668346/650241  2:287844/270504  4:215419/199704  6:705400/648507 ->4
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:747605/650241  3:325903/247555  5:218537/215419  7:753559/648507 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:525565/514484  2:264226/247555  4:235895/218537  6:658752/648507 ->6
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:611485/514484  3:325226/247137  5:226114/218537  7:768108/658752 ->5
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:520414/514484  2:262987/247137  4:243776/226014  6:718373/661735 ->0
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:668914/520415  2:350627/247137  4:260448/226014  6:672339/661735 ->6
+DispatchNewCall: origin=2 dest=8 manualAssignment=-1
+  [2 -> 8]  1:538678/520415  3:286746/247137  5:241959/226014  7:734628/672339 ->5
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:529410/520415  2:262873/247137  4:259729/240387  6:683046/672339 ->0
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:548587/529410  3:236749/235226  5:244623/240387  7:678305/672339 ->3
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:510714/502890  2:249882/233290  4:259181/240387  6:685128/672339 ->0
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:579640/510402  2:238090/236749  4:258026/240387  6:730671/672339 ->2
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:586922/510714  2:239527/238090  4:256857/239720  6:729908/671638 ->2
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:530531/510714  3:239996/238687  5:243730/239720  7:677377/671638 ->3
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:513032/510714  3:281776/239996  5:248050/239720  7:733035/671638 ->1
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:532974/513032  3:241228/239996  5:243458/239720  7:677079/671638 ->3
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:570460/513032  3:242522/241228  5:243560/239720  7:677311/671638 ->3
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:533508/513032  3:243743/242522  5:248281/239720  7:680755/671638 ->3
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:519012/513032  2:263079/244642  4:257331/239720  6:685811/671638 ->0
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:529984/518856  2:263079/244642  4:257334/239720  6:679985/671638 ->6
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:521084/519012  3:299398/242189  5:246191/238239  7:734630/679985 ->1
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:525828/521084  2:260477/242189  4:254854/238239  6:738640/679985 ->0
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:527877/525828  3:299360/242189  5:241082/238239  7:734777/679985 ->1
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:529960/527877  3:299374/242189  5:246161/238239  7:734585/679985 ->1
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:380441/358426  3:249847/242189  5:246398/238239  7:688921/679985 ->3
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:365041/358426  2:269183/249847  4:255383/238239  6:691621/679985 ->0
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:480147/358414  3:308929/196299  5:244723/238239  7:812084/679985 ->5
+GDCancelHallCalls 5: no passengers at floor 8 for car 0 for hall call
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:397572/375111  3:206644/196299  5:263584/244106  7:684050/679350 ->7
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:397526/375111  3:206585/196299  5:263503/244106  7:688688/684050 ->7
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:384537/375111  2:215455/196299  4:261300/244106  6:748570/688688 ->0
+GDCancelHallCalls 5: no passengers at floor 8 for car 0 for hall call
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:407848/384537  3:206488/196299  5:263372/244106  7:693475/688688 ->7
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:419176/374184  3:206432/196299  5:263296/244106  7:698266/693475 ->7
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:509158/374184  2:208403/196299  4:257712/244106  6:758809/698266 ->2
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:375865/374023  3:276097/208403  5:277536/244106  7:765836/698266 ->1
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:467274/375865  2:219646/208403  4:260597/244106  6:758602/698266 ->2
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:387738/375865  2:230873/219646  4:258555/242088  6:758818/698266 ->2
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:502713/375865  3:537353/244496  5:274610/242088  7:839673/698266 ->5
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:388863/375865  2:263117/244496  4:294876/274610  6:708677/698266 ->6
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:438053/375865  2:262175/244496  4:289159/274610  6:771085/708677 ->4
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:386883/375865  2:263137/244496  4:309797/289159  6:717517/708677 ->6
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:386855/375865  2:263381/244712  4:309794/289159  6:726368/717517 ->6
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:503950/375865  2:241971/230873  4:307535/288379  6:789529/726241 ->2
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:582888/375865  2:262458/241971  4:322807/288379  6:739382/726241 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:485969/477299  2:255176/241971  4:308690/288379  6:748075/739382 ->0
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:528439/485969  2:254744/241971  4:307427/288379  6:745931/739382 ->6
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:408635/384296  3:263787/254474  5:305615/288379  7:763825/745931 ->3
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:520078/384296  2:278409/263787  4:306998/288379  6:813138/745931 ->2
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:539258/384296  3:645910/278409  5:320579/288379  7:913262/745931 ->5
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:513371/384296  3:645851/278409  5:353742/320473  7:913305/745931 ->5
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:397498/384296  2:296224/278409  4:376005/353742  6:759570/745931 ->0
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:422144/397498  3:292821/278409  5:370403/353848  7:763493/745931 ->3
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:575822/397498  2:305733/292801  4:365651/353848  6:811806/745931 ->4
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:530494/397498  3:681698/292801  5:400315/365651  7:913086/745931 ->5
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:462429/397498  2:311201/292801  4:413347/400315  6:811506/745931 ->4
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:458749/438991  2:311520/292801  4:437790/412493  6:751588/745931 ->6
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:450169/438991  2:311205/292801  4:437136/412493  6:766289/751588 ->0
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:557152/450169  2:310700/292801  4:434290/412493  6:817811/751588 ->2
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:605744/450169  3:714726/320972  5:406954/412493 !  7:922394/751588 ->5
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:545644/405319  3:447903/287645  5:404520/406954 !  7:922339/751588 ->5
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:453971/403284  3:300245/287645  5:417152/404392  7:754342/751588 ->7
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:588736/403284  2:293877/287645  4:411909/404392  6:821468/754469 ->2
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:546611/403284  2:301029/293877  4:428810/404392  6:822545/754469 ->2
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:588521/403284  2:307168/301029  4:426783/404392  6:820790/754469 ->2
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:571804/403284  3:625768/303890  5:463864/404392  7:924026/749675 ->5
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:481002/403284  3:316022/303890  5:480144/463864  7:752476/749675 ->7
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:428254/403284  3:315980/303890  5:480097/463864  7:754807/752044 ->7
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:423809/399113  3:315854/304105  5:479702/463864  7:757669/755243 ->7
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:417591/399113  2:318081/304105  4:488731/463864  6:762276/757669 ->6
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:423939/399113  3:315742/304105  5:479513/463864  7:776745/762276 ->3
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:677454/399274  2:188619/128216  4:549095/463864  6:1075185/762276 ->2
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:465953/399274  2:210015/190397  4:471135/463864  6:830914/762276 ->4
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:407187/399274  2:210932/190397  4:495953/471135  6:767578/762276 ->6
+DispatchNewCall: origin=13 dest=2 manualAssignment=-1
+  [13 -> 2]  0:631087/399274  2:213797/190397  4:552761/471135  6:781052/767578 ->6
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:283817/265810  2:210133/190398  4:494887/471135  6:790775/781052 ->6
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:283784/265810  2:210065/190398  4:494835/471135  6:791371/781704 ->6
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:274990/265810  2:202183/190398  4:494357/471135  6:865727/786366 ->0
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:283536/274990  2:210445/190398  4:495463/471135  6:796618/786366 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:284075/283536  2:202140/190398  4:494323/471135  6:870992/791371 ->0
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:305093/284075  2:202020/190398  4:510352/471135  6:871996/791371 ->2
+GDCancelHallCalls 5: no passengers at floor 3 for car 3 for hall call
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:291642/284075  2:221970/202020  4:494724/471135  6:801573/791371 ->0
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:380882/291642  2:221922/202020  4:493529/471135  6:872367/791371 ->2
+GDCancelHallCalls 5: no passengers at floor 3 for car 3 for hall call
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:292767/291642  3:256810/221922  5:484302/471263  7:913717/791371 ->1
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:314670/292767  2:240481/220457  4:436057/413154  6:811985/791108 ->2
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:349594/292767  3:257763/240481  5:427256/413154  7:803706/791108 ->7
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:699205/292552  3:257630/240481  5:426888/413154  7:816481/803969 ->7
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:513217/292552  2:248575/240481  4:418937/413154  6:1119637/816481 ->4
+GDCancelHallCalls 5: no passengers at floor 1 for car 5 for hall call
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:623627/292552  2:247040/240481  4:527781/418937  6:1175184/816481 ->2
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:325618/303694  2:259300/246570  4:457476/418937  6:863343/841334 ->2
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:331747/320393  3:294826/259300  5:430867/418937  7:964309/841334 ->1
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+GDAcceptCarCall: no car calls for 8 in expected transfer list for car 1
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:362002/331747  3:275678/259300  5:432259/418937  7:853569/841334 ->7
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:621035/331747  2:286400/259300  4:484910/418937  6:1219754/853569 ->2
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:351362/334268  3:342520/286400  5:428814/418937  7:1106028/853836 ->5
+GDCancelHallCalls 5: no passengers at floor 1 for car 5 for hall call
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:345595/334268  3:323767/286400  5:440840/428814  7:979663/853836 ->1
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:579767/345595  2:294657/286400  4:433594/428814  6:1210672/892160 ->4
+GDCancelHallCalls 5: no passengers at floor 1 for car 5 for hall call
+DispatchNewCall: origin=11 dest=2 manualAssignment=-1
+  [11 -> 2]  0:542182/345595  2:295462/286400  4:476733/433594  6:1165956/892160 ->2
+GDCancelHallCalls 5: no passengers at floor 8 for car 6 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 6
+GDAcceptCarCall: no car calls for 2 in expected transfer list for car 6
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 6
+DispatchNewCall: origin=11 dest=2 manualAssignment=-1
+  [11 -> 2]  0:538715/342979  2:304364/295462  4:472319/429609  6:1264702/1403652 ! ->6
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:955978/561417  2:301813/295462  4:544094/429609  6:1390797/1264702 ->2
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:602072/561417  2:324827/301813  4:452407/429609  6:1299152/1264702 ->4
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:846588/561417  2:322808/301813  4:458387/452407  6:1345948/1264702 ->4
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:584439/561417  3:318838/301813  5:472058/458515  7:1196852/1181036 ->5
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:594996/561417  3:357594/301813  5:482417/472058  7:1489311/1181036 ->5
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:594850/561675  3:357256/301813  5:490749/480410  7:1489101/1181036 ->5
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:348261/342544  2:322082/301046  4:619653/596393  6:1209234/1180763 ->0
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:359543/348018  3:317381/301046  5:625908/596393  7:1195914/1180762 ->1
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:383434/359795  3:355956/301046  5:601770/596516  7:1524244/1180762 ->5
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:676522/359795  2:316877/301046  4:579663/500531  6:1368795/1181034 ->2
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:366009/359795  2:340681/316877  4:550959/500531  6:1199783/1181034 ->0
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:511902/475240  2:327837/316877  4:529690/502414  6:1167546/1102296 ->2
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:974798/475478  2:349047/327837  4:539332/507279  6:1127787/1102296 ->2
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:397256/365895  2:367575/348265  4:535460/507409  6:1164775/1099602 ->2
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:388351/365895  3:450707/367575  5:515976/507196  7:1405413/1099602 ->5
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:375910/365895  3:379106/367575  5:612912/605775  7:1309834/1292566 ->5
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:370675/365895  2:390185/367575  4:633985/612912  6:1257794/1247465 ->0
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:767415/370675  2:383382/367575  4:710777/612912  6:1383802/1247465 ->2
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:395767/370675  2:405757/383382  4:551440/522315  6:1256539/1247465 ->6
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:380543/370675  3:394206/383382  5:533430/522315  7:1271715/1251225 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+GDCancelHallCalls 5: no passengers at floor 4 for car 0 for hall call
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:351531/346628  3:404813/383382  5:533282/522315  7:1271624/1251225 ->1
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:359402/351531  2:406013/383382  4:551562/522315  6:1261371/1251225 ->0
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:364275/359402  3:394022/383382  5:533260/522315  7:1271484/1251225 ->1
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:342377/337719  3:393716/383382  5:538299/527373  7:1271102/1251225 ->1
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:514766/342377  2:387234/383382  4:561013/527373  6:1336112/1251225 ->2
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:375511/342377  2:403972/387234  4:557013/527373  6:1337566/1251225 ->2
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:346991/342377  3:412250/403972  5:538225/527502  7:1269317/1249584 ->1
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:352495/346112  2:423378/403097  4:556991/527078  6:1264981/1255470 ->0
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:402331/352495  3:504631/403097  5:534722/527078  7:1512466/1255470 ->5
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:388041/352495  2:419406/403097  4:635116/615795  6:1340668/1255470 ->2
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:725823/352495  2:430839/419406  4:713437/616098  6:1399984/1255470 ->2
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:668262/373526  2:461221/430839  4:677187/616098  6:1378686/1255470 ->2
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:411703/373526  3:579680/461221  5:641522/616098  7:1512394/1255470 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:399563/373526  2:482768/461221  4:661880/641522  6:1262533/1255470 ->6
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:380839/373526  3:487314/461221  5:543687/534353  7:1280865/1262533 ->1
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:747933/387290  2:454022/461221 !  4:681109/534353  6:1406420/1262533 ->2
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:373679/367767  2:473939/454022  4:565003/534225  6:1271062/1262533 ->0
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:1274909/422792  2:485043/452337  4:693065/535998  6:1408740/1264812 ->2
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:402098/397726  3:513055/485043  5:550619/541460  7:1282382/1264812 ->1
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:406206/402098  3:512899/485043  5:550381/541589  7:1282151/1264812 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:317835/304157  2:503049/485043  4:544345/541589  6:1349085/1264812 ->4
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:307972/304157  3:512363/485043  5:684085/657551  7:1281733/1264812 ->1
+DispatchNewCall: origin=2 dest=5 manualAssignment=-1
+  [2 -> 5]  1:311104/307972  3:573690/485043  5:682738/657551  7:1401541/1264812 ->1
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:314952/311330  3:512306/485043  5:663125/657551  7:1281221/1264812 ->1
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:347955/314952  2:499397/485043  4:671848/657551  6:1349567/1264812 ->4
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:190688/148710  3:622509/484439  5:674210/671848  7:1550922/1264139 ->5
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:188686/149382  2:497718/484439  4:579262/544535  6:1347228/1264139 ->2
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:100973/80622  2:510457/497719  4:578609/544101  6:1347067/1264139 ->2
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:103257/80622  3:651046/510457  5:567669/546472  7:1523839/1264139 ->5
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:80887/80622  2:529412/510457  4:598611/567669  6:1270835/1264139 ->0
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:103352/80887  3:650615/510457  5:589921/567799  7:1523608/1264139 ->5
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:81110/80887  2:529109/510457  4:623324/589921  6:1270666/1264139 ->0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:92074/81110  2:523885/509792  4:653054/649317  6:1368507/1264139 ->4
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:83751/81110  3:538502/509792  5:675716/653054  7:1278797/1264057 ->1
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:102864/84258  2:521625/509792  4:692927/653054  6:1346718/1264057 ->2
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:99982/84258  2:535692/521625  4:688741/652728  6:1349989/1264057 ->2
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:101362/84258  2:548326/535692  4:656733/652728  6:1350154/1264057 ->4
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:85521/84258  2:551216/535692  4:660333/655719  6:1349472/1264057 ->0
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:123188/85521  3:674881/535692  5:694971/656733  7:1549747/1264057 ->1
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 0
+GDAcceptCarCall: no car calls for 2 in expected transfer list for car 0
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:148609/126384  2:549243/535692  4:692658/656733  6:1349866/1264057 ->2
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:150335/126384  2:573829/549243  4:660505/656733  6:1349995/1264057 ->4
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:130229/126384  3:655405/549243  5:706877/660505  7:1398524/1264057 ->1
+GDCancelHallCalls 5: no passengers at floor 7 for car 0 for hall call
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:159597/130229  2:574403/549243  4:662794/660505  6:1366341/1264057 ->4
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:149017/129584  3:657218/549243  5:702274/662794  7:1398427/1264057 ->1
+GDCancelHallCalls 5: no passengers at floor 7 for car 0 for hall call
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:178015/148852  2:572165/548739  4:680085/628575  6:1348322/1264057 ->2
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:177474/148852  2:590946/572165  4:648189/598534  6:1348341/1264139 ->2
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:197120/181549  3:707753/590946  5:634993/598534  7:1395265/1261149 ->1
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:219030/197120  2:614555/590946  4:605320/598534  6:1265371/1261149 ->6
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:218964/197120  2:614537/590946  4:605281/598534  6:1269549/1265371 ->6
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:339752/197120  2:617892/590946  4:724093/613090  6:1592791/1269549 ->2
+DispatchNewCall: origin=13 dest=1 manualAssignment=-1
+  [13 -> 1]  0:333398/197120  2:640405/617892  4:708891/613090  6:1548924/1269549 ->2
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:333870/196713  2:667578/640405  4:710142/613090  6:1548782/1269549 ->2
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:337036/195175  2:654934/667348 !  4:624533/597410  6:1592321/1269549 ->2
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:209407/195175  3:661066/654934  5:614504/597410  7:1281013/1269213 ->3
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:216515/195175  2:684669/661066  4:603694/597410  6:1273056/1269213 ->6
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:253818/195175  2:680607/661304  4:596804/554248  6:1358553/1273058 ->2
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:200441/185001  3:915976/721804  5:588990/554248  7:1571454/1273058 ->1
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:200204/186737  3:745979/703291  5:570557/554248  7:1682511/1662401 ->1
+DispatchNewCall: origin=3 dest=12 manualAssignment=-1
+  [3 -> 12]  1:213485/200204  3:743287/703291  5:570315/554248  7:1316812/1305490 ->7
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:221946/200204  2:726171/703291  4:560864/554248  6:1320035/1316812 ->6
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:213339/200204  3:745829/703291  5:570229/554248  7:1331253/1320035 ->7
+GDCancelHallCalls 5: no passengers at floor 7 for car 6 for hall call
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 6
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:210243/197315  3:721945/680607  5:569928/554248  7:1392429/1380821 ->7
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:213539/198194  3:893806/680607  5:588678/554248  7:1691948/1392429 ->1
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:220971/213539  3:873736/680607  5:588638/554248  7:1691962/1392429 ->1
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:223384/220971  2:702237/680607  4:558998/554248  6:1655132/1647426 ->0
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:237786/223384  3:873485/680607  5:588307/554248  7:2874955/1647426 ->1
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:263404/237707  3:878468/680607  5:543030/508953  7:2874038/1647426 ->1
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:383325/263404  2:743726/680607  4:524063/508953  6:1670465/1392429 ->4
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:323462/263404  2:699066/680607  4:549391/524063  6:1526744/1392429 ->2
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:274939/263404  3:740992/699066  5:539628/524063  7:783256/772560 ->7
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+DispatchNewCall: origin=2 dest=5 manualAssignment=-1
+  [2 -> 5]  1:276735/259848  3:862834/699237  5:726000/676327  7:940475/785393 ->1
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:292771/276735  3:921918/699237  5:716258/676327  7:1090872/785393 ->1
+DispatchNewCall: origin=2 dest=14 manualAssignment=-1
+  [2 -> 14]  1:310572/292771  3:775157/668505  5:561263/524064  7:939246/785393 ->1
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:321353/310572  3:710570/668505  5:538726/524064  7:795341/785393 ->7
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:524488/310572  2:740079/668505  4:557212/524064  6:1204032/795341 ->4
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:321323/310572  3:710532/668505  5:574040/557212  7:805200/795341 ->7
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:342031/310572  2:685506/668505  4:811088/768892  6:848398/800768 ->2
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:332905/310572  2:704467/685506  4:811169/768892  6:802979/800768 ->6
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:369804/310572  2:704791/685506  4:810800/768892  6:942500/802635 ->2
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:524052/310572  2:780832/704791  4:771667/768892  6:1230359/802635 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:404819/310572  2:722952/704791  4:870804/771667  6:1047054/802635 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:332786/310572  2:741863/722952  4:594945/573232  6:804751/802635 ->6
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:343695/320874  2:741771/722952  4:594855/573232  6:816740/804751 ->6
+DispatchNewCall: origin=2 dest=6 manualAssignment=-1
+  [2 -> 6]  1:339082/321036  3:856157/722952  5:610098/565134  7:1017898/817084 ->1
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:400936/339082  2:722560/722952 !  4:585488/564938  6:994125/817084 ->2
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:349073/339002  3:768500/722560  5:584080/564939  7:827753/818980 ->7
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:332483/339082 !  3:919183/704887  5:608854/564937  7:1527527/870812 ->1
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:366640/332483  3:918935/704888  5:620695/564937  7:1151707/819937 ->1
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:532081/361072  2:797749/704888  4:578468/565133  6:1156997/819937 ->4
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:369684/361072  3:1292059/869862  5:628737/578468  7:988458/819937 ->1
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:493556/369684  2:914945/869862  4:597283/578468  6:1094296/819937 ->4
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:370380/369684  2:890431/869862  4:700506/675205  6:825992/819937 ->0
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:379721/370380  3:922501/869862  5:697432/675205  7:827676/819937 ->7
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:401710/370380  2:718335/704888  4:697105/673262  6:906744/823015 ->2
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:380439/370380  3:930773/718335  5:729067/673262  7:1444333/823015 ->1
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:438393/386483  3:894974/683520  5:743887/673263  7:509887/453214 ->1
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:735951/438393  2:778887/683520  4:687911/673263  6:793997/453214 ->4
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:529945/403555  2:724331/683480  4:669777/649402  6:708735/453214 ->4
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:430951/403504  3:687444/683480  5:690148/669777  7:460073/453214 ->3
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:587786/407101  2:728035/687484  4:684099/669777  6:730967/453214 ->4
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:434462/407101  3:691422/687484  5:704295/684099  7:459930/453214 ->3
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:436256/403584  3:845302/691382  5:758984/682362  7:469016/444227 ->7
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:416500/403584  2:705041/691382  4:657110/636632  6:490191/469016 ->0
+GDCancelHallCalls 5: no passengers at floor 2 for car 1 for hall call
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:448736/416478  3:854585/691382  5:693516/636632  7:475188/469016 ->7
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:449865/422492  3:936500/691382  5:710767/636632  7:526140/475188 ->1
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:535817/449865  2:706042/693309  4:656066/636632  6:496519/475188 ->2
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:477297/452141  3:754005/706042  5:653583/636632  7:480366/473778 ->7
+DispatchNewCall: origin=2 dest=4 manualAssignment=-1
+  [2 -> 4]  1:479924/443738  3:828952/704647  5:711304/636632  7:486724/480231 ->7
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:468327/443546  3:752241/704647  5:648395/631933  7:493276/486866 ->7
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:707124/443546  2:802889/704647  4:641944/631933  6:899398/493276 ->4
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:566079/443546  2:713925/704647  4:660393/641944  6:955868/493162 ->2
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:459535/443546  2:740811/728874  4:660782/642140  6:519020/493162 ->2
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:472314/443546  3:984975/740811  5:698364/642335  7:551084/493162 ->1
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:496380/472314  3:791537/740811  5:658348/642335  7:499284/493162 ->7
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:496368/472314  3:809868/758465  5:658338/642335  7:519436/499284 ->5
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:495653/471643  2:733513/722577  4:590135/570843  6:524922/499398 ->2
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:606044/471664  2:751392/733555  4:589860/570843  6:532062/499398 ->2
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:471917/471664  2:772253/751392  4:590549/570843  6:501899/498651 ->0
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:499861/471917  2:769405/751392  4:589921/570843  6:531260/498651 ->2
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:507905/471917  3:804503/769405  5:647091/570843  7:572710/498651 ->3
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:472133/471917  2:827287/804503  4:590364/570843  6:517132/498651 ->0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:701328/471540  2:856559/804174  4:580900/570843  6:475117/418641 ->4
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:502349/473263  3:766529/732260  5:636334/580900  7:495070/419091 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:485401/456733  3:766194/732261  5:636274/580900  7:492854/419091 ->1
+GDCancelHallCalls 2: expectedTransfer list is not empty! 0
+GDCancelHallCalls 5: no passengers at floor 5 for car 0 for hall call
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:506770/484672  3:723104/732261 !  5:595448/580900  7:437429/419091 ->3
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:550325/485023  2:766662/715011  4:590406/580900  6:474747/419091 ->4
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:513867/485023  3:733672/715011  5:733856/2350989 !  7:492604/419091 ->5
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:513854/485023  3:735716/717025  5:740676/733856  7:492592/419091 ->5
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:529413/485023  2:726493/717025  4:767193/740676  6:462907/419091 ->2
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:513675/485043  3:748134/726493  5:670384/652861  7:491554/418248 ->5
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:603992/484576  2:1055758/724602  4:653217/646055  6:479745/418248 ->4
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:548920/484683  2:793293/724602  4:662406/653217  6:472908/418248 ->4
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:505314/484723  3:749521/724602  5:682161/662406  7:435205/418248 ->7
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:484858/484739  2:742381/723565  4:685528/662406  6:454216/435205 ->0
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:485803/484899  2:743795/723565  4:685400/662406  6:414223/386068 ->0
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:486152/485831  2:742264/723565  4:685432/662406  6:405006/386068 ->0
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:702389/486158  2:1056073/723565  4:669647/662406  6:455517/386068 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:644962/487451  2:869647/723565  4:801149/781848  6:446787/386068 ->4
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:507197/487451  3:747714/723565  5:835169/801149  7:402420/386068 ->7
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:507340/487451  3:747721/723565  5:809621/801149  7:418812/402420 ->5
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:507340/487451  3:747633/723565  5:843506/809621  7:418766/402420 ->7
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:701544/487451  2:1054312/723566  4:827359/809621  6:496028/418766 ->4
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:574782/487451  2:745787/723566  4:852438/827359  6:461106/418766 ->2
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:559079/487481  2:808184/745787  4:708101/698999  6:475616/418281 ->4
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:566403/487379  2:1076315/745787  4:423952/399884  6:495100/418281 ->4
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:557267/487379  2:805134/745787  4:448589/419946  6:461288/418281 ->4
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+GDCancelHallCalls 5: no passengers at floor 7 for car 0 for hall call
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 0
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:563094/488525  2:887316/750256  4:469634/458128  6:489515/418281 ->4
+GDCancelHallCalls 5: no passengers at floor 3 for car 5 for hall call
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:507215/488525  3:775297/750256  5:492384/469634  7:433584/418281 ->7
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:515551/488525  3:770724/749109  5:472476/458716  7:415659/333466 ->5
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:556472/488492  2:889275/749109  4:502937/472476  6:400278/333466 ->4
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:527001/488492  3:770477/749109  5:524052/502937  7:415305/333466 ->5
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:563912/488492  2:1181170/749109  4:550913/524052  6:417047/333357 ->4
+DispatchNewCall: origin=8 dest=2 manualAssignment=-1
+  [8 -> 2]  0:537310/488492  2:763005/749109  4:582517/551089  6:393023/332939 ->2
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:562795/488275  2:1085777/763005  4:612811/551089  6:419239/332939 ->4
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:560886/487851  2:925440/786488  4:848954/813186  6:398847/332939 ->4
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 0
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:560067/488211  2:852612/786224  4:883541/848835  6:392292/328691 ->4
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:504874/488211  3:809801/786224  5:670311/653605  7:342319/328691 ->7
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:515042/488211  3:806763/786224  5:666804/653605  7:439320/342319 ->5
+DispatchNewCall: origin=2 dest=10 manualAssignment=-1
+  [2 -> 10]  1:527610/488211  3:809169/786224  5:705230/666804  7:358871/342319 ->7
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:535105/488211  2:802449/786224  4:697789/666804  6:413602/356853 ->2
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:488335/488211  2:819915/802449  4:698968/666804  6:373560/356853 ->0
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:516858/488335  3:826770/802449  5:992645/889508  7:385622/356853 ->3
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:504509/488335  3:853029/826770  5:941785/889508  7:369980/356853 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:498283/488335  2:845632/826770  4:931037/889508  6:392114/369980 ->0
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:524783/498283  3:848225/826770  5:895007/889508  7:458484/369980 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:521967/497711  2:840508/826770  4:936171/895007  6:393528/369980 ->2
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:563434/497711  2:908449/840508  4:932489/895007  6:417820/369980 ->4
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:524103/497711  3:861750/840508  5:938223/932782  7:458383/369980 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:521718/497711  2:854272/840774  4:742483/938223 !  6:393380/369980 ->4
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:513760/497711  3:866574/840774  5:778488/742483  7:382726/369980 ->7
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:535729/497711  3:861882/840774  5:755372/742483  7:472937/382726 ->5
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:500332/497711  2:859421/840774  4:942448/755372  6:399127/382726 ->0
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:527194/500332  3:861795/840741  5:768158/755372  7:492672/382726 ->5
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:516244/500332  3:866276/840741  5:784397/768158  7:395196/382726 ->7
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:516166/500332  3:866100/840741  5:805734/767762  7:407636/395196 ->7
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:565170/500332  2:960787/840741  4:767274/773764 !  6:514155/407636 ->4
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:531213/500332  2:748983/731003  4:959353/767274  6:429224/407636 ->2
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:566173/500332  2:871916/748984  4:816039/767274  6:513784/407636 ->4
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:515579/500332  3:775227/748984  5:830111/816039  7:418330/406401 ->7
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:526442/500332  3:770491/748984  5:853605/819877  7:515343/418330 ->3
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:543729/500332  2:784282/770491  4:1018659/821267  6:439636/418330 ->2
+DispatchNewCall: origin=2 dest=13 manualAssignment=-1
+  [2 -> 13]  1:522844/494602  3:808252/784282  5:877759/809628  7:453917/418330 ->3
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:532272/494602  3:820689/808252  5:821035/809628  7:514686/418330 ->5
+DispatchNewCall: origin=2 dest=4 manualAssignment=-1
+  [2 -> 4]  1:547930/507876  3:823002/808252  5:863775/821035  7:434307/418330 ->3
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:562048/507876  2:908832/823002  4:846989/821035  6:508653/418330 ->4
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:523040/507876  3:851041/823002  5:860402/846989  7:429716/418330 ->7
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:522910/507876  3:851362/823002  5:861003/846989  7:440730/429716 ->7
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:558149/495626  2:930598/823002  4:867549/844134  6:537810/440730 ->4
+DispatchNewCall: origin=1 dest=6 manualAssignment=-1
+  [1 -> 6]  1:521404/495626  3:847585/823002  5:897406/862301  7:560662/440730 ->3
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:509820/495626  3:875718/847585  5:901241/862301  7:451657/440730 ->7
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:552226/495626  2:936009/847585  4:887604/862301  6:517229/451657 ->4
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:519838/495626  2:770466/753935  4:922904/892994  6:471642/449507 ->2
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:509455/495626  3:795242/770466  5:937018/892984  7:455358/444717 ->7
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:508394/495285  3:794394/770466  5:932047/892984  7:465305/455358 ->7
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:518191/495285  2:782794/770466  4:921989/892984  6:485617/465305 ->2
+DispatchNewCall: origin=9 dest=2 manualAssignment=-1
+  [9 -> 2]  0:530538/502756  2:864400/782794  4:918476/892984  6:503241/465305 ->4
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:532891/502756  2:930283/1702006 !  4:935901/913309  6:576305/465305 ->2
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:539702/502756  3:953043/930283  5:955427/913309  7:572093/465305 ->3
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:530019/502756  3:970739/953043  5:994255/913309  7:480730/465305 ->7
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 2
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:528197/502756  3:937000/922440  5:951244/913309  7:609061/480044 ->3
+GDCancelHallCalls 2: expectedTransfer list is not empty! 2
+GDCancelHallCalls 5: no passengers at floor 9 for car 2 for hall call
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:526488/502756  2:977701/954048  4:935653/913309  6:595452/480044 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:519011/502554  2:1026718/942481  4:957834/938234  6:580708/480044 ->0
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:539449/519011  2:960856/942481  4:964744/938234  6:504878/479784 ->2
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:531554/518896  3:995622/959491  5:984396/938234  7:474960/448163 ->1
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:572983/544158  3:951804/939952  5:1013650/937084  7:483049/448163 ->3
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:579272/544158  2:983618/951804  4:960011/937084  6:593206/448163 ->4
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:564918/544158  2:1045406/951804  4:994255/960011  6:537907/448163 ->0
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:578374/564918  3:987491/951804  5:1007646/960011  7:473797/448163 ->1
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:591680/578374  3:987245/951804  5:1007498/960011  7:473544/448163 ->1
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:622582/591680  2:972460/951804  4:993142/960011  6:493661/448163 ->2
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:640301/591680  3:981185/972460  5:1004382/960011  7:608564/492232 ->3
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:638523/591580  3:987101/978341  5:967100/960011  7:608553/492232 ->5
+DispatchNewCall: origin=2 dest=5 manualAssignment=-1
+  [2 -> 5]  1:623141/591580  3:1014485/978341  5:1045515/967100  7:526237/492232 ->1
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:651633/623141  2:1005602/985781  4:999529/967100  6:493465/492232 ->6
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:635834/623141  3:1022498/985781  5:1014176/967100  7:518130/493465 ->1
+DispatchNewCall: origin=4 dest=2 manualAssignment=-1
+  [4 -> 2]  0:662312/635834  2:1005265/985781  4:1077769/1043650  6:494938/493726 ->6
+DispatchNewCall: origin=4 dest=1 manualAssignment=-1
+  [4 -> 1]  0:662128/635834  2:1005170/985781  4:1077601/1043650  6:496074/494938 ->6
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:661172/635834  2:1081919/985781  4:1080768/1043650  6:645511/496074 ->0
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:688626/661172  2:1001654/985781  4:1077699/1043650  6:507305/496074 ->6
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:687144/676292  3:1021889/985781  5:1092400/1043650  7:511489/487861 ->1
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:678667/654781  2:1082525/985164  4:1077993/1043650  6:602795/487861 ->0
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:716858/678667  2:1015039/985164  4:1033267/998128  6:695204/487861 ->2
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:701944/675517  2:1031921/1015039  4:1029895/998128  6:493829/487861 ->6
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:674635/675421 !  3:1022615/1015039  5:1037907/998128  7:568938/493829 ->1
+DispatchNewCall: origin=1 dest=7 manualAssignment=-1
+  [1 -> 7]  1:703806/674635  3:1050546/1015039  5:1005541/998128  7:568768/493829 ->5
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:699442/674635  2:1069749/1015039  4:1036759/1005541  6:685002/493829 ->0
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:725414/699442  2:1030236/1015039  4:1037437/1005541  6:495220/493829 ->6
+DispatchNewCall: origin=2 dest=12 manualAssignment=-1
+  [2 -> 12]  1:761647/699712  3:1023300/1013377  5:1118385/1004421  7:552041/495220 ->3
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:716316/699712  3:1076759/1017680  5:1029872/1004421  7:517681/495220 ->1
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:738999/716316  2:1073835/1017680  4:1035187/1004421  6:693056/495220 ->0
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:765918/738999  2:1031615/1018191  4:1066376/1034132  6:511145/495220 ->2
+DispatchNewCall: origin=14 dest=1 manualAssignment=-1
+  [14 -> 1]  0:754868/709621  2:1021177/1031615 !  4:921594/889089  6:759316/495220 ->2
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:735059/712646  3:1037447/1021177  5:917224/889089  7:569604/495220 ->3
+DispatchNewCall: origin=1 dest=10 manualAssignment=-1
+  [1 -> 10]  1:766877/712646  3:1043558/1037447  5:917206/889089  7:384360/310036 ->3
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:736007/712646  3:1080734/1043558  5:1014379/930059  7:384111/310036 ->1
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:753641/736007  3:1083349/1043558  5:910480/888918  7:336657/315039 ->1
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:775015/753641  2:1208310/1043558  4:915018/889089  6:522529/315039 ->0
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:812249/775015  3:1045929/1040468  5:916802/889089  7:389580/315039 ->3
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:801847/775015  2:1145708/1045929  4:915925/889089  6:416763/315039 ->0
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:831214/801847  2:1066743/1045929  4:915080/889089  6:316367/315039 ->6
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:809517/801847  3:1085144/1045929  5:858808/838144  7:331731/311292 ->1
+DispatchNewCall: origin=11 dest=3 manualAssignment=-1
+  [11 -> 3]  0:4795235/4652529  2:1222757/1045929  4:864362/838144  6:514759/311292 ->4
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:4873553/4652529  2:1220231/1045929  4:890887/864362  6:422647/311292 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:799191/771972  2:1063274/1045929  4:918902/890888  6:327373/311109 ->6
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:778964/771972  3:1084347/1045820  5:910104/890888  7:346318/327373 ->1
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:805900/778964  2:1063909/1045820  4:918550/890888  6:328837/327373 ->6
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:871795/778964  3:1050376/1045820  5:958954/890888  7:453054/328837 ->3
+DispatchNewCall: origin=12 dest=2 manualAssignment=-1
+  [12 -> 2]  0:798354/778964  2:1238587/1050376  4:916113/890888  6:2393232/416782 ->0
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:824529/798354  3:1088663/1050376  5:909827/890888  7:435528/416782 ->7
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:894806/3788323 !  3:1054695/1050376  5:917715/890888  7:601650/435528 ->1
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:925660/894806  2:1069240/1050376  4:913791/886572  6:440014/435528 ->6
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:925660/894806  2:1071399/1050376  4:913914/886573  6:441542/436674 ->6
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:926055/894806  3:1054515/1050376  5:949373/886573  7:608499/441542 ->3
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:928252/895045  3:1092270/1054515  5:904749/886573  7:369277/351333 ->7
+DispatchNewCall: origin=1 dest=5 manualAssignment=-1
+  [1 -> 5]  1:760166/724801  3:1089892/1054515  5:948204/886573  7:506192/368941 ->1
+GDAcceptCarCall: no car calls for 4 in expected transfer list for car 1
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:780913/748423  3:1092378/1054515  5:904543/886573  7:386716/368941 ->7
+DispatchNewCall: origin=5 dest=3 manualAssignment=-1
+  [5 -> 3]  0:780023/748423  2:1072868/1054515  4:1960258/1903066  6:388284/386716 ->6
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:800144/774778  2:1253722/1054515  4:1957558/1903066  6:602953/388284 ->0
+GDCancelHallCalls 5: no passengers at floor 3 for car 1 for hall call
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:832629/800144  3:1058226/1054515  5:949021/886573  7:534361/388284 ->3
+DispatchNewCall: origin=8 dest=3 manualAssignment=-1
+  [8 -> 3]  0:806687/780427  2:1186152/1058226  4:911478/886573  6:514477/388284 ->4
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:840468/780427  3:1076666/1058226  5:880966/856166  7:535735/388539 ->3
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:879970/799279  3:1088874/1071650  5:971406/856167  7:461715/388084 ->3
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:860270/827844  3:1104309/1085505  5:872288/856035  7:401883/385811 ->7
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:858654/827844  2:1106202/1088874  4:881282/856035  6:402193/401883 ->6
+DispatchNewCall: origin=3 dest=6 manualAssignment=-1
+  [3 -> 6]  1:859588/827844  3:1107228/1088874  5:871804/856036  7:417853/402193 ->7
+GDCancelHallCalls 2: expectedTransfer list is not empty! 6
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+DispatchNewCall: origin=1 dest=14 manualAssignment=-1
+  [1 -> 14]  1:889516/827844  3:1107780/1088875  5:880239/856037  7:523557/404156 ->3
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:897382/827598  2:1380576/1107685  4:1040899/856037  6:791194/403304 ->0
+DispatchNewCall: origin=3 dest=7 manualAssignment=-1
+  [3 -> 7]  1:932992/897382  3:1125563/1107685  5:871328/856037  7:418525/403304 ->7
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:935314/897688  3:1135075/1107781  5:924394/856037  7:538269/418599 ->3
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:931728/897016  3:1153739/1135075  5:870742/856036  7:433204/418599 ->7
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:897022/897016  2:1155385/1135075  4:880312/856036  6:433755/433204 ->0
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:919116/892667  2:1366039/1135075  4:879945/856036  6:498334/433204 ->4
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 0
+GDAcceptCarCall: no car calls for 2 in expected transfer list for car 0
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:919759/897025  2:1483518/1211894  4:893056/880077  6:495820/431940 ->4
+GDCancelHallCalls 5: no passengers at floor 9 for car 2 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 2
+GDAcceptCarCall: no car calls for 2 in expected transfer list for car 2
+DispatchNewCall: origin=2 dest=7 manualAssignment=-1
+  [2 -> 7]  1:985954/897026  3:1238889/1221582  5:961894/891496  7:494924/431940 ->3
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:929076/897026  2:1259757/1238889  4:912717/891496  6:436026/431940 ->6
+DispatchNewCall: origin=3 dest=11 manualAssignment=-1
+  [3 -> 11]  1:930162/897026  3:1258082/1238889  5:904095/891496  7:449608/436026 ->5
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:933985/897026  3:1263575/1238889  5:927223/904095  7:584897/436026 ->5
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:915416/897026  2:1567710/1238889  4:1143053/927223  6:502354/436026 ->0
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:915426/915416  2:1259544/1238889  4:948742/927223  6:436508/436026 ->0
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:1005686/915426  3:1255701/1238889  5:1050936/927223  7:501449/436026 ->3
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:951849/915029  3:1279757/1255604  5:1000201/927223  7:584736/436026 ->3
+DispatchNewCall: origin=10 dest=1 manualAssignment=-1
+  [10 -> 1]  0:939446/915029  2:1573503/1279757  4:1099905/1065107  6:465390/434660 ->0
+DispatchNewCall: origin=5 dest=1 manualAssignment=-1
+  [5 -> 1]  0:971172/939446  2:1302019/1279757  4:1090484/1065107  6:435008/434660 ->6
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:970611/939446  2:1300203/1279757  4:1089995/1065107  6:442990/434773 ->6
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:971405/939446  3:2448283/2402845  5:1096790/1065107  7:456081/443241 ->7
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:939461/939446  2:1299686/1279853  4:1090469/1065107  6:456345/456081 ->0
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:962027/939461  2:1591040/1279853  4:1098753/1065107  6:523781/459964 ->0
+GDCancelHallCalls 5: no passengers at floor 6 for car 6 for hall call
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 6
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:998338/962027  3:891622/910084 !  5:1000628/927867  7:717650/468779 ->3
+GDCancelHallCalls 5: no passengers at floor 8 for car 2 for hall call
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:991592/961750  2:899871/880123  4:947037/927867  6:469898/468258 ->6
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:978752/961750  2:1285417/880123  4:1142445/927867  6:567407/469898 ->0
+DispatchNewCall: origin=6 dest=1 manualAssignment=-1
+  [6 -> 1]  0:1008177/978752  2:898846/880058  4:1045984/1024984  6:475218/468305 ->6
+DispatchNewCall: origin=1 dest=8 manualAssignment=-1
+  [1 -> 8]  1:1014653/978718  3:918948/880058  5:1067805/1037516  7:733567/475218 ->5
+DispatchNewCall: origin=1 dest=13 manualAssignment=-1
+  [1 -> 13]  1:1014674/978718  3:918669/880059  5:1059745/1050953  7:735708/472287 ->5
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:1007345/978718  3:1140770/1111079  5:1068374/1065910  7:473406/462650 ->5
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:1006436/977887  3:1140807/1111079  5:1071434/1068520  7:472826/462016 ->5
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:997603/977887  2:1227639/1111163  4:1101659/1071434  6:498693/462016 ->0
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:1025458/997288  3:890876/876753  5:1136976/1071434  7:472571/462016 ->7
+DispatchNewCall: origin=3 dest=10 manualAssignment=-1
+  [3 -> 10]  1:1025599/997603  3:890737/876753  5:962510/957731  7:483038/472571 ->5
+DispatchNewCall: origin=3 dest=14 manualAssignment=-1
+  [3 -> 14]  1:1025576/997603  3:890621/876753  5:947831/947788  7:482919/472571 ->5
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:1017892/997603  2:1162621/874471  4:993900/964942  6:519561/472571 ->0
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:1045364/1017892  3:887966/874471  5:967819/964942  7:482440/472571 ->5
+DispatchNewCall: origin=3 dest=8 manualAssignment=-1
+  [3 -> 8]  1:1045319/1017892  3:887935/874471  5:970221/965429  7:482412/472571 ->5
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:1065097/1017892  2:891990/874471  4:987412/967827  6:476997/472571 ->6
+DispatchNewCall: origin=7 dest=2 manualAssignment=-1
+  [7 -> 2]  0:1063941/1017892  2:1077669/1105048 !  4:987072/967827  6:480634/476997 ->2
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:1044955/1017892  3:1103828/1077669  5:1040312/967827  7:410066/400241 ->7
+GDCancelHallCalls 5: no passengers at floor 4 for car 6 for hall call
+DispatchNewCall: origin=7 dest=3 manualAssignment=-1
+  [7 -> 3]  0:1065205/1017892  2:1097788/1077669  4:991657/972617  6:414950/411475 ->6
+GDCancelHallCalls 5: no passengers at floor 4 for car 6 for hall call
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:1043567/1017094  3:999093/893709  5:1003872/972617  7:423187/413950 ->7
+GDCancelHallCalls 5: no passengers at floor 4 for car 6 for hall call
+DispatchNewCall: origin=13 dest=3 manualAssignment=-1
+  [13 -> 3]  0:1053487/1017094  2:1283395/893709  4:1155437/972617  6:525108/423187 ->0
+DispatchNewCall: origin=12 dest=1 manualAssignment=-1
+  [12 -> 1]  0:1092894/1053487  2:1261133/893709  4:1002478/972617  6:495573/423187 ->4
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:1147932/1053914  3:905357/894856  5:1038702/1002478  7:537407/421715 ->3
+DispatchNewCall: origin=1 dest=9 manualAssignment=-1
+  [1 -> 9]  1:1085637/1053914  3:947370/905357  5:1024370/1002478  7:645155/421715 ->5
+DispatchNewCall: origin=10 dest=3 manualAssignment=-1
+  [10 -> 3]  0:1095125/1053914  2:1220244/905357  4:1040934/1024370  6:483417/421715 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:1075770/1042292  2:1271067/905357  4:1026759/1040934 !  6:487558/421715 ->4
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:1065888/1042292  3:919219/905357  5:1049301/1026759  7:430115/421543 ->7
+DispatchNewCall: origin=6 dest=2 manualAssignment=-1
+  [6 -> 2]  0:1074621/1042292  2:928621/905357  4:1046878/1026759  6:433724/430115 ->6
+DispatchNewCall: origin=3 dest=4 manualAssignment=-1
+  [3 -> 4]  1:1065478/1042292  3:1017239/1001833  5:1048900/1026759  7:442018/433412 ->7
+DispatchNewCall: origin=3 dest=5 manualAssignment=-1
+  [3 -> 5]  1:1065437/1042292  3:1017662/1001833  5:1048860/1026759  7:450240/442001 ->7
+DispatchNewCall: origin=14 dest=3 manualAssignment=-1
+  [14 -> 3]  0:1068517/1039438  2:1328045/901660  4:1343606/1026338  6:627026/455085 ->0
+DispatchNewCall: origin=9 dest=1 manualAssignment=-1
+  [9 -> 1]  0:1099375/1066080  2:1127535/898550  4:1041572/1026338  6:501028/455085 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:1094027/1066080  2:1287613/898550  4:1070309/1041572  6:559090/467223 ->0
+DispatchNewCall: origin=2 dest=9 manualAssignment=-1
+  [2 -> 9]  1:1191833/1094027  3:907020/898550  5:1063763/1041572  7:611122/466972 ->3
+DispatchNewCall: origin=2 dest=8 manualAssignment=-1
+  [2 -> 8]  1:1189385/1090434  3:915562/907020  5:1062262/1040421  7:497464/467146 ->3
+GDCancelHallCalls 2: expectedTransfer list is not empty! 3
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:1116923/1090434  2:1136350/674264  4:1413746/1040422  6:400039/227832 ->0
+DispatchNewCall: origin=10 dest=2 manualAssignment=-1
+  [10 -> 2]  0:1143373/1116923  2:904739/674709  4:1057825/1045311  6:305810/227832 ->4
+DispatchNewCall: origin=11 dest=1 manualAssignment=-1
+  [11 -> 1]  0:1147495/1116791  2:841376/556781  4:1084439/1057825  6:311709/227832 ->4
+DispatchNewCall: origin=9 dest=3 manualAssignment=-1
+  [9 -> 3]  0:1147236/1116791  2:738338/560360  4:1092995/1079829  6:275266/227832 ->4
+DispatchNewCall: origin=7 dest=1 manualAssignment=-1
+  [7 -> 1]  0:1147066/1116791  2:576051/560360  4:1109572/1092995  6:229661/227832 ->6
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+GDCancelHallCalls 2: expectedTransfer list is not empty! 3
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:1147756/1116791  2:557010/550411  4:1110079/1092995  6:232779/229661 ->6
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+DispatchNewCall: origin=5 dest=2 manualAssignment=-1
+  [5 -> 2]  0:1147292/1116791  2:559363/550411  4:1109743/1092995  6:234079/230477 ->6
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:1144505/1116791  2:721967/550411  4:1107361/1092995  6:323044/234079 ->4
+DispatchNewCall: origin=4 dest=3 manualAssignment=-1
+  [4 -> 3]  0:1147113/1116791  2:556711/550411  4:1123946/1107292  6:237472/234079 ->6
+GDCancelHallCalls 5: no passengers at floor 3 for car 7 for hall call
+DispatchNewCall: origin=2 dest=11 manualAssignment=-1
+  [2 -> 11]  1:1217358/1116791  3:558849/550411  5:1127124/1107292  7:266549/237472 ->3
+DispatchNewCall: origin=3 dest=9 manualAssignment=-1
+  [3 -> 9]  1:1137799/1116791  3:568436/558849  5:1125154/1107292  7:243445/237472 ->7
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:1135300/1116791  3:568446/558849  5:1125167/1107292  7:249482/243445 ->7
+DispatchNewCall: origin=3 dest=13 manualAssignment=-1
+  [3 -> 13]  1:1135190/1116791  3:568367/558849  5:1125059/1107292  7:255462/249482 ->7
+DispatchNewCall: origin=8 dest=1 manualAssignment=-1
+  [8 -> 1]  0:1143332/1116791  2:730350/558849  4:1145828/1131873  6:356878/255462 ->4
+DispatchNewCall: origin=12 dest=3 manualAssignment=-1
+  [12 -> 3]  0:1145576/1116791  2:900334/558849  4:1177078/1145828  6:423150/255462 ->0
+DispatchNewCall: origin=14 dest=2 manualAssignment=-1
+  [14 -> 2]  0:1157596/1145576  2:1020103/558849  4:1426415/1145828  6:532373/255462 ->0
+DispatchNewCall: origin=1 dest=4 manualAssignment=-1
+  [1 -> 4]  1:1232564/1157596  3:568574/558467  5:1167983/1145828  7:355192/254741 ->3
+DispatchNewCall: origin=2 dest=5 manualAssignment=-1
+  [2 -> 5]  1:1259325/1157596  3:578457/568574  5:1165536/1145828  7:303716/254741 ->3
+DispatchNewCall: origin=1 dest=12 manualAssignment=-1
+  [1 -> 12]  1:1231127/1157596  3:586683/578457  5:1167895/1145828  7:357236/254741 ->3
+DispatchNewCall: origin=1 dest=11 manualAssignment=-1
+  [1 -> 11]  1:1190329/1157596  3:594853/586683  5:1167698/1145680  7:355277/254741 ->3
+DispatchNewCall: origin=6 dest=3 manualAssignment=-1
+  [6 -> 3]  0:1184226/1157596  2:624751/595235  4:1161098/1145680  6:256436/254741 ->6
+GDAcceptCarCall: no car calls for 14 in expected transfer list for car 1
+GDCancelHallCalls 5: no passengers at floor 8 for car 2 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 2
+GDAcceptCarCall: no car calls for 2 in expected transfer list for car 2
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 2
+GDAcceptCarCall: no car calls for 4 in expected transfer list for car 3
+GDAcceptCarCall: no car calls for 7 in expected transfer list for car 3
+GDAcceptCarCall: no car calls for 8 in expected transfer list for car 3
+GDAcceptCarCall: no car calls for 9 in expected transfer list for car 3
+GDAcceptCarCall: no car calls for 12 in expected transfer list for car 3
+GDAcceptCarCall: no car calls for 13 in expected transfer list for car 3
+GDCancelHallCalls 5: no passengers at floor 6 for car 2 for hall call
+GDAcceptCarCall: no car calls for 1 in expected transfer list for car 2
+GDAcceptCarCall: no car calls for 3 in expected transfer list for car 2
+GDCancelHallCalls 2: expectedTransfer list is not empty! 1
+GDAcceptCarCall: no car calls for 7 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 8 in expected transfer list for car 1
+GDAcceptCarCall: no car calls for 10 in expected transfer list for car 1

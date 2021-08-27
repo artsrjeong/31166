@@ -1,0 +1,143 @@
+T   0.0
+T   0.0
+B    9    0    0
+G    7   15
+I    0    7    3    5    7    8    0    9
+T   0.0
+T   0.0
+P	1.01	2	0	6	65	1		
+P	1.02	2	0	3	65	1
+P	1.03	2	0	6	65	1		
+P	1.04	2	0	3	65	1
+P	1.05	2	0	6	65	1		
+P	1.06	2	0	6	65	1
+P	1.07	2	0	6	65	1		
+P	1.08	2	0	6	65	1
+P	1.09	2	0	6	65	1		
+P	1.10	2	0	6	65	1
+P	1.11	2	0	6	65	1		
+P	1.12	2	0	6	65	1
+P	1.13	2	0	6	65	1		
+P	1.14	2	0	6	65	1
+P	1.15	2	0	6	65	1		
+P	1.16	2	0	6	65	1
+P	13.1	2	0	3	65	1
+P	13.2	2	0	3	65	1
+P	13.3	2	0	3	65	1
+P	13.4	2	0	3	65	1
+P	14.1	2	0	3	65	1
+P	14.2	2	0	3	65	1
+P	14.3	2	0	3	65	1
+P	14.4	2	0	3	65	1
+Z
+2D
+
+// ELEVATOR PARAMETERS
+2D Building@	// Building Name
+4                   // Number of Hoistways
+// for each hoistway
+8                   // Number of Cars
+1                   // pit existence
+1                   // overhead existence
+0                   // Minimum Adj Floor for all hoistways
+//	for each car
+15   1040           // Duty 0:900KG,1:1000KG,2:1150,..15:custom
+4.00                // Velocities for all cars[m/s]
+1.00                // Accels for all cars[m/ss]
+2.00                // Jerks for all cars[m/sss]
+1         // Cars with Single Door(1) or Double Door(2)
+0    700       // DoorType ID & Opening width[mm]
+1.50                // Door Opening Time [s]
+2.50                // Door Closing Time [s]
+2.00                // Door Dwell MIN_CAR_NT [s]
+4.60                // Door Dwell MIN_HALL_NT [s]
+6.60                // Door Dwell MAX_HALL_NT [s]
+4.60                // Door Dwell LOBBY_NT [s]
+0.523               // START LOSS BASE [s]
+0.329               // STOP LOSS BASE [s]
+1                   // Re-Open for each car 0: disable, 1: enable
+0.00                // Additional Time at Each Stop
+80.00               // % Boarding Ratio
+1.00                // Board + Deboard time per person
+0                   // 0: No MG set, 1:MG[MotorGenerator]
+
+// BUILDING PARAMETERS
+10                  // Number of floors
+0                   // Lobby Floor (Floor Index starts from 0)
+255                 // 2nd Lobby Floor [255:none]
+255                 // Restaurant Floor [255:none]
+255                 // 2nd Restaurant Floor [255:none]
+255                 // Top of Exp. zone for each car
+255                 // Bottom of Exp. zone for each car
+12                  // Arrive Delay Time [sec] for each car
+60                  // Arrive Delay Time for Stairs [sec] for each car
+
+// FLOOR HEIGHT [m]
+4.000               // floor height of Pit
+4.000               // floor height of 0F
+4.000               // floor height of 1F
+4.000               // floor height of 2F
+4.000               // floor height of 3F
+4.000               // floor height of 4F
+4.000               // floor height of 5F
+4.000               // floor height of 6F
+4.000               // floor height of 7F
+4.000               // floor height of 8F
+4.000               // floor height of 9F
+4.000               // floor height of 10F
+
+// POPULATION OF EACH FLOOR
+80                  // floor population of 0F
+80                  // floor population of 1F
+80                  // floor population of 2F
+80                  // floor population of 3F
+80                  // floor population of 4F
+80                  // floor population of 5F
+80                  // floor population of 6F
+80                  // floor population of 7F
+80                  // floor population of 8F
+80                  // floor population of 9F
+
+// Allowed_Mask for each car per floor (Hexa)
+0      07  07  07  07  07  07  07  07
+1      07  07  07  07  07  07  07  07
+2      07  07  07  07  07  07  07  07
+3      07  07  07  07  07  07  07  07
+4      07  07  07  07  07  07  07  07
+5      07  07  07  07  07  07  07  07
+6      07  07  07  07  07  07  07  07
+7      07  07  07  07  07  07  07  07
+8      07  07  07  07  07  07  07  07
+9      07  07  07  07  07  07  07  07
+
+// Destination Entry Device Installation
+1         // 0F
+1         // 1F
+1         // 2F
+1         // 3F
+1         // 4F
+1         // 5F
+1         // 6F
+1         // 7F
+1         // 8F
+1         // 9F
+
+// Simulation Configuration
+0                   // Simulation Hour 0: None 1:Up 2:Dn 3:Lunch 4:Business
+720                 // Building Population
+
+// Simulation Algorithm Selection
+1		// Manual:0, Automatic:1
+Dispatcher.dll@ // ..\Debug@
+0                    // 
+
+// Violation Display
+18                  
+Z        @
+
+// Violation Display
+18                  
+
+//Minimum Separation Distance
+4.00                // Minimum Separation Distance [m]
+Z                   

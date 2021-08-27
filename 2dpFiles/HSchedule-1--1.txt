@@ -1,0 +1,61 @@
+Candidate 0
+Upper Car Sequence:
+Current NCF = 11, Initial Passengers = 0
+Lower Car Sequence:
+Current NCF = 5, Initial Passengers = 7
+stop 0: floor = 5
+boarding = 0, deboarding = 0, on board = 7.0
+None-empty move to the stop
+Stop Type: Served
+
+stop 1: floor = 6
+boarding = 2, deboarding = 2, on board = 7.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 7
+boarding = 0, deboarding = 2, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 3: floor = 8
+boarding = 1, deboarding = 3, on board = 3.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 4: floor = 9
+boarding = 0, deboarding = 2, on board = 1.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 10
+boarding = 0, deboarding = 1, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 6
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	      	Served      	 895.842	 106.500	1002.342	0	0
+[  1]	   6	      	      	Demand     	1007.725	  10.600	1018.325	2	2
+[  2]	   7	      	      	Demand     	1023.708	   7.100	1030.808	0	2
+[  3]	   8	      	      	Demand     	1036.191	  10.600	1046.791	1	3
+[  4]	   9	      	      	Demand     	1052.175	   7.100	1059.275	0	2
+[  5]	  10	      	      	Demand     	1064.658	   6.600	1071.258	0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 6
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   5	      	      	Served      	 895.842	 106.500	1002.342	0	0
+[  1]	   6	      	      	Demand     	1007.725	  10.600	1018.325	2	2
+[  2]	   7	      	      	Demand     	1023.708	   7.100	1030.808	0	2
+[  3]	   8	      	      	Demand     	1036.191	  10.600	1046.791	1	3
+[  4]	   9	      	      	Demand     	1052.175	   7.100	1059.275	0	2
+[  5]	  10	      	      	Demand     	1064.658	   6.600	1071.258	0	1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=6810.710728
+

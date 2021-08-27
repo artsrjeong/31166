@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\UnitTest5_2_9_2.2dp
+             Engine version : 0500913
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : Just Sequential dispatching(0 to ncar)
+                   Run date : Wed Oct 05 21:42:10 2005
+
+       Number of passengers : 3
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 1
+                       cars : 2
+
+             Time simulated : 69.973
+                Normal runs : 5
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 6
+ Closest margin (time, hwy) : 6.045 (62.785, 0)
+
+  Destination registrations : 3
+    Hall call registrations : 3
+           Re-registrations : 0
+ Avg registration time (AP) : 5.001
+ Max registration time (AP) : 7.527
+      Avg waiting time (AP) : 5.001
+      Max waiting time (AP) : 7.527
+           Avg service time : 36.916
+           Max service time : 52.724
+
+ Avg registration time (CP) : 5.262
+ Max registration time (CP) : 7.918
+      Avg waiting time (CP) : 5.262
+      Max waiting time (CP) : 7.918
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        0          2        0.000         0         0.000
+    7        0          0        0.000         0         0.000
+    6        2          1        0.321         1         0.467
+    5        0          0        0.000         0         0.000
+    4        0          0        0.000         0         0.000
+    3        0          0        0.000         0         0.000
+    2        1          0        0.337         1         0.473
+    1        0          0        0.000         0         0.000
+    0        0          0        0.000         0         0.000
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(0), C_Rej(0), D_Rej(0), HC_Rej(0), HD_Rej(0), CD_Rej(0)

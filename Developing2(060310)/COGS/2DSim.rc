@@ -1,0 +1,604 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\2DSim.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\2DSim.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_FLOOR_CONFIG DIALOG DISCARDABLE  0, 0, 336, 224
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,257,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,257,24,50,14
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,7,7,
+                    246,212
+    EDITTEXT        IDC_EDIT_TMP,264,45,34,9,ES_AUTOHSCROLL
+END
+
+IDD_SELECT_ALGORITHM DIALOGEX 0, 0, 227, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dispatching Algorithm Selection Dialog"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,57,111,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,111,50,14
+    LTEXT           "Dispatching Algorithm Selection",IDC_STATIC,60,7,108,12
+    LISTBOX         IDC_LIST_ALGORITHM,22,20,186,85,LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_DLGMODALFRAME
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_FLOOR_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+
+    IDD_SELECT_ALGORITHM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_FLOOR_CONFIG DLGINIT
+BEGIN
+    IDC_MSFLEXGRID1, 0x37a, 299, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x32da, 0x0000, 0x2bd2, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x001e, 0x0000, 
+0x0004, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0004, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x8101, 0x0000, 0x0190, 0xd4c0, 0x0001, 0x5306, 
+0x7379, 0x6574, 0x046d, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 
+0xb84b, 0x6c51, 0x0074, 0x0000, 0x0000, "\000" 
+    0
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_JUMP DIALOG DISCARDABLE  0, 0, 203, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Jump To Time or Index of Passenger"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_TIME,82,14,40,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,146,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,146,25,50,14
+    EDITTEXT        IDC_EDIT_INDEX_PASSENGER,81,35,40,13,ES_AUTOHSCROLL
+    RTEXT           "Index of Passenger:",IDC_STATIC,7,35,72,13
+    RTEXT           "Time:",IDC_STATIC,7,15,72,13
+    CONTROL         "",IDC_RADIO_JUMP_TIME,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,123,16,16,8
+    CONTROL         "",IDC_RADIO_JUMP_PASSENGER_INDEX,"Button",
+                    BS_AUTORADIOBUTTON,124,37,16,8
+END
+
+IDD_USER_CONFIGURATION DIALOGEX 0, 0, 249, 294
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "User Configuration"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,192,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,192,24,50,14
+    LTEXT           "Lobby Floor",IDC_STATIC,22,87,41,14,NOT WS_GROUP,
+                    WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_LOBBY_FLOOR,67,87,40,14,ES_AUTOHSCROLL
+    LTEXT           "Car Capacity",IDC_STATIC,21,117,42,14,0,WS_EX_RIGHT
+    LTEXT           "Jerk",IDC_STATIC,134,62,57,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_CAPACITY,67,117,30,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Accleration",IDC_STATIC,134,76,57,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ACCELERATION,198,74,40,14,ES_AUTOHSCROLL
+    LTEXT           "Velocity",IDC_STATIC,134,90,57,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_VELOCITY,198,88,40,14,ES_AUTOHSCROLL
+    LTEXT           "Start Delay",IDC_STATIC,134,132,57,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_OPENING_TIME,198,102,40,14,ES_AUTOHSCROLL
+    LTEXT           "Stop Delaly",IDC_STATIC,134,146,57,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_CLOSING_TIME,198,116,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_JERK,198,60,40,14,ES_AUTOHSCROLL
+    LTEXT           "Floor Offset",IDC_STATIC,23,163,40,10,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_FLOOR_OFFSET,67,163,35,14,ES_AUTOHSCROLL
+    CONTROL         "Overhead",IDC_CHECK_OVERHEAD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,255,48,10
+    CONTROL         "Pit",IDC_CHECK_PIT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,266,25,10
+    CONTROL         "Message Dialog Disable",IDC_CHECK_MSG_DISABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,220,92,10
+    CONTROL         "Reassignments",IDC_CHECK_REASSIGN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,220,62,10
+    LTEXT           "Adjacent Limit",IDC_STATIC,15,147,48,13,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ADJACENT_LIMIT,67,147,40,14,ES_AUTOHSCROLL
+    LTEXT           "Opening Time",IDC_STATIC,143,104,48,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_START_DELAY,198,131,40,14,ES_AUTOHSCROLL
+    LTEXT           "Closing Time",IDC_STATIC,143,118,48,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_STOP_DELAY,198,145,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FLOORCOUNT,71,9,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Floor Configuration",IDC_BUTTON_FLOOR_CONFIG,34,24,77,
+                    11
+    EDITTEXT        IDC_EDIT_CARS,67,55,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HOISTWAYS,67,71,40,14,ES_AUTOHSCROLL
+    LTEXT           "# of User Floor",IDC_STATIC,10,11,57,12,NOT WS_GROUP,
+                    WS_EX_RIGHT
+    LTEXT           "# of Car",IDC_STATIC,35,55,28,14,NOT WS_GROUP,
+                    WS_EX_RIGHT
+    LTEXT           "# of Hoistways",IDC_STATIC,13,71,50,14,NOT WS_GROUP,
+                    WS_EX_RIGHT
+    CTEXT           "Current Hoistway Configuration is only for 2-D",
+                    IDC_STATIC,17,37,102,15
+    RTEXT           "Duty",IDC_STATIC,42,103,21,12
+    COMBOBOX        IDC_COMBO_DUTY,67,103,64,42,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Violation Display",IDC_STATIC,122,13,69,46
+    CONTROL         "Null",IDC_CHECKNULL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,127,22,29,10
+    CONTROL         "H",IDC_CHECKH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,
+                    30,21,10
+    CONTROL         "C",IDC_CHECKC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,
+                    38,21,10
+    CONTROL         "D",IDC_CHECKD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,
+                    46,21,10
+    CONTROL         "HC",IDC_CHECKHC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    161,22,26,10
+    CONTROL         "HD",IDC_CHECKHD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    161,30,26,10
+    CONTROL         "HCD",IDC_CHECKHCD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    161,46,31,10
+    CONTROL         "CD",IDC_CHECKCD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    161,38,26,10
+    CONTROL         "Hard Motion(CAGS)",IDC_CHECK_MOTION_HARD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,233,73,10
+    PUSHBUTTON      "Manual Dispatch",IDC_BUTTON_MANUAL_DISPATCH,101,247,67,
+                    12
+    PUSHBUTTON      "Automatic Dispatch",IDC_BUTTON_AUTOMATIC_DISPATCH,172,
+                    248,67,12
+    LTEXT           "Manual Dispatcher\nHuman Intelligence",
+                    IDC_DISPATCH_STATE,101,263,137,18,SS_SUNKEN,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Dispatching Method",IDC_STATIC,98,233,144,53
+    COMBOBOX        IDC_COMBO_DWELL_TYPE,67,133,63,38,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Dwell Type",IDC_STATIC,25,133,38,14,0,WS_EX_RIGHT
+    CONTROL         "Reopen",IDC_CHECK_REOPEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,244,41,10
+    CONTROL         "Enable COGS_SPY",IDC_CHECK_COGS_SPY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,220,72,10
+    CONTROL         "Hoistway Manager",IDC_CHECK_HOISTWAYMANAGER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,277,77,10
+    LTEXT           "Minimum Separation\n Distance(m)",IDC_STATIC,126,161,74,
+                    18
+    EDITTEXT        IDC_EDIT_MINIMUM_DIST,198,159,40,14,ES_AUTOHSCROLL
+    CONTROL         "Dwell time extend to avoid conditional stop",
+                    IDC_DWELL_TIME_AVOID_CONDITIONAL_STOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,182,153,10
+    CONTROL         "Run delay to avoid conditional stop",
+                    IDC_RUN_DELAY_AVOID_CONDITIONAL_STOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,195,128,10
+    CONTROL         "Use reduced profile",IDC_REDUCE_PROFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,207,77,10
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 168
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About 2DSim"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "<2DSim Version 050309>",IDC_VERSION,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005",IDC_STATIC,35,153,69,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "If you want update version information in this dialog, please change descriptions in function CAboutDlg::CAboutDlg() : CDialog(CAboutDlg::IDD) in 2DSimDlg.cpp",
+                    IDC_VERSION_INFO,37,28,172,42,0,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "----------------------------------------------------------",
+                    IDC_ABOUT_DESCRIPTION,38,74,171,73
+    LTEXT           "Static",IDC_EXECUTABLE_TYPE,127,153,77,8
+END
+
+IDD_MY2DSIM_DIALOG DIALOGEX 0, 0, 507, 447
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "2-D Simulation"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,473,7,27,14
+    PUSHBUTTON      "&Open Passenger",IDC_BUTTON_OPEN_TRAFFIC,76,7,58,14
+    PUSHBUTTON      "User &Configuration",IDC_BUTTON_USER_CONFIGURATION,7,7,
+                    64,14
+    PUSHBUTTON      "&Report",IDC_BUTTON_OPEN_PERFORMANCE_REPORT,139,7,27,14
+    LTEXT           "Current Time: 0.65",IDC_STATIC_CURRENT_TIME,7,27,145,8
+    LTEXT           "Current Passenger Information:",
+                    IDC_STATIC_PASSENGER_INFO,7,40,218,8
+    PUSHBUTTON      "Next &Event",IDC_BUTTON_NEXT_EVENT,171,7,36,14
+    EDITTEXT        IDC_EDIT00,103,363,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT02,205,363,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT04,307,363,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT06,409,363,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT01,103,348,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT03,205,348,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT05,307,348,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT07,409,348,70,14,ES_AUTOHSCROLL
+    LTEXT           "Current Operation End Time and Arrival Time for  Hall Call",
+                    IDC_STATIC,7,351,91,24
+    PUSHBUTTON      "Next &Passenger",IDC_BUTTON_NEXT_PASSENGER,212,7,55,14
+    LTEXT           "Debug:",IDC_STATIC_DEBUG,200,24,300,16
+    PUSHBUTTON      "Add &Move",IDC_BUTTON_ADD_MOVE,368,7,34,14
+    PUSHBUTTON      "&Jump",IDC_BUTTON_JUMP,332,7,31,14
+    PUSHBUTTON      "&Save",IDC_BUTTON_SAVE,407,7,28,14
+    PUSHBUTTON      "Next &New HCall",IDC_BUTTON_NEXT_NEW_HCALL,272,7,55,14
+    LISTBOX         IDC_LIST_WARNING,7,381,323,59,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Clear Warning List",IDC_BUTTON_CLEARWARNING,334,424,66,
+                    16
+    PUSHBUTTON      "&Load",IDC_BUTTON_LOAD,438,7,28,14
+    LTEXT           "Closest Margin",IDC_STATIC,409,403,47,8
+    LTEXT           "Static",IDC_STATIC_CLOSEST_MARGIN,410,415,90,8
+END
+
+IDD_HIDE_UNHIDE DIALOGEX 0, 0, 354, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hide and Unhide Setting"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,297,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,297,24,50,14
+    LTEXT           "Car",IDC_STATIC,12,15,50,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_CAR,65,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "Destination",IDC_STATIC,12,32,50,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_DESTINATION,65,32,40,14,ES_AUTOHSCROLL
+    LTEXT           "Initiate Time",IDC_STATIC,12,48,50,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_INITIATE,65,48,40,14,ES_AUTOHSCROLL
+    LTEXT           "Release Time",IDC_STATIC,12,64,50,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_RELEASE,65,64,40,14,ES_AUTOHSCROLL
+    CONTROL         "To hold doors open at floor",IDC_CHECK_HOLD_DOOR_OPEN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,84,103,10
+    LTEXT           "i_basis",IDC_STATIC,119,15,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_I_BASIS,162,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "i_threshold",IDC_STATIC,119,32,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_I_THRESHOLD,162,32,40,14,ES_AUTOHSCROLL
+    LTEXT           "i_relativity",IDC_STATIC,119,48,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_I_RELATIVITY,162,48,40,14,ES_AUTOHSCROLL
+    LTEXT           "i_direction",IDC_STATIC,119,64,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_I_DIRECTION,162,64,40,14,ES_AUTOHSCROLL
+    LTEXT           "i_delay",IDC_STATIC,119,80,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_I_DELAY,162,80,40,14,ES_AUTOHSCROLL
+    LTEXT           "r_basis",IDC_STATIC,206,15,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_R_BASIS,249,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "r_threshold",IDC_STATIC,206,32,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_R_THRESHOLD,249,32,40,14,ES_AUTOHSCROLL
+    LTEXT           "r_relativity",IDC_STATIC,206,48,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_R_RELATIVITY,249,48,40,14,ES_AUTOHSCROLL
+    LTEXT           "r_direction",IDC_STATIC,206,64,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_R_DIRECTION,249,64,40,14,ES_AUTOHSCROLL
+    LTEXT           "r_delay",IDC_STATIC,206,80,40,14,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_R_DELAY,249,80,40,14,ES_AUTOHSCROLL
+END
+
+IDD_LOAD DIALOG DISCARDABLE  0, 0, 227, 269
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "The Number of Passengers"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,197,7,23,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_JUMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_USER_CONFIGURATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_MY2DSIM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 500
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 440
+    END
+
+    IDD_HIDE_UNHIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_LOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_USER_CONFIGURATION DLGINIT
+BEGIN
+    IDC_COMBO_DUTY, 0x403, 19, 0
+0x3a30, 0x3039, 0x4b30, 0x2847, 0x3331, 0x5020, 0x6f65, 0x6c70, 0x2965, 
+"\000" 
+    IDC_COMBO_DUTY, 0x403, 20, 0
+0x3a31, 0x3031, 0x3030, 0x474b, 0x3128, 0x2035, 0x6550, 0x706f, 0x656c, 
+0x0029, 
+    IDC_COMBO_DUTY, 0x403, 20, 0
+0x3a32, 0x3131, 0x3035, 0x474b, 0x3128, 0x2037, 0x6550, 0x706f, 0x656c, 
+0x0029, 
+    IDC_COMBO_DUTY, 0x403, 20, 0
+0x3a33, 0x3331, 0x3035, 0x474b, 0x3228, 0x2030, 0x6550, 0x706f, 0x656c, 
+0x0029, 
+    IDC_COMBO_DUTY, 0x403, 20, 0
+0x3a34, 0x3631, 0x3030, 0x474b, 0x3228, 0x2034, 0x6550, 0x706f, 0x656c, 
+0x0029, 
+    IDC_COMBO_DUTY, 0x403, 10, 0
+0x3531, 0x633a, 0x7375, 0x6f74, 0x006d, 
+    IDC_COMBO_DWELL_TYPE, 0x403, 16, 0
+0x3a30, 0x4320, 0x7275, 0x6572, 0x746e, 0x4320, 0x4741, 0x0053, 
+    IDC_COMBO_DWELL_TYPE, 0x403, 18, 0
+0x3a31, 0x4920, 0x6564, 0x6c61, 0x4220, 0x6865, 0x7661, 0x6f69, 0x0072, 
+
+    IDC_COMBO_DWELL_TYPE, 0x403, 12, 0
+0x3a32, 0x4f20, 0x646c, 0x4320, 0x474f, 0x0053, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS DISCARDABLE 
+BEGIN
+    "0",            IDC_BUTTON_CAR0,        VIRTKEY, NOINVERT
+    "1",            IDC_BUTTON_CAR1,        VIRTKEY, NOINVERT
+    "2",            IDC_BUTTON_CAR2,        VIRTKEY, NOINVERT
+    "3",            IDC_BUTTON_CAR3,        VIRTKEY, NOINVERT
+    "4",            IDC_BUTTON_CAR4,        VIRTKEY, NOINVERT
+    "5",            IDC_BUTTON_CAR5,        VIRTKEY, NOINVERT
+    "6",            IDC_BUTTON_CAR6,        VIRTKEY, NOINVERT
+    "7",            IDC_BUTTON_CAR7,        VIRTKEY, NOINVERT
+    "C",            IDC_BUTTON_USER_CONFIGURATION, VIRTKEY, NOINVERT
+    "E",            IDC_BUTTON_NEXT_EVENT,  VIRTKEY, NOINVERT
+    "O",            IDC_BUTTON_OPEN_TRAFFIC, VIRTKEY, NOINVERT
+    "O",            IDC_OPEN_BATCH,         VIRTKEY, CONTROL, NOINVERT
+    "P",            IDC_BUTTON_NEXT_PASSENGER, VIRTKEY, NOINVERT
+    "R",            IDC_BUTTON_OPEN_PERFORMANCE_REPORT, VIRTKEY, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "OTIS\0"
+            VALUE "FileDescription", "2DSim MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "2DSim\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "2DSim.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "2DSim Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About 2DSim..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\2DSim.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

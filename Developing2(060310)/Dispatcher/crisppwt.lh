@@ -1,0 +1,53 @@
+/* U10 Project: @(#)crisppwt.l	1.2	3/23/95	14:22:34 */
+/**************************************************************************
+;  File Name: CRISPPWT.L - Local Definitions for CRISPPWT.C
+; 
+;  File Description:
+;  This file describes the crisppwt.c local definitions.
+; 
+; 
+;  This work and the information it contains are the confidential
+;  property of Otis Elevator Company ("Otis").  It is delivered on
+;  the express condition that it will be used only for, or on
+;  behalf of, Otis; that neither it nor the information it contains
+;  will be reproduced, distributed or disclosed, in whole or in part,
+;  without the written consent of Otis; and that on demand it and any
+;  copies will be promptly returned.
+;
+;  Unpublished work - Copyright 1994 - 1995 Otis Elevator Company
+;  All rights reserved.
+;
+; 
+;  Revision History:
+;
+;  SCN                   Author	                       Date
+;  ------------------------------------------------------------------------
+;  A1730203BAA           Mark Ross                     19 December 1994
+;  - SCR 30203-139
+;    ICA.C breakup. Made appropriate changes for function invocations 
+;    and breakup of the ICA.C module.
+;
+;*************************************************************************/
+
+/**************************************************************************
+;  Constants
+;*************************************************************************/
+/* None  */
+
+/**************************************************************************
+;  Data Types
+;*************************************************************************/
+/* None */
+
+/**************************************************************************
+;  Variables
+;*************************************************************************/
+//DBD-honam 22Mar04
+BYTE_T crisppwt_maxSpareCap;
+FLAG_T crisppwt_findPwtFlag;
+
+/**************************************************************************
+;  Function Prototypes
+;*************************************************************************/
+INT_T crisppwt_find_elderly(BYTE_T, BYTE_T, BYTE_T, INT_T, BYTE_T, INT_T,
+		            BYTE_T, BYTE_T *, FLAG_T, BYTE_T, BYTE_T *,BYTE_T *);

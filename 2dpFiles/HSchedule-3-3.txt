@@ -1,0 +1,321 @@
+Candidate 0
+Upper Car Sequence:
+Current NCF = 6, Initial Passengers = 2
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Served
+Departure Precedessor :0
+
+stop 1: floor = 5
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 4
+boarding = 1, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :2
+Departure Precedessor :2
+
+stop 3: floor = 2
+boarding = 0, deboarding = 1, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :3
+Departure Precedessor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :5
+
+Lower Car Sequence:
+Current NCF = 6, Initial Passengers = 2
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Served
+Departure Successor :0
+
+stop 1: floor = 5
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 4
+boarding = 1, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :2
+Departure Successor :2
+
+stop 3: floor = 2
+boarding = 0, deboarding = 1, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :3
+Departure Successor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :4
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 6
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	      	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	      	      	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	      	      	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	      	      	Demand     	 132.177	   8.600	 140.777
+[  4]	   1	      	      	Demand     	 146.160	   8.600	 154.760
+[  5]	   1	      	      	Yield      	 154.760	   0.000	 154.760
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	A<-  1	D<-  1	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	A<-  2	D<-  2	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	A<-  3	D<-  3	Demand     	 132.177	   8.600	 140.777
+[  4]	   1	A<-  5	      	Demand     	 146.160	   8.600	 154.760
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 6
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	      	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	      	      	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	      	      	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	      	      	Demand     	 132.177	   8.600	 140.777
+[  4]	   1	      	      	Demand     	 146.160	   8.600	 154.760
+[  5]	   1	      	      	Yield      	 154.760	   0.000	 154.760
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	A<-  1	D<-  1	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	A<-  2	D<-  2	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	A<-  3	D<-  3	Demand     	 132.177	  17.200	 149.377
+[  4]	   1	A<-  5	      	Demand     	 154.760	   8.600	 163.360
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=2589.168457
+
+* Best Plan :  candidate 0
+Upper Car Sequence:
+Current NCF = 6, Initial Passengers = 2
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Served
+Departure Precedessor :0
+
+stop 1: floor = 5
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 4
+boarding = 1, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :2
+Departure Precedessor :2
+
+stop 3: floor = 2
+boarding = 0, deboarding = 1, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :3
+Departure Precedessor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :5
+
+Lower Car Sequence:
+Current NCF = 6, Initial Passengers = 2
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Served
+Departure Successor :0
+
+stop 1: floor = 5
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 4
+boarding = 1, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :2
+Departure Successor :2
+
+stop 3: floor = 2
+boarding = 0, deboarding = 1, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :3
+Departure Successor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :4
+
+Candidate 0
+Upper Car Sequence:
+Current NCF = 6, Initial Passengers = 2
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Served
+Departure Precedessor :0
+
+stop 1: floor = 5
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :1
+Departure Precedessor :1
+
+stop 2: floor = 4
+boarding = 1, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :2
+Departure Precedessor :2
+
+stop 3: floor = 2
+boarding = 0, deboarding = 1, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :3
+Departure Precedessor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Precedessor :5
+
+Lower Car Sequence:
+Current NCF = 6, Initial Passengers = 2
+stop 0: floor = 6
+boarding = 0, deboarding = 0, on board = 2.0
+None-empty move to the stop
+Stop Type: Served
+Departure Successor :0
+
+stop 1: floor = 5
+boarding = 2, deboarding = 0, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :1
+Departure Successor :1
+
+stop 2: floor = 4
+boarding = 1, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :2
+Departure Successor :2
+
+stop 3: floor = 2
+boarding = 0, deboarding = 1, on board = 4.0
+None-empty move to the stop
+Stop Type: Demand
+Arrival Successor :3
+Departure Successor :3
+
+stop 4: floor = 1
+boarding = 0, deboarding = 4, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 5: floor = 1
+boarding = 0, deboarding = 0, on board = 0.0
+Empty move to the stop
+Stop Type: Yield
+Arrival Successor :4
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 6
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	      	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	      	      	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	      	      	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	      	      	Demand     	 132.177	   8.600	 140.777
+[  4]	   1	      	      	Demand     	 146.160	   8.600	 154.760
+[  5]	   1	      	      	Yield      	 154.760	   0.000	 154.760
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	A<-  1	D<-  1	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	A<-  2	D<-  2	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	A<-  3	D<-  3	Demand     	 132.177	   8.600	 140.777
+[  4]	   1	A<-  5	      	Demand     	 146.160	   8.600	 154.760
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 6
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	      	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	      	      	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	      	      	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	      	      	Demand     	 132.177	   8.600	 140.777
+[  4]	   1	      	      	Demand     	 146.160	   8.600	 154.760
+[  5]	   1	      	      	Yield      	 154.760	   0.000	 154.760
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: U, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   6	      	D<-  0	Unknown Stop	XXXXXXXXXXXXXX
+[  1]	   5	A<-  1	D<-  1	Demand     	  98.563	  10.600	 109.163
+[  2]	   4	A<-  2	D<-  2	Demand     	 114.546	  10.600	 125.146
+[  3]	   2	A<-  3	D<-  3	Demand     	 132.177	  17.200	 149.377
+[  4]	   1	A<-  5	      	Demand     	 154.760	   8.600	 163.360
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=2589.168457
+
+Score : 2589.168457

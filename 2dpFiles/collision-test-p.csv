@@ -1,0 +1,4 @@
+Index,T arrival,Origin,Dest,Assignment,T end wait AP,T end wait CP,T door opening,T door opened,T door close,T depart,Reg dir,Reg car-dir,Re-Reg,T Re-Reg,Reg AP T,Reg CP T,Wait AP T,Wait CP T,Srvc T,Rejection
+1,0.650,0,4,0,0.650,0.650,0.650,2.150,6.750,20.118,1,1,0,,0.000,0.000,0.000,0.000,19.468,
+2,18.750,0,6,1,26.061,35.625,35.102,36.602,41.202,56.554,1,1,0,,7.311,16.875,7.311,16.875,37.804,
+3,27.500,0,6,1,27.500,35.625,35.102,36.602,41.202,56.554,0,0,0,,,,0.000,8.125,29.054,

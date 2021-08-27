@@ -1,0 +1,54 @@
+Candidate 0
+Upper Car Sequence:
+Current NCF = 11, Initial Passengers = 0
+Lower Car Sequence:
+Current NCF = 8, Initial Passengers = 3
+stop 0: floor = 8
+boarding = 2, deboarding = 0, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 1: floor = 7
+boarding = 1, deboarding = 0, on board = 6.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 2: floor = 3
+boarding = 0, deboarding = 1, on board = 5.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 3: floor = 2
+boarding = 0, deboarding = 2, on board = 3.0
+None-empty move to the stop
+Stop Type: Demand
+
+stop 4: floor = 1
+boarding = 0, deboarding = 3, on board = 0.0
+None-empty move to the stop
+Stop Type: Demand
+
+Nominal Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   8	      	      	Demand     	 893.592	   8.600	 902.192	2	0
+[  1]	   7	      	      	Demand     	 907.575	   8.600	 916.175	1	0
+[  2]	   3	      	      	Demand     	 925.543	   6.600	 932.143	0	1
+[  3]	   2	      	      	Demand     	 937.526	   8.600	 946.126	0	2
+[  4]	   1	      	      	Demand     	 951.509	   7.600	 959.109	0	3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Car: L, Stop: 5
+ID	Floor	Pred(A or D)	Type	Arrival(Decel)Time	DoorTime	DepartureTime	Board	Deboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  0]	   8	      	      	Demand     	 893.592	   8.600	 902.192	2	0
+[  1]	   7	      	      	Demand     	 907.575	   8.600	 916.175	1	0
+[  2]	   3	      	      	Demand     	 925.543	   6.600	 932.143	0	1
+[  3]	   2	      	      	Demand     	 937.526	   8.600	 946.126	0	2
+[  4]	   1	      	      	Demand     	 951.509	   7.600	 959.109	0	3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Score=1145.288877
+

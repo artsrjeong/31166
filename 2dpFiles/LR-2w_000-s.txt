@@ -1,0 +1,53 @@
+SUMMARY REPORT
+                    Profile : D:\31166\Developing\Debug\LR-2w_000.2dp
+             Engine version : 050810
+             Dispatcher DLL : Dispatcher.dll
+                  Algorithm : NPI-1D
+                   Run date : Fri Aug 12 09:42:53 2005
+
+       Number of passengers : 74
+                     floors : 11 (9 + 1 pit + 1 overhead)
+                  hoistways : 1
+                       cars : 2
+
+             Time simulated : 3696.987
+                Normal runs : 146
+    Subset with extra dwell : 0
+  Number of specified moves : 0
+      Hide moves (with pax) : 0 (0)
+    Unhide moves (with pax) : 0 (0)
+      Total runs and cycles : 187
+ Closest margin (time, hwy) : 4.000 (3037.049, 0)
+
+  Destination registrations : 59
+    Hall call registrations : 58
+           Re-registrations : 0
+ Avg registration time (AP) : 17.635
+ Max registration time (AP) : 105.861
+      Avg waiting time (AP) : 17.333
+      Max waiting time (AP) : 105.861
+           Avg service time : 47.629
+           Max service time : 138.225
+
+ Avg registration time (CP) : 18.014
+ Max registration time (CP) : 106.252
+      Avg waiting time (CP) : 17.710
+      Max waiting time (CP) : 106.252
+
+FLOOR SUMMARY STATISTICS:
+  Floor  Arrivals  Departures  Avg-Queue  Max-Queue  StdDev-Queue
+    8        5          3        0.000         1         0.007
+    7        5          4       -0.000         2        -1.#IO
+    6        5          5        0.000         2         0.007
+    5        3          5        0.000         1         0.007
+    4        5          5        0.000         1         0.007
+    3        4          5        0.000         1         0.006
+    2        5          5        0.000         1         0.007
+    1        5          5        0.000         2         0.006
+    0       37         37        0.000         4         0.013
+
+Overall Rejection Occurrence:
+  Null_Rej(0), H_Rej(1), C_Rej(0), D_Rej(1), HC_Rej(0), HD_Rej(1), CD_Rej(0)
+
+Overall Rejection Count:
+  NULL_Rej(0), H_Rej(1), C_Rej(0), D_Rej(1), HC_Rej(0), HD_Rej(1), CD_Rej(0)
